@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.csiamerica.com"
+xmlns="http://www.csiamerica.com"
+elementFormDefault="qualified">
+
+  <!--Units are only valid in the following pairs of forceUnits-lengthUnits:
+         lb-in, lb-ft, Kip-in, Kip-ft, KN-mm, KN-m, Kgf-mm, Kgf-m, 
+         N-mm, N-m, Tonf-mm, Tonf-m, KN-cm, Kgf-cm, N-cm, Tonf-cm 
+       
+      Units specified in the control block apply to the whole file unless overwritten for a region, collection, standard or material block.
+      Units specified at the beginning of a region, collection, standard or material block overwrite the units for the containing block,
+      but their scope is limited to that block only (ends at the end of the block). 
+  -->
+
+  <!--Property File-->
+
+  <xsd:element name="propertyFile">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="control" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="region" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  
+  <!--control-->
+
+  <xsd:element name="control">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element name="fileID" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="fileVersion" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="fileDescription" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+      <xsd:attribute name="lengthUnits" type="xsd:string" use="required" />
+      <xsd:attribute name="forceUnits" type="xsd:string" use="required" />
+    </xsd:complexType>
+  </xsd:element>
+
+  
+  <!--region-->
+  
+  <xsd:element name="region">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="name" type="xsd:string" use="required" />
+      <xsd:attribute name="lengthUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="forceUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="isDefault" type="xsd:boolean" use="optional" />
+    </xsd:complexType>
+  </xsd:element>
+
+  
+  <!--collection-->
+  
+  <xsd:element name="collection">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="standard" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="type" type="xsd:string" use="required" />
+      <xsd:attribute name="lengthUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="forceUnits" type="xsd:string" use="optional" />
+    </xsd:complexType>
+  </xsd:element>
+
+  
+  <!--standard-->
+  
+  <xsd:element name="standard">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="material" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="name" type="xsd:string" use="required" />
+      <xsd:attribute name="lengthUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="forceUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="isDefaultSteel" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultConcrete" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultOther" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultAluminum" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultColdformed" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultRebar" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultTendon" type="xsd:boolean" use="optional" />
+      <xsd:attribute name="isDefaultMasonry" type="xsd:boolean" use="optional" />
+    </xsd:complexType>
+  </xsd:element>
+
+  
+  <!--Generic Material & Properties-->
+
+  <xsd:element name="material">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="weightDensity" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="massDensity" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="modulusOfElasticity" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="poissonsRatio" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="coefficientOfThermalExpansion" minOccurs="1" maxOccurs="1"/>
+        <!--Steel Properties-->
+        <xsd:element ref="minimumYieldStress" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="minimumTensileStress" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="effectiveYieldStress" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="effectiveTensileStress" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="strainAtHardening" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="strainAtMaxStress" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="strainAtRupture" minOccurs="0" maxOccurs="1"/>
+        <!--Concrete Properties-->
+        <xsd:element ref="compressiveStrength" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="strainAtfc" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="strainAtUltimate" minOccurs="0" maxOccurs="1"/>
+        <xsd:element name="isLightWeight" type="xsd:boolean" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="shearStrengthReductionFactor" minOccurs="0" maxOccurs="1"/>
+        <!--Aluminum Properties-->
+        <xsd:element ref="compressiveYieldStrength" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="tensileYieldStrength" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="tensileUltimateStrength" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="shearUltimateStrength" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="aluminumType" minOccurs="0" maxOccurs="1"/>
+        <xsd:element name="aluminumAlloy" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+        <xsd:element name="temperDesignationAlpha" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+        <xsd:element name="temperDesignationNumeric" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+        <!--ColdFormed Properties-->
+        <!--<xsd:element ref="MinimumYieldStress" minOccurs="0" maxOccurs="1"/>-->
+        <!--<xsd:element ref="MinimumTensileStress" minOccurs="0" maxOccurs="1"/>-->
+        <!--Rebar Properties-->
+        <!--<xsd:element ref="MinimumYieldStress" minOccurs="0" maxOccurs="1"/>-->
+        <!--<xsd:element ref="MinimumTensileStress" minOccurs="0" maxOccurs="1"/>-->
+        <xsd:element ref="expectedYieldStress" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="expectedTensileStress" minOccurs="0" maxOccurs="1"/>
+        <!--<xsd:element ref="StrainAtHardening" minOccurs="0" maxOccurs="1"/>-->
+        <!--<xsd:element ref="strainAtUltimate" minOccurs="0" maxOccurs="1"/>-->
+        <!--Tendon Properties-->
+        <!--<xsd:element ref="MinimumYieldStress" minOccurs="0" maxOccurs="1"/>-->
+        <!--<xsd:element ref="MinimumTensileStress" minOccurs="0" maxOccurs="1"/>-->
+        <xsd:element ref="tendonStressStrainCurveType" minOccurs="0" maxOccurs="1"/>
+        <!--Masonry Properties-->
+        <!--<xsd:element ref="compressiveStrength" minOccurs="0" maxOccurs="1"/>-->
+        <!--<xsd:element ref="strainAtfc" minOccurs="0" maxOccurs="1"/>-->
+        <!--<xsd:element ref="strainAtUltimate" minOccurs="0" maxOccurs="1"/>-->
+
+      </xsd:all>
+      <xsd:attribute name="type" type="xsd:string" use="required" />
+      <xsd:attribute name="grade" type="xsd:string" use="required" />
+      <xsd:attribute name="name" type="xsd:string" use="required" />
+      <xsd:attribute name="lengthUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="forceUnits" type="xsd:string" use="optional" />
+      <xsd:attribute name="isDefault" type="xsd:boolean" use="optional" />
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="weightDensity">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="massDensity">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="modulusOfElasticity">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="poissonsRatio">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="coefficientOfThermalExpansion">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+  
+  
+  <!--Steel Properties-->
+
+  <xsd:element name="minimumYieldStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="minimumTensileStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="effectiveYieldStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="effectiveTensileStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="strainAtHardening">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="strainAtMaxStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="strainAtRupture">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+
+  <!--Concrete Properties-->
+  
+  <xsd:element name="compressiveStrength">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="strainAtfc">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="strainAtUltimate">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="shearStrengthReductionFactor">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+
+  <!--Aluminum Properties-->
+
+  <xsd:element name="aluminumType">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">  <!-- 1 = Wrought, 2 = Mold Cast, 3 = Sand Cast -->
+        <xsd:minInclusive value="1"/>
+        <xsd:maxInclusive value="3"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="compressiveYieldStrength">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="tensileYieldStrength">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="tensileUltimateStrength">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="shearUltimateStrength">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+
+  <!--ColdFormed Properties-->
+
+
+  <!--Rebar Properties-->
+
+  <xsd:element name="expectedYieldStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="expectedTensileStress">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+
+  <!--Tendon Properties-->
+  <xsd:element name="tendonStressStrainCurveType">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">  <!-- 1 = 250ksi, 2 = 270ksi -->
+        <xsd:minInclusive value="1"/>
+        <xsd:maxInclusive value="2"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <!--Masonry Properties-->
+
+</xsd:schema>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<propertyFile xmlns="http://www.csiberkeley.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiberkeley.com CSiMaterialLibrary.xsd">
+
+	<!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+
+	<control lengthUnits="m" forceUnits="kN">
+		<fileID>CSI Material Library for Australia</fileID>
+		<fileVersion>2.2</fileVersion>
+		<fileDescription>Built-in Material Property templates for Australia</fileDescription>
+		<!-- 
+	Version 1.0 
+		New library created by separating the materials per Australian standards from the New Zealand material library
+		Added concrete materials per AS 3600:2018 V2 standard
+		-->
+	</control>
+
+	<region name="Australia" lengthUnits="m" forceUnits="kN">
+
+		<collection type="Materials">
+
+			<!-- STEEL MATERIALS  -->
+
+			<standard name="AS 1163:2016">
+
+				<!-- Grade C250 -->
+
+				<material type="Steel" grade="Grade C250" name="AS1163-C250">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>320000</minimumTensileStress>
+					<!-- Effective strengths taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>287500</effectiveYieldStress>
+					<effectiveTensileStress>368000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade C350 -->
+
+				<material type="Steel" grade="Grade C350" name="AS1163-C350" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strengths taken as 1.1*minimum strength	-->
+					<effectiveYieldStress>385000</effectiveYieldStress>
+					<effectiveTensileStress>473000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade C450 -->
+
+				<material type="Steel" grade="Grade C450" name="AS1163-C450">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>450000</minimumYieldStress>
+					<minimumTensileStress>500000</minimumTensileStress>
+					<!-- Effective strengths taken as 1.1*minimum strength	-->
+					<effectiveYieldStress>495000</effectiveYieldStress>
+					<effectiveTensileStress>550000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+			</standard>
+
+			<standard name="AS 3679.1:2016" isDefaultSteel="true">
+
+				<!-- Grade 300 -->
+
+				<material type="Steel" grade="Grade 300 (t&lt;11mm)" name="AS3679.1-300(t&lt;11mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>320000</minimumYieldStress>
+					<minimumTensileStress>440000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>368000</effectiveYieldStress>
+					<effectiveTensileStress>506000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300 (11mm&lt;=t&lt;=17mm)" name="AS3679.1-300(11mm&lt;=t&lt;=17mm)" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>440000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>345000</effectiveYieldStress>
+					<effectiveTensileStress>506000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300 (17mm&lt;t)" name="AS3679.1-300(17mm&lt;t)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>280000</minimumYieldStress>
+					<minimumTensileStress>440000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>322000</effectiveYieldStress>
+					<effectiveTensileStress>506000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 350 -->
+
+				<material type="Steel" grade="Grade 350 (t&lt;11mm)" name="AS3679.1-350(t&lt;11mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>360000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>396000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 350 (11mm&lt;=t&lt;=40mm)" name="AS3679.1-350(11mm&lt;=t&lt;40mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>340000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>374000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 350 (40mm&lt;t)" name="AS3679.1-350(40mm&lt;=t)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>330000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>363000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+			</standard>
+
+			
+			<!-- CONCRETE MATERIALS  -->
+
+			<standard name="AS 3600:2018 V2">
+
+				<material type="concrete" grade="f'c 20MPa" name="AS3600:2018-20MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>24000000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>20000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 25MPa" name="AS3600:2018-25MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>26700000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>25000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 32MPa" name="AS3600:2018-32MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>30100000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>32000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 40MPa" name="AS3600:2018-40MPa" isDefault="true">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>32800000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>40000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 50MPa" name="AS3600:2018-50MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>34800000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>50000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 65MPa" name="AS3600:2018-65MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>37400000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>65000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 80MPa" name="AS3600:2018-80MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>39600000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>80000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+
+				<material type="concrete" grade="f'c 100MPa" name="AS3600:2018-100MPa">
+					<weightDensity>24</weightDensity>
+					<massDensity>2.447</massDensity>
+					<modulusOfElasticity>42200000</modulusOfElasticity>
+					<poissonsRatio>0.2</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+					<compressiveStrength>100000</compressiveStrength>
+					<strainAtfc>0.002</strainAtfc>
+					<strainAtUltimate>0.004</strainAtUltimate>
+					<isLightWeight>false</isLightWeight>
+					<shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+				</material>
+						
+			</standard>
+
+
+			<!--  COLD-FORMED STEEL MATERIALS  -->
+
+			<standard name="AS 1397:2001" isDefaultColdformed="true">
+
+				<material type="coldformed" grade="Grade G250" name="AS1397-G250">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>320000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G300" name="AS1397-G300">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>340000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G350" name="AS1397-G350" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>420000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G450" name="AS1397-G450">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>450000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G500" name="AS1397-G500">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>500000</minimumYieldStress>
+					<minimumTensileStress>520000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G500 (t&lt;0.6mm)" name="AS1397-G550(t&lt;0.6mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>413000</minimumYieldStress>
+					<minimumTensileStress>413000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G500 (0.6mm&lt;=t&lt;0.9mm)" name="AS1397-G550(0.6mm&lt;=t&lt;0.9mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>495000</minimumYieldStress>
+					<minimumTensileStress>495000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade G500 (0.9mm&lt;=t)" name="AS1397-G550(0.9mm&lt;=t)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>495000</minimumYieldStress>
+					<minimumTensileStress>495000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+		</collection>
+	</region>
+
+</propertyFile>

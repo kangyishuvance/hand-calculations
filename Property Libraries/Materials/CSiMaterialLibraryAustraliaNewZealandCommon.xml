@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<propertyFile xmlns="http://www.csiberkeley.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiberkeley.com CSiMaterialLibrary.xsd">
+
+	<!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+
+	<control lengthUnits="m" forceUnits="kN">
+		<fileID>CSI Common Material Library for Australia and New Zealand</fileID>
+		<fileVersion>2.2</fileVersion>
+		<fileDescription>Built-in Common Material Property templates for Australia and New Zealand</fileDescription>
+		<!-- 
+	Version 1.0 
+		This is a new XML file that contains only those materials that pertain to standards that are common to Australia and New Zealand.
+		The data in this file is from the original New Zealand material library that had New Zealand/Australian standards as well as standards common to Australia and New Zealand
+		-->
+	</control>
+
+	<region name="Australia" lengthUnits="m" forceUnits="kN">
+
+		<collection type="Materials">
+
+			<!-- STEEL MATERIALS  -->
+
+			<standard name="AS/NZS 3678:2016">
+
+				<!-- Grade 250PL -->
+
+				<material type="Steel" grade="Grade 250PL (t&lt;=8mm)" name="AS/NZS3678-250PL(t&lt;=8mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>280000</minimumYieldStress>
+					<minimumTensileStress>410000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>322000</effectiveYieldStress>
+					<effectiveTensileStress>471500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 250PL (8mm&lt;t&lt;=12mm)" name="AS/NZS3678-250PL(8mm&lt;t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>260000</minimumYieldStress>
+					<minimumTensileStress>410000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>299000</effectiveYieldStress>
+					<effectiveTensileStress>471500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 250PL (12mm&lt;t&lt;=50mm)" name="AS/NZS3678-250PL(12mm&lt;t&lt;=50mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>410000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>287500</effectiveYieldStress>
+					<effectiveTensileStress>471500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 300PL -->
+
+				<material type="Steel" grade="Grade 300PL (t&lt;=8mm)" name="AS/NZS3678-300PL(t&lt;=8mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>320000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>368000</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300PL (8mm&lt;t&lt;=12mm)" name="AS/NZS3678-300PL(8mm&lt;t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>310000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>356500</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300PL (12mm&lt;t&lt;=20mm)" name="AS/NZS3678-300PL(12mm&lt;t&lt;=20mm)" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>345000</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300PL (20mm&lt;t&lt;=50mm)" name="AS/NZS3678-300PL(20mm&lt;t&lt;=50mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>280000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>322000</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 350PL -->
+
+				<material type="Steel" grade="Grade 350PL (t&lt;=12mm)" name="AS/NZS3678-350PL(t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>360000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>396000</effectiveYieldStress>
+					<effectiveTensileStress>495000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 350PL (12mm&lt;t&lt;=20mm)" name="AS/NZS3678-350PL(12mm&lt;t&lt;=20mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>385000</effectiveYieldStress>
+					<effectiveTensileStress>495000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 350PL (20mm&lt;t&lt;=80mm)" name="AS/NZS3678-350PL(20mm&lt;t&lt;=80mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>340000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>374000</effectiveYieldStress>
+					<effectiveTensileStress>495000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 400PL -->
+
+				<material type="Steel" grade="Grade 400PL (t&lt;=12mm)" name="AS/NZS3678-400PL(t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>400000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>440000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 400PL (12mm&lt;t&lt;=20mm)" name="AS/NZS3678-400PL(12mm&lt;t&lt;=20mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>380000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>418000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 400PL (20mm&lt;t&lt;=80mm)" name="AS/NZS3678-400PL(20mm&lt;t&lt;=80mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>360000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>396000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 450PL (t&lt;=20mm)" name="AS/NZS3678-450PL(t&lt;=20mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>450000</minimumYieldStress>
+					<minimumTensileStress>520000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>495000</effectiveYieldStress>
+					<effectiveTensileStress>572000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 450PL (20mm&lt;t&lt;=32mm)" name="AS/NZS3678-450PL(20mm&lt;t&lt;=32mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>420000</minimumYieldStress>
+					<minimumTensileStress>500000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>462000</effectiveYieldStress>
+					<effectiveTensileStress>550000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 450PL (32mm&lt;t&lt;=50mm)" name="AS/NZS3678-450PL(32mm&lt;t&lt;=50mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>400000</minimumYieldStress>
+					<minimumTensileStress>500000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>440000</effectiveYieldStress>
+					<effectiveTensileStress>550000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+			</standard>
+
+
+			<!-- ALUMINIUM MATERIALS  -->
+
+			<standard name="AS/NZS 1664.1:1997">
+
+				<material type="Aluminum" grade="Alloy 6061-T6" name="AS/NZS1664.1-6061-T6" isDefault="true">
+					<weightDensity>26.6018</weightDensity>
+					<massDensity>2.715</massDensity>
+					<modulusOfElasticity>70000000</modulusOfElasticity>
+					<poissonsRatio>0.33</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00002358</coefficientOfThermalExpansion>
+					<compressiveYieldStrength>241000</compressiveYieldStrength>
+					<tensileYieldStrength>241000</tensileYieldStrength>
+					<tensileUltimateStrength>290000</tensileUltimateStrength>
+					<shearUltimateStrength>186000</shearUltimateStrength>
+					<aluminumType>1</aluminumType>
+					<aluminumAlloy>6061</aluminumAlloy>
+					<temperDesignationAlpha>T</temperDesignationAlpha>
+					<temperDesignationNumeric>6</temperDesignationNumeric>
+				</material>
+
+			</standard>
+
+
+			<!--  COLD-FORMED STEEL MATERIALS  -->
+
+			<standard name="AS/NZS 1594:2002">
+
+				<material type="coldformed" grade="Grade HA200" name="AS/NZS1594-HA200">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>200000</minimumYieldStress>
+					<minimumTensileStress>300000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA250" name="AS/NZS1594-HA250">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>350000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA300" name="AS/NZS1594-HA300">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>400000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA350" name="AS/NZS1594-HA350" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HW350" name="AS/NZS1594-HW350">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>340000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA400" name="AS/NZS1594-HA400">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>380000</minimumYieldStress>
+					<minimumTensileStress>460000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+			<standard name="AS/NZS 1595:1998">
+
+				<material type="coldformed" grade="Grade CA220" name="AS/NZS1595-CA220">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>210000</minimumYieldStress>
+					<minimumTensileStress>340000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CA260" name="AS/NZS1595-CA260">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>350000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CW300" name="AS/NZS1595-CW300">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CA350" name="AS/NZS1595-CA350" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CA500" name="AS/NZS1595-CA500">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>500000</minimumYieldStress>
+					<minimumTensileStress>510000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+			<!--  REBAR MATERIALS  -->
+
+			<standard name="AS/NZS 4671:2001">
+
+				<!-- Grade 300 -->
+
+				<material type="rebar" grade="Grade 300E" name="AS/NZS4671-G300E" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>420000</minimumTensileStress>
+					<expectedYieldStress>320000</expectedYieldStress>
+					<expectedTensileStress>455000</expectedTensileStress>
+					<strainAtHardening>0.02</strainAtHardening>
+					<strainAtUltimate>0.15</strainAtUltimate>
+				</material>
+
+				<!-- Grade 500 -->
+
+				<material type="rebar" grade="Grade 500E" name="AS/NZS4671-G500E">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>500000</minimumYieldStress>
+					<minimumTensileStress>650000</minimumTensileStress>
+					<expectedYieldStress>545000</expectedYieldStress>
+					<expectedTensileStress>685000</expectedTensileStress>
+					<strainAtHardening>0.015</strainAtHardening>
+					<strainAtUltimate>0.1</strainAtUltimate>
+				</material>
+
+			</standard>
+
+			<!--  TENDON MATERIALS  -->
+
+			<standard name="AS/NZS 4672.1:2007">
+
+				<!-- Strand -->
+
+				<!-- 7 wire ordinary -->
+
+				<material type="tendon" grade="7 wire ordinary-9.5-1850" name="AS/NZS4672.1-7 wire ordinary-9.5-1850">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1572500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1850000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire ordinary-12.7-1870" name="AS/NZS4672.1-7 wire ordinary-12.7-1870" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1589500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1870000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire ordinary-15.2-1750" name="AS/NZS4672.1-7 wire ordinary-15.2-1750">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1487500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1750000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire ordinary-15.2-1830" name="AS/NZS4672.1-7 wire ordinary-15.2-1830">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1555500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1830000</minimumTensileStress>
+				</material>
+
+				<!-- 7 wire compacted -->
+
+				<material type="tendon" grade="7 wire compacted-15.2-1820" name="AS/NZS4672.1-7 wire compacted-15.2-1820">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1547000</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1820000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire compacted-18.0-1700" name="AS/NZS4672.1-7 wire compacted-18.0-1700">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1445000</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1700000</minimumTensileStress>
+				</material>
+
+				<!-- 19 wire -->
+
+				<material type="tendon" grade="19 wire-21.8-1810" name="AS/NZS4672.1-19 wire-21.8-1810">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1538500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1810000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+		</collection>
+	</region>
+
+
+	<region name="New Zealand" lengthUnits="m" forceUnits="kN">
+
+		<collection type="Materials">
+
+			<!-- STEEL MATERIALS  -->
+
+			<standard name="AS/NZS 3678:2016">
+
+				<!-- Grade 250PL -->
+
+				<material type="Steel" grade="Grade 250PL (t&lt;=8mm)" name="AS/NZS3678-250PL(t&lt;=8mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>280000</minimumYieldStress>
+					<minimumTensileStress>410000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>322000</effectiveYieldStress>
+					<effectiveTensileStress>471500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 250PL (8mm&lt;t&lt;=12mm)" name="AS/NZS3678-250PL(8mm&lt;t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>260000</minimumYieldStress>
+					<minimumTensileStress>410000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>299000</effectiveYieldStress>
+					<effectiveTensileStress>471500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 250PL (12mm&lt;t&lt;=50mm)" name="AS/NZS3678-250PL(12mm&lt;t&lt;=50mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>410000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>287500</effectiveYieldStress>
+					<effectiveTensileStress>471500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 300PL -->
+
+				<material type="Steel" grade="Grade 300PL (t&lt;=8mm)" name="AS/NZS3678-300PL(t&lt;=8mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>320000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>368000</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300PL (8mm&lt;t&lt;=12mm)" name="AS/NZS3678-300PL(8mm&lt;t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>310000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>356500</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300PL (12mm&lt;t&lt;=20mm)" name="AS/NZS3678-300PL(12mm&lt;t&lt;=20mm)" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>345000</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 300PL (20mm&lt;t&lt;=50mm)" name="AS/NZS3678-300PL(20mm&lt;t&lt;=50mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>280000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+					<!-- Effective strength taken as 1.15*minimum strength	-->
+					<effectiveYieldStress>322000</effectiveYieldStress>
+					<effectiveTensileStress>494500</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 350PL -->
+
+				<material type="Steel" grade="Grade 350PL (t&lt;=12mm)" name="AS/NZS3678-350PL(t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>360000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>396000</effectiveYieldStress>
+					<effectiveTensileStress>495000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 350PL (12mm&lt;t&lt;=20mm)" name="AS/NZS3678-350PL(12mm&lt;t&lt;=20mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>385000</effectiveYieldStress>
+					<effectiveTensileStress>495000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 350PL (20mm&lt;t&lt;=80mm)" name="AS/NZS3678-350PL(20mm&lt;t&lt;=80mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>340000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>374000</effectiveYieldStress>
+					<effectiveTensileStress>495000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<!-- Grade 400PL -->
+
+				<material type="Steel" grade="Grade 400PL (t&lt;=12mm)" name="AS/NZS3678-400PL(t&lt;=12mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>400000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>440000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 400PL (12mm&lt;t&lt;=20mm)" name="AS/NZS3678-400PL(12mm&lt;t&lt;=20mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>380000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>418000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 400PL (20mm&lt;t&lt;=80mm)" name="AS/NZS3678-400PL(20mm&lt;t&lt;=80mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>360000</minimumYieldStress>
+					<minimumTensileStress>480000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>396000</effectiveYieldStress>
+					<effectiveTensileStress>528000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 450PL (t&lt;=20mm)" name="AS/NZS3678-450PL(t&lt;=20mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>450000</minimumYieldStress>
+					<minimumTensileStress>520000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>495000</effectiveYieldStress>
+					<effectiveTensileStress>572000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 450PL (20mm&lt;t&lt;=32mm)" name="AS/NZS3678-450PL(20mm&lt;t&lt;=32mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>420000</minimumYieldStress>
+					<minimumTensileStress>500000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>462000</effectiveYieldStress>
+					<effectiveTensileStress>550000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+				<material type="Steel" grade="Grade 450PL (32mm&lt;t&lt;=50mm)" name="AS/NZS3678-450PL(32mm&lt;t&lt;=50mm)">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>400000</minimumYieldStress>
+					<minimumTensileStress>500000</minimumTensileStress>
+					<!-- Effective strength taken as 1.10*minimum strength	-->
+					<effectiveYieldStress>440000</effectiveYieldStress>
+					<effectiveTensileStress>550000</effectiveTensileStress>
+					<strainAtHardening>0.025</strainAtHardening>
+					<strainAtMaxStress>0.18</strainAtMaxStress>
+					<strainAtRupture>0.29</strainAtRupture>
+				</material>
+
+			</standard>
+
+
+			<!-- ALUMINIUM MATERIALS  -->
+
+			<standard name="AS/NZS 1664.1:1997">
+
+				<material type="Aluminum" grade="Alloy 6061-T6" name="AS/NZS1664.1-6061-T6" isDefault="true">
+					<weightDensity>26.6018</weightDensity>
+					<massDensity>2.715</massDensity>
+					<modulusOfElasticity>70000000</modulusOfElasticity>
+					<poissonsRatio>0.33</poissonsRatio>
+					<coefficientOfThermalExpansion>0.00002358</coefficientOfThermalExpansion>
+					<compressiveYieldStrength>241000</compressiveYieldStrength>
+					<tensileYieldStrength>241000</tensileYieldStrength>
+					<tensileUltimateStrength>290000</tensileUltimateStrength>
+					<shearUltimateStrength>186000</shearUltimateStrength>
+					<aluminumType>1</aluminumType>
+					<aluminumAlloy>6061</aluminumAlloy>
+					<temperDesignationAlpha>T</temperDesignationAlpha>
+					<temperDesignationNumeric>6</temperDesignationNumeric>
+				</material>
+
+			</standard>
+
+
+			<!--  COLD-FORMED STEEL MATERIALS  -->
+
+			<standard name="AS/NZS 1594:2002">
+
+				<material type="coldformed" grade="Grade HA200" name="AS/NZS1594-HA200">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>200000</minimumYieldStress>
+					<minimumTensileStress>300000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA250" name="AS/NZS1594-HA250">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>350000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA300" name="AS/NZS1594-HA300">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>400000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA350" name="AS/NZS1594-HA350" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HW350" name="AS/NZS1594-HW350">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>340000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade HA400" name="AS/NZS1594-HA400">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>380000</minimumYieldStress>
+					<minimumTensileStress>460000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+			<standard name="AS/NZS 1595:1998">
+
+				<material type="coldformed" grade="Grade CA220" name="AS/NZS1595-CA220">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>210000</minimumYieldStress>
+					<minimumTensileStress>340000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CA260" name="AS/NZS1595-CA260">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>250000</minimumYieldStress>
+					<minimumTensileStress>350000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CW300" name="AS/NZS1595-CW300">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>450000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CA350" name="AS/NZS1595-CA350" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>350000</minimumYieldStress>
+					<minimumTensileStress>430000</minimumTensileStress>
+				</material>
+
+				<material type="coldformed" grade="Grade CA500" name="AS/NZS1595-CA500">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+					<minimumYieldStress>500000</minimumYieldStress>
+					<minimumTensileStress>510000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+			<!--  REBAR MATERIALS  -->
+
+			<standard name="AS/NZS 4671:2001">
+
+				<!-- Grade 300 -->
+
+				<material type="rebar" grade="Grade 300E" name="AS/NZS4671-G300E" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>300000</minimumYieldStress>
+					<minimumTensileStress>420000</minimumTensileStress>
+					<expectedYieldStress>320000</expectedYieldStress>
+					<expectedTensileStress>455000</expectedTensileStress>
+					<strainAtHardening>0.02</strainAtHardening>
+					<strainAtUltimate>0.15</strainAtUltimate>
+				</material>
+
+				<!-- Grade 500 -->
+
+				<material type="rebar" grade="Grade 500E" name="AS/NZS4671-G500E">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>205000000</modulusOfElasticity>
+					<poissonsRatio>0.3</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>500000</minimumYieldStress>
+					<minimumTensileStress>650000</minimumTensileStress>
+					<expectedYieldStress>545000</expectedYieldStress>
+					<expectedTensileStress>685000</expectedTensileStress>
+					<strainAtHardening>0.015</strainAtHardening>
+					<strainAtUltimate>0.1</strainAtUltimate>
+				</material>
+
+			</standard>
+
+			<!--  TENDON MATERIALS  -->
+
+			<standard name="AS/NZS 4672.1:2007">
+
+				<!-- Strand -->
+
+				<!-- 7 wire ordinary -->
+
+				<material type="tendon" grade="7 wire ordinary-9.5-1850" name="AS/NZS4672.1-7 wire ordinary-9.5-1850">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1572500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1850000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire ordinary-12.7-1870" name="AS/NZS4672.1-7 wire ordinary-12.7-1870" isDefault="true">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1589500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1870000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire ordinary-15.2-1750" name="AS/NZS4672.1-7 wire ordinary-15.2-1750">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1487500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1750000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire ordinary-15.2-1830" name="AS/NZS4672.1-7 wire ordinary-15.2-1830">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1555500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1830000</minimumTensileStress>
+				</material>
+
+				<!-- 7 wire compacted -->
+
+				<material type="tendon" grade="7 wire compacted-15.2-1820" name="AS/NZS4672.1-7 wire compacted-15.2-1820">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1547000</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1820000</minimumTensileStress>
+				</material>
+
+				<material type="tendon" grade="7 wire compacted-18.0-1700" name="AS/NZS4672.1-7 wire compacted-18.0-1700">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1445000</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1700000</minimumTensileStress>
+				</material>
+
+				<!-- 19 wire -->
+
+				<material type="tendon" grade="19 wire-21.8-1810" name="AS/NZS4672.1-19 wire-21.8-1810">
+					<weightDensity>76.9822</weightDensity>
+					<massDensity>7.850</massDensity>
+					<modulusOfElasticity>195000000</modulusOfElasticity>
+					<poissonsRatio>0</poissonsRatio>
+					<coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+					<minimumYieldStress>1538500</minimumYieldStress>
+					<!-- yield stress taken as 0.85fpu per Section 5.4, NZS3101:2006(A3) -->
+					<minimumTensileStress>1810000</minimumTensileStress>
+				</material>
+
+			</standard>
+
+		</collection>
+	</region>
+
+
+</propertyFile>

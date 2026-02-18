@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<propertyFile xmlns="http://www.csiamerica.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiamerica.com CSiMaterialLibrary.xsd">
+
+  <!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+  
+  <control lengthUnits="mm" forceUnits="N">
+    <fileID>CSI Material Library for India</fileID>
+    <fileVersion>1.0</fileVersion>
+    <fileDescription>Built-in Material Property templates for India</fileDescription>
+  </control>
+
+  <region name="India" lengthUnits="mm" forceUnits="N">
+
+    <collection type="Materials">
+
+      <standard name="Indian">
+        
+<!-- STEEL MATERIALS -->        
+
+        <material type="Steel" grade="Fe250" name="Fe250">
+          <weightDensity>0.0000769728639422648</weightDensity>
+          <massDensity>0.00000000784904737995992</massDensity>
+          <modulusOfElasticity>210000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>250</minimumYieldStress>
+          <minimumTensileStress>410</minimumTensileStress>
+          <effectiveYieldStress>275</effectiveYieldStress>
+          <effectiveTensileStress>451</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="Fe345" name="Fe345" isDefault="true">
+          <weightDensity>0.0000769728639422648</weightDensity>
+          <massDensity>0.00000000784904737995992</massDensity>
+          <modulusOfElasticity>210000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>345</minimumYieldStress>
+          <minimumTensileStress>450</minimumTensileStress>
+          <effectiveYieldStress>379.5</effectiveYieldStress>
+          <effectiveTensileStress>495</effectiveTensileStress>
+          <strainAtHardening>0.015</strainAtHardening>
+          <strainAtMaxStress>0.11</strainAtMaxStress>
+          <strainAtRupture>0.17</strainAtRupture>
+        </material>
+
+<!-- CONCRETE MATERIALS-->
+
+        <material type="concrete" grade="M15" name="M15">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>19364.9170</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>15</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M20" name="M20">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>22360.6800</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>20</compressiveStrength>
+          <strainAtfc>0.00178885</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M25" name="M25">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>25000.0000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>25</compressiveStrength>
+          <strainAtfc>0.00200000</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M30" name="M30" isDefault="true">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>27386.1280</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>30</compressiveStrength>
+          <strainAtfc>0.00219089</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M35" name="M35">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>29580.3990</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>35</compressiveStrength>
+          <strainAtfc>0.00236643</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M40" name="M40">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>31622.7770</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>40</compressiveStrength>
+          <strainAtfc>0.00252982</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M45" name="M45">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>33541.0200</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>45</compressiveStrength>
+          <strainAtfc>0.00268328</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M50" name="M50">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>35355.3390</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>50</compressiveStrength>
+          <strainAtfc>0.00282843</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M55" name="M55">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>37080.9920</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>55</compressiveStrength>
+          <strainAtfc>0.00296648</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="M60" name="M60">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>38729.8330</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000013</coefficientOfThermalExpansion>
+
+          <compressiveStrength>60</compressiveStrength>
+          <strainAtfc>0.00309839</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+ <!--  REBAR MATERIALS  -->
+
+        <material type="rebar" grade="Mild Grade 250" name="Mild250">
+          <weightDensity>0.0000769728639422648</weightDensity>
+          <massDensity>0.00000000784904737995992</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>250</minimumYieldStress>
+          <minimumTensileStress>410</minimumTensileStress>
+          <expectedYieldStress>275</expectedYieldStress>
+          <expectedTensileStress>451</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="HYSD Grade 415" name="HYSD415" isDefault="true">
+          <weightDensity>0.0000769728639422648</weightDensity>
+          <massDensity>0.00000000784904737995992</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>415</minimumYieldStress>
+          <minimumTensileStress>485</minimumTensileStress>
+          <expectedYieldStress>456.5</expectedYieldStress>
+          <expectedTensileStress>533.5</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="HYSD Grade 500" name="HYSD500">
+          <weightDensity>0.0000769728639422648</weightDensity>
+          <massDensity>0.00000000784904737995992</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>500</minimumYieldStress>
+          <minimumTensileStress>545</minimumTensileStress>
+          <expectedYieldStress>550</expectedYieldStress>
+          <expectedTensileStress>599.5</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="HYSD Grade 550" name="HYSD550">
+          <weightDensity>0.0000769728639422648</weightDensity>
+          <massDensity>0.00000000784904737995992</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>550</minimumYieldStress>
+          <minimumTensileStress>585</minimumTensileStress>
+          <expectedYieldStress>605</expectedYieldStress>
+          <expectedTensileStress>643.5</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+      </standard>
+    </collection>
+  </region>
+</propertyFile>

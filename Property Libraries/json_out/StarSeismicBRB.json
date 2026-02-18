@@ -1,0 +1,1454 @@
+{
+  "meta": {
+    "source_file": "StarSeismicBRB.xml",
+    "source_format": "CSI/ETABS XML",
+    "length_units_in_source": "",
+    "converted_to_mm_basis": true,
+    "note": "If converted_to_mm_basis is true: lengths=mm, areas=mm^2, section moduli=mm^3, inertias/torsion constants=mm^4.",
+    "control": {}
+  },
+  "sections_by_label": {
+    "StarBRB_1.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 6.0,
+        "B": 6.0,
+        "AREACORE": 1.0,
+        "KELASTIC": 2329.72445152978,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 56.7455568909694,
+        "TOTALWEIGHT": 0.9468
+      }
+    },
+    "StarBRB_1.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 6.0,
+        "B": 6.0,
+        "AREACORE": 1.5,
+        "KELASTIC": 2594.50971690689,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 56.136667741512,
+        "TOTALWEIGHT": 0.9468
+      }
+    },
+    "StarBRB_2.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 8.0,
+        "B": 6.0,
+        "AREACORE": 2.0,
+        "KELASTIC": 2768.6530811345,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 56.5277785920545,
+        "TOTALWEIGHT": 0.972
+      }
+    },
+    "StarBRB_2.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 8.0,
+        "B": 8.0,
+        "AREACORE": 2.5,
+        "KELASTIC": 3551.92015575091,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 56.9300008794189,
+        "TOTALWEIGHT": 0.99
+      }
+    },
+    "StarBRB_3.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 6.0,
+        "AREACORE": 3.0,
+        "KELASTIC": 4013.9728601836,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 65.980002345117,
+        "TOTALWEIGHT": 1.782
+      }
+    },
+    "StarBRB_3.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 6.0,
+        "AREACORE": 3.5,
+        "KELASTIC": 4279.45361231053,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 68.3711131956596,
+        "TOTALWEIGHT": 1.782
+      }
+    },
+    "StarBRB_4.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 8.0,
+        "AREACORE": 4.0,
+        "KELASTIC": 4534.78479632117,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 66.7622240462021,
+        "TOTALWEIGHT": 1.782
+      }
+    },
+    "StarBRB_4.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 8.0,
+        "AREACORE": 4.5,
+        "KELASTIC": 5587.78077616783,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 68.7733354830239,
+        "TOTALWEIGHT": 1.782
+      }
+    },
+    "StarBRB_5.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 8.0,
+        "AREACORE": 5.0,
+        "KELASTIC": 5837.38252936422,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 67.5666686209308,
+        "TOTALWEIGHT": 1.854
+      }
+    },
+    "StarBRB_5.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 8.0,
+        "AREACORE": 5.5,
+        "KELASTIC": 6113.50256103916,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 70.3600017588378,
+        "TOTALWEIGHT": 1.872
+      }
+    },
+    "StarBRB_6.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 8.0,
+        "AREACORE": 6.0,
+        "KELASTIC": 6375.06313855829,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 69.1533348967447,
+        "TOTALWEIGHT": 1.872
+      }
+    },
+    "StarBRB_6.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 8.0,
+        "AREACORE": 6.5,
+        "KELASTIC": 8095.12877441796,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 73.1755577703883,
+        "TOTALWEIGHT": 1.962
+      }
+    },
+    "StarBRB_7.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 7.0,
+        "KELASTIC": 8332.47707586903,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 72.3711131956596,
+        "TOTALWEIGHT": 1.98
+      }
+    },
+    "StarBRB_7.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 7.5,
+        "KELASTIC": 8647.56510694877,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 72.5666686209308,
+        "TOTALWEIGHT": 1.9944
+      }
+    },
+    "StarBRB_8.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 8.0,
+        "KELASTIC": 8894.95187605556,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 72.2622240462021,
+        "TOTALWEIGHT": 1.9998
+      }
+    },
+    "StarBRB_8.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 8.5,
+        "KELASTIC": 9145.44874639952,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 71.4577794714734,
+        "TOTALWEIGHT": 2.4264
+      }
+    },
+    "StarBRB_9.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 9.0,
+        "KELASTIC": 10807.7504347643,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 77.2733354830239,
+        "TOTALWEIGHT": 2.5182
+      }
+    },
+    "StarBRB_9.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 9.5,
+        "KELASTIC": 11039.8792182579,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 76.6700020519774,
+        "TOTALWEIGHT": 2.52
+      }
+    },
+    "StarBRB_10.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 10.0,
+        "KELASTIC": 11273.9496310786,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 76.0666686209308,
+        "TOTALWEIGHT": 2.5218
+      }
+    },
+    "StarBRB_10.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 10.5,
+        "KELASTIC": 11509.9861365262,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 75.4633351898843,
+        "TOTALWEIGHT": 2.5362
+      }
+    },
+    "StarBRB_11.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 11.0,
+        "KELASTIC": 11748.0136105964,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 75.3600017588378,
+        "TOTALWEIGHT": 2.5488
+      }
+    },
+    "StarBRB_11.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 11.5,
+        "KELASTIC": 11988.0573507204,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 74.7566683277912,
+        "TOTALWEIGHT": 2.5632
+      }
+    },
+    "StarBRB_12.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.0,
+        "B": 12.0,
+        "AREACORE": 12.0,
+        "KELASTIC": 12441.7893752491,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 75.6533348967447,
+        "TOTALWEIGHT": 2.5632
+      }
+    },
+    "StarBRB_12.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 12.5,
+        "KELASTIC": 13524.3361259472,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 77.2259276630496,
+        "TOTALWEIGHT": 4.7538
+      }
+    },
+    "StarBRB_13.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 13.0,
+        "KELASTIC": 13773.8673132982,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 76.6896312798972,
+        "TOTALWEIGHT": 4.7754
+      }
+    },
+    "StarBRB_13.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 13.5,
+        "KELASTIC": 15638.5999776246,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 81.7733354830239,
+        "TOTALWEIGHT": 4.8024
+      }
+    },
+    "StarBRB_14.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 14.0,
+        "KELASTIC": 15854.2004267557,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 81.3711131956596,
+        "TOTALWEIGHT": 4.8312
+      }
+    },
+    "StarBRB_14.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 14.5,
+        "KELASTIC": 16070.7802520214,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 80.9688909082952,
+        "TOTALWEIGHT": 4.8582
+      }
+    },
+    "StarBRB_15.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 15.0,
+        "KELASTIC": 16576.5978376913,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 82.5666686209308,
+        "TOTALWEIGHT": 4.8852
+      }
+    },
+    "StarBRB_15.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 15.5,
+        "KELASTIC": 16803.0143354059,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 82.1644463335665,
+        "TOTALWEIGHT": 4.905
+      }
+    },
+    "StarBRB_16.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 16.0,
+        "KELASTIC": 17030.5747168819,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 81.7622240462021,
+        "TOTALWEIGHT": 4.932
+      }
+    },
+    "StarBRB_16.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 16.5,
+        "KELASTIC": 17259.2876726324,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 81.3600017588378,
+        "TOTALWEIGHT": 4.959
+      }
+    },
+    "StarBRB_17.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 17.0,
+        "KELASTIC": 17489.1619814275,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 80.9577794714734,
+        "TOTALWEIGHT": 4.986
+      }
+    },
+    "StarBRB_17.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 17.5,
+        "KELASTIC": 17720.2065114176,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 80.555557184109,
+        "TOTALWEIGHT": 5.015
+      }
+    },
+    "StarBRB_18.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 18.0,
+        "KELASTIC": 17952.4302212735,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 80.6533348967447,
+        "TOTALWEIGHT": 5.416
+      }
+    },
+    "StarBRB_18.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 18.5,
+        "KELASTIC": 18185.8421613448,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 80.2511126093803,
+        "TOTALWEIGHT": 5.443
+      }
+    },
+    "StarBRB_19.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 12.75,
+        "B": 12.75,
+        "AREACORE": 19.0,
+        "KELASTIC": 18575.7023019054,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 80.848890322016,
+        "TOTALWEIGHT": 5.472
+      }
+    },
+    "StarBRB_19.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 19.5,
+        "KELASTIC": 21041.2919760809,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 84.3683353364541,
+        "TOTALWEIGHT": 5.472
+      }
+    },
+    "StarBRB_20.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 20.0,
+        "KELASTIC": 21249.7445586579,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 84.0666686209308,
+        "TOTALWEIGHT": 5.508
+      }
+    },
+    "StarBRB_20.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 20.5,
+        "KELASTIC": 21458.8196514168,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 83.7650019054076,
+        "TOTALWEIGHT": 5.508
+      }
+    },
+    "StarBRB_21.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 21.0,
+        "KELASTIC": 21862.9940722499,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 84.4633351898843,
+        "TOTALWEIGHT": 5.544
+      }
+    },
+    "StarBRB_21.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 21.5,
+        "KELASTIC": 22077.1335557055,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 84.161668474361,
+        "TOTALWEIGHT": 5.562
+      }
+    },
+    "StarBRB_22.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 22.0,
+        "KELASTIC": 22291.9528946933,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 83.8600017588378,
+        "TOTALWEIGHT": 5.562
+      }
+    },
+    "StarBRB_22.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 22.5,
+        "KELASTIC": 22507.4553319949,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 83.5583350433145,
+        "TOTALWEIGHT": 5.562
+      }
+    },
+    "StarBRB_23.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 23.0,
+        "KELASTIC": 22513.6311009841,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 86.2566683277912,
+        "TOTALWEIGHT": 5.616
+      }
+    },
+    "StarBRB_23.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 23.5,
+        "KELASTIC": 22726.5004917092,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 85.9550016122679,
+        "TOTALWEIGHT": 5.616
+      }
+    },
+    "StarBRB_24.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 24.0,
+        "KELASTIC": 22940.0122973465,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 86.1533348967447,
+        "TOTALWEIGHT": 5.652
+      }
+    },
+    "StarBRB_24.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 24.5,
+        "KELASTIC": 24172.5160747305,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 87.4940758546259,
+        "TOTALWEIGHT": 5.67
+      }
+    },
+    "StarBRB_25.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 25.0,
+        "KELASTIC": 24374.081786631,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 86.7259276630496,
+        "TOTALWEIGHT": 5.67
+      }
+    },
+    "StarBRB_25.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 25.5,
+        "KELASTIC": 24576.1060627342,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 86.4577794714734,
+        "TOTALWEIGHT": 5.706
+      }
+    },
+    "StarBRB_26.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 26.0,
+        "KELASTIC": 24550.5811755491,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 89.1896312798972,
+        "TOTALWEIGHT": 5.742
+      }
+    },
+    "StarBRB_26.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 26.5,
+        "KELASTIC": 24749.7944911263,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 89.4214830883209,
+        "TOTALWEIGHT": 5.742
+      }
+    },
+    "StarBRB_27.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 27.0,
+        "KELASTIC": 27857.7296151395,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 92.7733354830239,
+        "TOTALWEIGHT": 5.814
+      }
+    },
+    "StarBRB_27.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 27.5,
+        "KELASTIC": 28326.019219582,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 93.5722243393417,
+        "TOTALWEIGHT": 5.814
+      }
+    },
+    "StarBRB_28.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 28.0,
+        "KELASTIC": 28500.5198424172,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 93.3711131956596,
+        "TOTALWEIGHT": 5.868
+      }
+    },
+    "StarBRB_28.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 28.5,
+        "KELASTIC": 28675.175356201,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 93.1700020519774,
+        "TOTALWEIGHT": 5.868
+      }
+    },
+    "StarBRB_29.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 29.0,
+        "KELASTIC": 28849.9859672524,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 92.9688909082952,
+        "TOTALWEIGHT": 5.868
+      }
+    },
+    "StarBRB_29.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 29.5,
+        "KELASTIC": 29024.9518822571,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 93.267779764613,
+        "TOTALWEIGHT": 5.922
+      }
+    },
+    "StarBRB_30.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 30.0,
+        "KELASTIC": 28908.9889644644,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.5666686209308,
+        "TOTALWEIGHT": 5.922
+      }
+    },
+    "StarBRB_30.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 30.5,
+        "KELASTIC": 29080.7787058367,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.8655574772487,
+        "TOTALWEIGHT": 5.94
+      }
+    },
+    "StarBRB_31.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 31.0,
+        "KELASTIC": 29252.7006869913,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.6644463335665,
+        "TOTALWEIGHT": 5.94
+      }
+    },
+    "StarBRB_31.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 31.5,
+        "KELASTIC": 29424.7550606798,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.4633351898843,
+        "TOTALWEIGHT": 5.994
+      }
+    },
+    "StarBRB_32.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 32.0,
+        "KELASTIC": 29596.941979889,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.2622240462021,
+        "TOTALWEIGHT": 5.994
+      }
+    },
+    "StarBRB_32.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 32.5,
+        "KELASTIC": 30078.0203760901,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 96.0611129025199,
+        "TOTALWEIGHT": 6.03
+      }
+    },
+    "StarBRB_33.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 33.0,
+        "KELASTIC": 30254.0792369282,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.8600017588378,
+        "TOTALWEIGHT": 6.03
+      }
+    },
+    "StarBRB_33.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 33.5,
+        "KELASTIC": 30430.2950684995,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.6588906151556,
+        "TOTALWEIGHT": 6.084
+      }
+    },
+    "StarBRB_34.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 34.0,
+        "KELASTIC": 30606.6680808258,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.4577794714734,
+        "TOTALWEIGHT": 6.084
+      }
+    },
+    "StarBRB_34.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 34.5,
+        "KELASTIC": 30783.1984843038,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 95.2566683277912,
+        "TOTALWEIGHT": 6.12
+      }
+    },
+    "StarBRB_35.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 35.0,
+        "KELASTIC": 32434.729229903,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 98.055557184109,
+        "TOTALWEIGHT": 6.12
+      }
+    },
+    "StarBRB_35.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 35.5,
+        "KELASTIC": 32628.8780790664,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 97.8544460404269,
+        "TOTALWEIGHT": 6.156
+      }
+    },
+    "StarBRB_36.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 36.0,
+        "KELASTIC": 32529.5995018044,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 96.6533348967447,
+        "TOTALWEIGHT": 6.156
+      }
+    },
+    "StarBRB_36.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 36.5,
+        "KELASTIC": 36390.3931438879,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 100.122502125262,
+        "TOTALWEIGHT": 6.21
+      }
+    },
+    "StarBRB_37.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 37.0,
+        "KELASTIC": 36552.8152626652,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 99.9716687675007,
+        "TOTALWEIGHT": 6.21
+      }
+    },
+    "StarBRB_37.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 37.5,
+        "KELASTIC": 36715.2928567017,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 100.320835409739,
+        "TOTALWEIGHT": 6.228
+      }
+    },
+    "StarBRB_38.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 38.0,
+        "KELASTIC": 37613.6939972532,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.670002051977,
+        "TOTALWEIGHT": 6.264
+      }
+    },
+    "StarBRB_38.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 38.5,
+        "KELASTIC": 37782.8509034488,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.519168694216,
+        "TOTALWEIGHT": 6.264
+      }
+    },
+    "StarBRB_39.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 39.0,
+        "KELASTIC": 37952.0953984566,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.868335336454,
+        "TOTALWEIGHT": 6.3
+      }
+    },
+    "StarBRB_39.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 39.5,
+        "KELASTIC": 38121.4275503237,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.717501978692,
+        "TOTALWEIGHT": 6.3
+      }
+    },
+    "StarBRB_40.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 40.0,
+        "KELASTIC": 38290.8474271682,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.566668620931,
+        "TOTALWEIGHT": 6.354
+      }
+    },
+    "StarBRB_40.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 40.5,
+        "KELASTIC": 38460.3550971784,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.415835263169,
+        "TOTALWEIGHT": 6.354
+      }
+    },
+    "StarBRB_41.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 41.0,
+        "KELASTIC": 38629.9506286136,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.265001905408,
+        "TOTALWEIGHT": 6.39
+      }
+    },
+    "StarBRB_41.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 41.5,
+        "KELASTIC": 38799.6340898035,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 101.114168547646,
+        "TOTALWEIGHT": 6.39
+      }
+    },
+    "StarBRB_42.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 42.0,
+        "KELASTIC": 38235.4098869702,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 102.963335189884,
+        "TOTALWEIGHT": 6.444
+      }
+    },
+    "StarBRB_42.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 42.5,
+        "KELASTIC": 38398.9175806459,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 102.812501832123,
+        "TOTALWEIGHT": 6.444
+      }
+    },
+    "StarBRB_43.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 43.0,
+        "KELASTIC": 38562.4832497128,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 102.661668474361,
+        "TOTALWEIGHT": 6.498
+      }
+    },
+    "StarBRB_43.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 43.5,
+        "KELASTIC": 39479.2486011927,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 104.510835116599,
+        "TOTALWEIGHT": 6.516
+      }
+    },
+    "StarBRB_44.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 44.0,
+        "KELASTIC": 39649.3727385895,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 104.360001758838,
+        "TOTALWEIGHT": 6.516
+      }
+    },
+    "StarBRB_44.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 44.5,
+        "KELASTIC": 39819.5852172122,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 104.209168401076,
+        "TOTALWEIGHT": 6.552
+      }
+    },
+    "StarBRB_45.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 45.0,
+        "KELASTIC": 39989.8861058888,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 104.058335043314,
+        "TOTALWEIGHT": 6.57
+      }
+    },
+    "StarBRB_45.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 45.5,
+        "KELASTIC": 40160.2754735188,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 103.907501685553,
+        "TOTALWEIGHT": 6.57
+      }
+    },
+    "StarBRB_46.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 46.0,
+        "KELASTIC": 40330.7533890732,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 103.756668327791,
+        "TOTALWEIGHT": 6.606
+      }
+    },
+    "StarBRB_46.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 46.5,
+        "KELASTIC": 40139.6494468921,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 106.60583497003,
+        "TOTALWEIGHT": 6.624
+      }
+    },
+    "StarBRB_47.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 47.0,
+        "KELASTIC": 40307.2641181335,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 106.455001612268,
+        "TOTALWEIGHT": 6.624
+      }
+    },
+    "StarBRB_47.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 47.5,
+        "KELASTIC": 40089.9004729994,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 105.804168254506,
+        "TOTALWEIGHT": 6.66
+      }
+    },
+    "StarBRB_48.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 48.0,
+        "KELASTIC": 40254.4809947734,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 105.653334896745,
+        "TOTALWEIGHT": 6.732
+      }
+    },
+    "StarBRB_48.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 48.5,
+        "KELASTIC": 40419.1217640733,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 105.502501538983,
+        "TOTALWEIGHT": 6.732
+      }
+    },
+    "StarBRB_49.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 49.0,
+        "KELASTIC": 40583.8228139871,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 105.351668181221,
+        "TOTALWEIGHT": 6.786
+      }
+    },
+    "StarBRB_49.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 49.5,
+        "KELASTIC": 40406.704695142,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 108.20083482346,
+        "TOTALWEIGHT": 6.786
+      }
+    },
+    "StarBRB_50.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 50.0,
+        "KELASTIC": 40568.7668088614,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 108.050001465698,
+        "TOTALWEIGHT": 6.84
+      }
+    },
+    "StarBRB_50.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 50.5,
+        "KELASTIC": 40730.8772868441,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 107.899168107937,
+        "TOTALWEIGHT": 6.858
+      }
+    },
+    "StarBRB_51.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 51.0,
+        "KELASTIC": 40893.0361507433,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 107.748334750175,
+        "TOTALWEIGHT": 6.912
+      }
+    },
+    "StarBRB_51.5": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 51.5,
+        "KELASTIC": 41055.2434222253,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 108.097501392413,
+        "TOTALWEIGHT": 6.912
+      }
+    },
+    "StarBRB_52.0": {
+      "type": "BUCKLING_RESTRAINED_BRACE",
+      "edi_std": null,
+      "designation": "RB",
+      "properties": {
+        "D": 16.0,
+        "B": 12.0,
+        "AREACORE": 52.0,
+        "KELASTIC": 41217.4991229692,
+        "LENGTHCORE": 168.0,
+        "LENGTHELASTIC": 107.946668034652,
+        "TOTALWEIGHT": 6.984
+      }
+    }
+  }
+}

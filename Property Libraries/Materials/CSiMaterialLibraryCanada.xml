@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<propertyFile xmlns="http://www.csiamerica.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiamerica.com CSiMaterialLibrary.xsd">
+
+  <!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+  <control lengthUnits="mm" forceUnits="N">
+    <fileID>CSI Material Library for Canada</fileID>
+    <fileVersion>1.0</fileVersion>
+    <fileDescription>Built-in Material Property templates for Canada</fileDescription>
+  </control>
+  <region name="Canada" lengthUnits="mm" forceUnits="N">
+    <collection type="Materials">
+      <standard name="CSA G40.20-13/G40.21-13" isDefaultSteel="true">
+        <!-- STEEL MATERIALS -->
+	    <material type="Steel" grade="Grade 260W [Plate (t&lt;=65mm), Rolled]" name="G40-260W [Plate (t&lt;=65mm), Rolled]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>260</minimumYieldStress>
+	    	<minimumTensileStress>410</minimumTensileStress>
+	    	<effectiveYieldStress>286</effectiveYieldStress>
+	    	<effectiveTensileStress>451</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 300W [Plate (t&lt;=65mm), Rolled]" name="G40-300W [Plate (t&lt;=65mm), Rolled]" isDefault="true">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>300</minimumYieldStress>
+	    	<minimumTensileStress>440</minimumTensileStress>
+	    	<effectiveYieldStress>330</effectiveYieldStress>
+	    	<effectiveTensileStress>484</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 345WM [Plate, Rolled]" name="G40-345WM [Plate, Rolled]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>345</minimumYieldStress>
+	    	<minimumTensileStress>450</minimumTensileStress>
+	    	<effectiveYieldStress>379.5</effectiveYieldStress>
+	    	<effectiveTensileStress>495</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 350W [Plate (t&lt;=65mm), Rolled]" name="G40-350W [Plate (t&lt;=65mm), Rolled]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>350</minimumYieldStress>
+	    	<minimumTensileStress>450</minimumTensileStress>
+	    	<effectiveYieldStress>385</effectiveYieldStress>
+	    	<effectiveTensileStress>495</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 380W [Plate (t&lt;=65mm), Rolled]" name="G40-380W [Plate (t&lt;=65mm), Rolled]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>380</minimumYieldStress>
+	    	<minimumTensileStress>480</minimumTensileStress>
+	    	<effectiveYieldStress>418</effectiveYieldStress>
+	    	<effectiveTensileStress>528</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 400W [Plate (t&lt;=65mm), Rolled]" name="G40-400W [Plate (t&lt;=65mm), Rolled]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>400</minimumYieldStress>
+	    	<minimumTensileStress>520</minimumTensileStress>
+	    	<effectiveYieldStress>440</effectiveYieldStress>
+	    	<effectiveTensileStress>572</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 450W [Plate (t&lt;=65mm)]" name="G40-450W [Plate (t&lt;=65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>450</minimumYieldStress>
+	    	<minimumTensileStress>550</minimumTensileStress>
+	    	<effectiveYieldStress>495</effectiveYieldStress>
+	    	<effectiveTensileStress>605</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 480W [Plate (t&lt;=65mm), Rolled]" name="G40-480W [Plate (t&lt;=65mm), Rolled]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>480</minimumYieldStress>
+	    	<minimumTensileStress>590</minimumTensileStress>
+	    	<effectiveYieldStress>528</effectiveYieldStress>
+	    	<effectiveTensileStress>649</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 550W [Plate (t&lt;=65mm)]" name="G40-550W [Plate (t&lt;=65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>550</minimumYieldStress>
+	    	<minimumTensileStress>620</minimumTensileStress>
+	    	<effectiveYieldStress>605</effectiveYieldStress>
+	    	<effectiveTensileStress>682</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 260W [Plate (t&gt;65mm)]" name="G40-260W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>250</minimumYieldStress>
+	    	<minimumTensileStress>410</minimumTensileStress>
+	    	<effectiveYieldStress>275</effectiveYieldStress>
+	    	<effectiveTensileStress>451</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 300W [Plate (t&gt;65mm)]" name="G40-300W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>280</minimumYieldStress>
+	    	<minimumTensileStress>440</minimumTensileStress>
+	    	<effectiveYieldStress>308</effectiveYieldStress>
+	    	<effectiveTensileStress>484</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 350W [Plate (t&gt;65mm)]" name="G40-350W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>320</minimumYieldStress>
+	    	<minimumTensileStress>450</minimumTensileStress>
+	    	<effectiveYieldStress>352</effectiveYieldStress>
+	    	<effectiveTensileStress>495</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 380W [Plate (t&gt;65mm)]" name="G40-380W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>350</minimumYieldStress>
+	    	<minimumTensileStress>480</minimumTensileStress>
+	    	<effectiveYieldStress>385</effectiveYieldStress>
+	    	<effectiveTensileStress>528</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 400W [Plate (t&gt;65mm)]" name="G40-400W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>370</minimumYieldStress>
+	    	<minimumTensileStress>520</minimumTensileStress>
+	    	<effectiveYieldStress>407</effectiveYieldStress>
+	    	<effectiveTensileStress>572</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 450W [Plate (t&gt;65mm)]" name="G40-450W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>420</minimumYieldStress>
+	    	<minimumTensileStress>550</minimumTensileStress>
+	    	<effectiveYieldStress>462</effectiveYieldStress>
+	    	<effectiveTensileStress>605</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 480W [Plate (t&gt;65mm)]" name="G40-480W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>450</minimumYieldStress>
+	    	<minimumTensileStress>590</minimumTensileStress>
+	    	<effectiveYieldStress>495</effectiveYieldStress>
+	    	<effectiveTensileStress>649</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 550W [Plate (t&gt;65mm)]" name="G40-550W [Plate (t&gt;65mm)]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>520</minimumYieldStress>
+	    	<minimumTensileStress>620</minimumTensileStress>
+	    	<effectiveYieldStress>572</effectiveYieldStress>
+	    	<effectiveTensileStress>682</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 300W [HSS]" name="G40-300W [HSS]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>300</minimumYieldStress>
+	    	<minimumTensileStress>410</minimumTensileStress>
+	    	<effectiveYieldStress>330</effectiveYieldStress>
+	    	<effectiveTensileStress>451</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 350W [HSS]" name="G40-350W [HSS]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>350</minimumYieldStress>
+	    	<minimumTensileStress>450</minimumTensileStress>
+	    	<effectiveYieldStress>385</effectiveYieldStress>
+	    	<effectiveTensileStress>495</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 380W [HSS]" name="G40-380W [HSS]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>380</minimumYieldStress>
+	    	<minimumTensileStress>480</minimumTensileStress>
+	    	<effectiveYieldStress>418</effectiveYieldStress>
+	    	<effectiveTensileStress>528</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 400W [HSS]" name="G40-400W [HSS]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>400</minimumYieldStress>
+	    	<minimumTensileStress>520</minimumTensileStress>
+	    	<effectiveYieldStress>440</effectiveYieldStress>
+	    	<effectiveTensileStress>572</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 480W [HSS]" name="G40-480W [HSS]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>480</minimumYieldStress>
+	    	<minimumTensileStress>590</minimumTensileStress>
+	    	<effectiveYieldStress>528</effectiveYieldStress>
+	    	<effectiveTensileStress>649</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+	    <material type="Steel" grade="Grade 550W [HSS]" name="G40-550W [HSS]">
+	    	<weightDensity>0.0000769822027248153</weightDensity>
+	    	<massDensity>0.00000000785</massDensity>
+	    	<modulusOfElasticity>200000</modulusOfElasticity>
+	    	<poissonsRatio>0.3</poissonsRatio>
+	    	<coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+	    	<minimumYieldStress>550</minimumYieldStress>
+	    	<minimumTensileStress>620</minimumTensileStress>
+	    	<effectiveYieldStress>605</effectiveYieldStress>
+	    	<effectiveTensileStress>682</effectiveTensileStress>
+	    	<strainAtHardening>0.015</strainAtHardening>
+	    	<strainAtMaxStress>0.11</strainAtMaxStress>
+	    	<strainAtRupture>0.17</strainAtRupture>
+	    </material>
+      </standard>
+      <standard name="CSA A23.3" isDefaultConcrete="true">
+        <!-- CONCRETE MATERIALS-->
+        <material type="concrete" grade="f’c 20MPa" name="CSA A23-20MPa">
+          <weightDensity>0.000023535960068733362</weightDensity>
+          <massDensity>0.000000002400</massDensity>
+          <modulusOfElasticity>23085.0000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>20</compressiveStrength>
+          <strainAtfc>0.00063164</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+		  <material type="concrete" grade="f’c 25MPa" name="CSA A23-25MPa">
+			  <weightDensity>0.000023535960068733362</weightDensity>
+			  <massDensity>0.000000002400</massDensity>
+			  <modulusOfElasticity>24942.0000</modulusOfElasticity>
+			  <poissonsRatio>0.2</poissonsRatio>
+			  <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+			  <compressiveStrength>25</compressiveStrength>
+			  <strainAtfc>0.00063164</strainAtfc>
+			  <strainAtUltimate>0.005</strainAtUltimate>
+			  <isLightWeight>false</isLightWeight>
+			  <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+		  </material>
+
+		  <material type="concrete" grade="f’c 30MPa" name="CSA A23-30MPa" isDefault="true">
+			  <weightDensity>0.000023535960068733362</weightDensity>
+			  <massDensity>0.000000002400</massDensity>
+			  <modulusOfElasticity>26621.0000</modulusOfElasticity>
+			  <poissonsRatio>0.2</poissonsRatio>
+			  <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+			  <compressiveStrength>30</compressiveStrength>
+			  <strainAtfc>0.00063164</strainAtfc>
+			  <strainAtUltimate>0.005</strainAtUltimate>
+			  <isLightWeight>false</isLightWeight>
+			  <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+		  </material>
+
+		  <material type="concrete" grade="f’c 35MPa" name="CSA A23-35MPa">
+			  <weightDensity>0.000023535960068733362</weightDensity>
+			  <massDensity>0.000000002400</massDensity>
+			  <modulusOfElasticity>28164.0000</modulusOfElasticity>
+			  <poissonsRatio>0.2</poissonsRatio>
+			  <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+			  <compressiveStrength>35</compressiveStrength>
+			  <strainAtfc>0.00063164</strainAtfc>
+			  <strainAtUltimate>0.005</strainAtUltimate>
+			  <isLightWeight>false</isLightWeight>
+			  <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+		  </material>
+
+		  <material type="concrete" grade="f’c 40MPa" name="CSA A23-40MPa">
+			  <weightDensity>0.000023535960068733362</weightDensity>
+			  <massDensity>0.000000002400</massDensity>
+			  <modulusOfElasticity>29601.0000</modulusOfElasticity>
+			  <poissonsRatio>0.2</poissonsRatio>
+			  <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+			  <compressiveStrength>40</compressiveStrength>
+			  <strainAtfc>0.00063164</strainAtfc>
+			  <strainAtUltimate>0.005</strainAtUltimate>
+			  <isLightWeight>false</isLightWeight>
+			  <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+		  </material>
+	  
+      </standard>
+      <standard name="CSA G30.18:21" isDefaultRebar="true">
+        <!--REBAR-->
+        <material type="rebar" grade="Grade 400W" name="G30-400W" isDefault="true">
+          <weightDensity>0.00007698220272481538</weightDensity>
+          <massDensity>0.000000007850</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+          <minimumYieldStress>400</minimumYieldStress>
+          <minimumTensileStress>540</minimumTensileStress>
+          <expectedYieldStress>440</expectedYieldStress>
+          <expectedTensileStress>594</expectedTensileStress>
+          <strainAtHardening>0.0225</strainAtHardening>
+          <strainAtUltimate>0.0675</strainAtUltimate>
+        </material>
+	  
+        <material type="rebar" grade="Grade 400R" name="G30-400R">
+          <weightDensity>0.00007698220272481538</weightDensity>
+          <massDensity>0.000000007850</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+          <minimumYieldStress>400</minimumYieldStress>
+          <minimumTensileStress>540</minimumTensileStress>
+          <expectedYieldStress>440</expectedYieldStress>
+          <expectedTensileStress>594</expectedTensileStress>
+          <strainAtHardening>0.0225</strainAtHardening>
+          <strainAtUltimate>0.0675</strainAtUltimate>
+        </material>
+
+	    <material type="rebar" grade="Grade 500W" name="G30-500W">
+          <weightDensity>0.00007698220272481538</weightDensity>
+          <massDensity>0.000000007850</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+          <minimumYieldStress>500</minimumYieldStress>
+          <minimumTensileStress>625</minimumTensileStress>
+          <expectedYieldStress>550</expectedYieldStress>
+          <expectedTensileStress>687.5</expectedTensileStress>
+          <strainAtHardening>0.0225</strainAtHardening>
+          <strainAtUltimate>0.0675</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="Grade 500R" name="G30-500R">
+          <weightDensity>0.00007698220272481538</weightDensity>
+          <massDensity>0.000000007850</massDensity>
+          <modulusOfElasticity>200000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.0000117</coefficientOfThermalExpansion>
+          <minimumYieldStress>500</minimumYieldStress>
+          <minimumTensileStress>675</minimumTensileStress>
+          <expectedYieldStress>550</expectedYieldStress>
+          <expectedTensileStress>742.5</expectedTensileStress>
+          <strainAtHardening>0.0225</strainAtHardening>
+          <strainAtUltimate>0.0675</strainAtUltimate>
+        </material>
+
+      </standard>
+    </collection>
+  </region>
+</propertyFile>

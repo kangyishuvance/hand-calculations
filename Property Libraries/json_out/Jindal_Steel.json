@@ -1,0 +1,2988 @@
+{
+  "meta": {
+    "source_file": "Jindal_Steel.xml",
+    "source_format": "CSI/ETABS XML",
+    "length_units_in_source": "",
+    "converted_to_mm_basis": true,
+    "note": "If converted_to_mm_basis is true: lengths=mm, areas=mm^2, section moduli=mm^3, inertias/torsion constants=mm^4.",
+    "control": {}
+  },
+  "sections_by_label": {
+    "HEAA320": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEAA320",
+      "designation": "HE",
+      "properties": {
+        "A": 9456.857143,
+        "D": 301.0,
+        "BF": 300.0,
+        "TW": 8.0,
+        "TF": 11.0,
+        "Iy": 164473300.2,
+        "Zy": 1196064.949,
+        "Iz": 49539009.22,
+        "Zz": 505741.6356
+      }
+    },
+    "HEA320": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEA320",
+      "designation": "HE",
+      "properties": {
+        "A": 12435.85714,
+        "D": 310.0,
+        "BF": 300.0,
+        "TW": 9.0,
+        "TF": 15.5,
+        "Iy": 229285578.5,
+        "Zy": 1627946.075,
+        "Iz": 69796853.81,
+        "Zz": 709740.2724
+      }
+    },
+    "HEB320": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEB320",
+      "designation": "HE",
+      "properties": {
+        "A": 16133.35714,
+        "D": 320.0,
+        "BF": 300.0,
+        "TW": 11.5,
+        "TF": 20.5,
+        "Iy": 308235086.6,
+        "Zy": 2149092.118,
+        "Iz": 92323632.12,
+        "Zz": 939097.1769
+      }
+    },
+    "HEM320": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEM320",
+      "designation": "HE",
+      "properties": {
+        "A": 31203.85714,
+        "D": 359.0,
+        "BF": 309.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 681348172.5,
+        "Zy": 4434861.622,
+        "Iz": 196994080.0,
+        "Zz": 1950724.914
+      }
+    },
+    "HEAA600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEAA600",
+      "designation": "HE",
+      "properties": {
+        "A": 16404.85714,
+        "D": 571.0,
+        "BF": 300.0,
+        "TW": 12.0,
+        "TF": 15.5,
+        "Iy": 918718628.7,
+        "Zy": 3622797.682,
+        "Iz": 69867939.88,
+        "Zz": 724469.1828
+      }
+    },
+    "HEA600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEA600",
+      "designation": "HE",
+      "properties": {
+        "A": 22644.85714,
+        "D": 590.0,
+        "BF": 300.0,
+        "TW": 13.0,
+        "TF": 25.0,
+        "Iy": 1412080354.0,
+        "Zy": 5350113.976,
+        "Iz": 112643095.8,
+        "Zz": 1155657.07
+      }
+    },
+    "HEB600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEB600",
+      "designation": "HE",
+      "properties": {
+        "A": 26994.85714,
+        "D": 600.0,
+        "BF": 300.0,
+        "TW": 15.5,
+        "TF": 30.0,
+        "Iy": 1710410354.0,
+        "Zy": 6424859.394,
+        "Iz": 135223301.2,
+        "Zz": 1391058.037
+      }
+    },
+    "HEM600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEM600",
+      "designation": "HE",
+      "properties": {
+        "A": 36364.85714,
+        "D": 620.0,
+        "BF": 305.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 2374474687.0,
+        "Zy": 8771800.229,
+        "Iz": 189655480.1,
+        "Zz": 1930380.164
+      }
+    },
+    "HEAA700": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEAA700",
+      "designation": "HE",
+      "properties": {
+        "A": 19092.85714,
+        "D": 670.0,
+        "BF": 300.0,
+        "TW": 13.0,
+        "TF": 17.0,
+        "Iy": 1427205176.0,
+        "Zy": 4839826.45,
+        "Iz": 76660671.77,
+        "Zz": 799713.0696
+      }
+    },
+    "HEA700": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEA700",
+      "designation": "HE",
+      "properties": {
+        "A": 26046.85714,
+        "D": 690.0,
+        "BF": 300.0,
+        "TW": 14.5,
+        "TF": 27.0,
+        "Iy": 2153012608.0,
+        "Zy": 7031503.286,
+        "Iz": 121712470.9,
+        "Zz": 1256741.15
+      }
+    },
+    "HEB700": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEB700",
+      "designation": "HE",
+      "properties": {
+        "A": 30636.85714,
+        "D": 700.0,
+        "BF": 300.0,
+        "TW": 17.0,
+        "TF": 32.0,
+        "Iy": 2568883328.0,
+        "Zy": 8326808.704,
+        "Iz": 144323952.2,
+        "Zz": 1495044.617
+      }
+    },
+    "HEM700": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEM700",
+      "designation": "HE",
+      "properties": {
+        "A": 38300.85714,
+        "D": 716.0,
+        "BF": 304.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 3292779626.0,
+        "Zy": 10538657.37,
+        "Iz": 187875161.4,
+        "Zz": 1928784.164
+      }
+    },
+    "HEAA800": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEAA800",
+      "designation": "HE",
+      "properties": {
+        "A": 21847.42857,
+        "D": 770.0,
+        "BF": 300.0,
+        "TW": 14.0,
+        "TF": 18.0,
+        "Iy": 2088821026.0,
+        "Zy": 6224362.223,
+        "Iz": 81232451.59,
+        "Zz": 856551.6171
+      }
+    },
+    "HEA800": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEA800",
+      "designation": "HE",
+      "properties": {
+        "A": 28581.42857,
+        "D": 790.0,
+        "BF": 300.0,
+        "TW": 15.0,
+        "TF": 28.0,
+        "Iy": 3034424935.0,
+        "Zy": 8699039.909,
+        "Iz": 126276821.4,
+        "Zz": 1312259.397
+      }
+    },
+    "HEB800": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEB800",
+      "designation": "HE",
+      "properties": {
+        "A": 33416.42857,
+        "D": 800.0,
+        "BF": 300.0,
+        "TW": 17.5,
+        "TF": 33.0,
+        "Iy": 3590834707.0,
+        "Zy": 10228256.75,
+        "Iz": 148914323.1,
+        "Zz": 1553134.472
+      }
+    },
+    "HEM800": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEM800",
+      "designation": "HE",
+      "properties": {
+        "A": 40425.42857,
+        "D": 814.0,
+        "BF": 303.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 4425978547.0,
+        "Zy": 12487240.33,
+        "Iz": 186133782.2,
+        "Zz": 1930393.077
+      }
+    },
+    "HE800X373": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HE800X373",
+      "designation": "HE",
+      "properties": {
+        "A": 47457.42857,
+        "D": 826.0,
+        "BF": 308.0,
+        "TW": 25.0,
+        "TF": 46.0,
+        "Iy": 5239063803.0,
+        "Zy": 14696149.54,
+        "Iz": 225110620.3,
+        "Zz": 2311394.197
+      }
+    },
+    "HEAA900": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEAA900",
+      "designation": "HE",
+      "properties": {
+        "A": 25221.42857,
+        "D": 870.0,
+        "BF": 300.0,
+        "TW": 15.0,
+        "TF": 20.0,
+        "Iy": 3011449408.0,
+        "Zy": 7998317.531,
+        "Iz": 90303821.41,
+        "Zz": 957659.3971
+      }
+    },
+    "HEA900": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEA900",
+      "designation": "HE",
+      "properties": {
+        "A": 32051.42857,
+        "D": 890.0,
+        "BF": 300.0,
+        "TW": 16.0,
+        "TF": 30.0,
+        "Iy": 4220748325.0,
+        "Zy": 10810531.22,
+        "Iz": 135359850.5,
+        "Zz": 1414478.177
+      }
+    },
+    "HEB900": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEB900",
+      "designation": "HE",
+      "properties": {
+        "A": 37126.42857,
+        "D": 900.0,
+        "BF": 300.0,
+        "TW": 18.5,
+        "TF": 35.0,
+        "Iy": 4940645617.0,
+        "Zy": 12583588.06,
+        "Iz": 158031571.0,
+        "Zz": 1658340.752
+      }
+    },
+    "HEM900": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "HEM900",
+      "designation": "HE",
+      "properties": {
+        "A": 42360.0,
+        "D": 910.0,
+        "BF": 302.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 5990233742.0,
+        "Zy": 15474594.9,
+        "Iz": 185155258.4,
+        "Zz": 1990954.757
+      }
+    },
+    "IPEA300": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA300",
+      "designation": "IPE",
+      "properties": {
+        "A": 4652.317143,
+        "D": 297.0,
+        "BF": 150.0,
+        "TW": 6.1,
+        "TF": 9.2,
+        "Iy": 71734909.11,
+        "Zy": 541746.5746,
+        "Iz": 5183858.016,
+        "Zz": 107327.9656
+      }
+    },
+    "IPE300": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE300",
+      "designation": "IPE",
+      "properties": {
+        "A": 5380.917143,
+        "D": 300.0,
+        "BF": 150.0,
+        "TW": 7.1,
+        "TF": 10.7,
+        "Iy": 83561026.92,
+        "Zy": 628313.1403,
+        "Iz": 6031328.283,
+        "Zz": 125218.9156
+      }
+    },
+    "IPEO300": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO300",
+      "designation": "IPE",
+      "properties": {
+        "A": 6282.457143,
+        "D": 304.0,
+        "BF": 152.0,
+        "TW": 8.0,
+        "TF": 12.7,
+        "Iy": 99942004.25,
+        "Zy": 743775.6356,
+        "Iz": 7450177.676,
+        "Zz": 152587.7721
+      }
+    },
+    "IPEA360": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA360",
+      "designation": "IPE",
+      "properties": {
+        "A": 6396.074286,
+        "D": 357.6,
+        "BF": 170.0,
+        "TW": 6.6,
+        "TF": 11.5,
+        "Iy": 145154472.2,
+        "Zy": 906693.3473,
+        "Iz": 9431201.658,
+        "Zz": 171854.9779
+      }
+    },
+    "IPE360": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE360",
+      "designation": "IPE",
+      "properties": {
+        "A": 7272.514286,
+        "D": 360.0,
+        "BF": 170.0,
+        "TW": 8.0,
+        "TF": 12.7,
+        "Iy": 162656174.4,
+        "Zy": 1019073.065,
+        "Iz": 10421569.76,
+        "Zz": 191099.469
+      }
+    },
+    "IPEO360": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO360",
+      "designation": "IPE",
+      "properties": {
+        "A": 8412.834286,
+        "D": 364.0,
+        "BF": 172.0,
+        "TW": 9.2,
+        "TF": 14.7,
+        "Iy": 190474580.7,
+        "Zy": 1186008.818,
+        "Iz": 12498029.85,
+        "Zz": 226920.2779
+      }
+    },
+    "IPEA400": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA400",
+      "designation": "IPE",
+      "properties": {
+        "A": 7309.0,
+        "D": 397.0,
+        "BF": 180.0,
+        "TW": 7.0,
+        "TF": 12.0,
+        "Iy": 202925702.1,
+        "Zy": 1143790.147,
+        "Iz": 11685744.18,
+        "Zz": 202070.1405
+      }
+    },
+    "IPE400": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE400",
+      "designation": "IPE",
+      "properties": {
+        "A": 8445.8,
+        "D": 400.0,
+        "BF": 180.0,
+        "TW": 8.6,
+        "TF": 13.5,
+        "Iy": 231283456.0,
+        "Zy": 1307035.915,
+        "Iz": 13155350.83,
+        "Zz": 229000.504
+      }
+    },
+    "IPEO400": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO400",
+      "designation": "IPE",
+      "properties": {
+        "A": 9638.1,
+        "D": 404.0,
+        "BF": 182.0,
+        "TW": 9.7,
+        "TF": 15.5,
+        "Iy": 267470159.6,
+        "Zy": 1502058.782,
+        "Iz": 15617747.77,
+        "Zz": 269096.8315
+      }
+    },
+    "IPEA450": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA450",
+      "designation": "IPE",
+      "properties": {
+        "A": 8554.08,
+        "D": 447.0,
+        "BF": 190.0,
+        "TW": 7.6,
+        "TF": 13.1,
+        "Iy": 297588013.5,
+        "Zy": 1494163.103,
+        "Iz": 15002839.13,
+        "Zz": 245745.8088
+      }
+    },
+    "IPE450": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE450",
+      "designation": "IPE",
+      "properties": {
+        "A": 9881.52,
+        "D": 450.0,
+        "BF": 190.0,
+        "TW": 9.4,
+        "TF": 14.6,
+        "Iy": 337429141.0,
+        "Zy": 1701667.46,
+        "Iz": 16734369.68,
+        "Zz": 276380.6278
+      }
+    },
+    "IPEO450": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO450",
+      "designation": "IPE",
+      "properties": {
+        "A": 11765.2,
+        "D": 456.0,
+        "BF": 192.0,
+        "TW": 11.0,
+        "TF": 17.6,
+        "Iy": 409233958.1,
+        "Zy": 2046136.532,
+        "Iz": 20826713.39,
+        "Zz": 340990.3993
+      }
+    },
+    "IPEA500": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA500",
+      "designation": "IPE",
+      "properties": {
+        "A": 10109.2,
+        "D": 497.0,
+        "BF": 200.0,
+        "TW": 8.4,
+        "TF": 14.5,
+        "Iy": 429334091.9,
+        "Zy": 1945868.411,
+        "Iz": 19369690.19,
+        "Zz": 301621.3986
+      }
+    },
+    "IPE500": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE500",
+      "designation": "IPE",
+      "properties": {
+        "A": 11551.6,
+        "D": 500.0,
+        "BF": 200.0,
+        "TW": 10.2,
+        "TF": 16.0,
+        "Iy": 481985026.7,
+        "Zy": 2193978.379,
+        "Iz": 21391282.57,
+        "Zz": 335879.2576
+      }
+    },
+    "IPEO500": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO500",
+      "designation": "IPE",
+      "properties": {
+        "A": 13670.0,
+        "D": 506.0,
+        "BF": 202.0,
+        "TW": 12.0,
+        "TF": 19.0,
+        "Iy": 577772608.9,
+        "Zy": 2612843.516,
+        "Iz": 26188846.78,
+        "Zz": 408533.2765
+      }
+    },
+    "IPEA600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA600",
+      "designation": "IPE",
+      "properties": {
+        "A": 13701.31429,
+        "D": 597.0,
+        "BF": 220.0,
+        "TW": 9.8,
+        "TF": 17.5,
+        "Iy": 829188025.5,
+        "Zy": 3140962.861,
+        "Iz": 31123677.73,
+        "Zz": 442067.3491
+      }
+    },
+    "IPE600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE600",
+      "designation": "IPE",
+      "properties": {
+        "A": 15597.71429,
+        "D": 600.0,
+        "BF": 220.0,
+        "TW": 12.0,
+        "TF": 19.0,
+        "Iy": 920833980.7,
+        "Zy": 3512180.975,
+        "Iz": 33828697.9,
+        "Zz": 485649.6113
+      }
+    },
+    "IPEO600": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO600",
+      "designation": "IPE",
+      "properties": {
+        "A": 19675.71429,
+        "D": 610.0,
+        "BF": 224.0,
+        "TW": 15.0,
+        "TF": 24.0,
+        "Iy": 1183020620.0,
+        "Zy": 4470816.355,
+        "Iz": 45155205.48,
+        "Zz": 640083.7689
+      }
+    },
+    "IPEA100X55X6.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA100X55X6.9",
+      "designation": "IPE",
+      "properties": {
+        "A": 877.96,
+        "D": 98.0,
+        "BF": 55.0,
+        "TW": 3.6,
+        "TF": 4.7,
+        "Iy": 1411603.293,
+        "Zy": 32977.54855,
+        "Iz": 130915.7965,
+        "Zz": 7537.30081
+      }
+    },
+    "IPE100X55X8.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE100X55X8.1",
+      "designation": "IPE",
+      "properties": {
+        "A": 1032.26,
+        "D": 100.0,
+        "BF": 55.0,
+        "TW": 4.1,
+        "TF": 5.7,
+        "Iy": 1710119.395,
+        "Zy": 39403.73195,
+        "Iz": 158854.5357,
+        "Zz": 9145.59371
+      }
+    },
+    "IPEA120X64X8.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA120X64X8.7",
+      "designation": "IPE",
+      "properties": {
+        "A": 1102.92,
+        "D": 117.6,
+        "BF": 64.0,
+        "TW": 3.8,
+        "TF": 5.1,
+        "Iy": 2573615.302,
+        "Zy": 49867.33191,
+        "Iz": 223575.1829,
+        "Zz": 10978.20697
+      }
+    },
+    "IPE120X64X10.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE120X64X10.4",
+      "designation": "IPE",
+      "properties": {
+        "A": 1320.96,
+        "D": 120.0,
+        "BF": 64.0,
+        "TW": 4.4,
+        "TF": 6.3,
+        "Iy": 3177531.492,
+        "Zy": 60721.31199,
+        "Iz": 276332.649,
+        "Zz": 13580.52745
+      }
+    },
+    "IPEA140X73X10.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA140X73X10.5",
+      "designation": "IPE",
+      "properties": {
+        "A": 1339.16,
+        "D": 137.4,
+        "BF": 73.0,
+        "TW": 3.8,
+        "TF": 5.6,
+        "Iy": 4348638.603,
+        "Zy": 71594.03711,
+        "Iz": 363921.2824,
+        "Zz": 15522.47497
+      }
+    },
+    "IPE140X73X12.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE140X73X12.9",
+      "designation": "IPE",
+      "properties": {
+        "A": 1642.54,
+        "D": 140.0,
+        "BF": 73.0,
+        "TW": 4.7,
+        "TF": 6.9,
+        "Iy": 5412237.478,
+        "Zy": 88340.03603,
+        "Iz": 448812.0001,
+        "Zz": 19246.61019
+      }
+    },
+    "IPEA160X82X12.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA160X82X12.7",
+      "designation": "IPE",
+      "properties": {
+        "A": 1617.828571,
+        "D": 157.0,
+        "BF": 82.0,
+        "TW": 4.0,
+        "TF": 5.9,
+        "Iy": 6892752.996,
+        "Zy": 99085.33567,
+        "Iz": 543493.4874,
+        "Zz": 20695.45862
+      }
+    },
+    "IPE160X82X15.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE160X82X15.8",
+      "designation": "IPE",
+      "properties": {
+        "A": 2009.028571,
+        "D": 160.0,
+        "BF": 82.0,
+        "TW": 5.0,
+        "TF": 7.4,
+        "Iy": 8692922.28,
+        "Zy": 123851.4429,
+        "Iz": 682245.5639,
+        "Zz": 26099.92382
+      }
+    },
+    "IPEA180X91X15.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA180X91X15.4",
+      "designation": "IPE",
+      "properties": {
+        "A": 1957.628571,
+        "D": 177.0,
+        "BF": 91.0,
+        "TW": 4.3,
+        "TF": 6.5,
+        "Iy": 10627353.32,
+        "Zy": 135316.6331,
+        "Iz": 818043.6757,
+        "Zz": 27960.62818
+      }
+    },
+    "IPE180X91X18.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE180X91X18.8",
+      "designation": "IPE",
+      "properties": {
+        "A": 2394.628571,
+        "D": 180.0,
+        "BF": 91.0,
+        "TW": 5.3,
+        "TF": 8.0,
+        "Iy": 13169581.74,
+        "Zy": 166405.7304,
+        "Iz": 1007566.888,
+        "Zz": 34599.74338
+      }
+    },
+    "IPEO180X92X21.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO180X92X21.3",
+      "designation": "IPE",
+      "properties": {
+        "A": 2709.428571,
+        "D": 182.0,
+        "BF": 92.0,
+        "TW": 6.0,
+        "TF": 9.0,
+        "Iy": 15052329.47,
+        "Zy": 189140.4286,
+        "Iz": 1171903.272,
+        "Zz": 39912.38902
+      }
+    },
+    "IPEA200X100X18.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA200X100X18.4",
+      "designation": "IPE",
+      "properties": {
+        "A": 2346.928571,
+        "D": 197.0,
+        "BF": 100.0,
+        "TW": 4.5,
+        "TF": 7.0,
+        "Iy": 15914659.0,
+        "Zy": 181636.1995,
+        "Iz": 1169434.61,
+        "Zz": 36535.93172
+      }
+    },
+    "IPE200X100X22.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE200X100X22.4",
+      "designation": "IPE",
+      "properties": {
+        "A": 2848.228571,
+        "D": 200.0,
+        "BF": 100.0,
+        "TW": 5.6,
+        "TF": 8.5,
+        "Iy": 19431661.98,
+        "Zy": 220620.4029,
+        "Iz": 1421096.8,
+        "Zz": 44612.1995
+      }
+    },
+    "IPEO200X102X25.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO200X102X25.1",
+      "designation": "IPE",
+      "properties": {
+        "A": 3196.028571,
+        "D": 202.0,
+        "BF": 102.0,
+        "TW": 6.2,
+        "TF": 9.5,
+        "Iy": 22110473.16,
+        "Zy": 249401.0719,
+        "Iz": 1685867.848,
+        "Zz": 51892.19238
+      }
+    },
+    "IPEA220X110X22.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA220X110X22.2",
+      "designation": "IPE",
+      "properties": {
+        "A": 2825.428571,
+        "D": 217.0,
+        "BF": 110.0,
+        "TW": 5.0,
+        "TF": 7.7,
+        "Iy": 23165051.68,
+        "Zy": 240189.1335,
+        "Iz": 1711755.548,
+        "Zz": 48485.39662
+      }
+    },
+    "IPE220X110X26.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE220X110X26.2",
+      "designation": "IPE",
+      "properties": {
+        "A": 3336.868571,
+        "D": 220.0,
+        "BF": 110.0,
+        "TW": 5.9,
+        "TF": 9.2,
+        "Iy": 27718364.68,
+        "Zy": 285385.9379,
+        "Iz": 2046183.92,
+        "Zz": 58110.44494
+      }
+    },
+    "IPEO220X112X29.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO220X112X29.3",
+      "designation": "IPE",
+      "properties": {
+        "A": 3738.788571,
+        "D": 222.0,
+        "BF": 112.0,
+        "TW": 6.6,
+        "TF": 10.2,
+        "Iy": 31340512.51,
+        "Zy": 321128.9249,
+        "Iz": 2395364.145,
+        "Zz": 66909.1083
+      }
+    },
+    "IPEA240X120X26.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA240X120X26.1",
+      "designation": "IPE",
+      "properties": {
+        "A": 3330.937143,
+        "D": 237.0,
+        "BF": 120.0,
+        "TW": 5.2,
+        "TF": 8.3,
+        "Iy": 32904562.37,
+        "Zy": 311537.5053,
+        "Iz": 2396040.883,
+        "Zz": 62399.28014
+      }
+    },
+    "IPE240X120X30.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE240X120X30.7",
+      "designation": "IPE",
+      "properties": {
+        "A": 3911.337143,
+        "D": 240.0,
+        "BF": 120.0,
+        "TW": 6.2,
+        "TF": 9.8,
+        "Iy": 38916214.51,
+        "Zy": 366611.121,
+        "Iz": 2830429.27,
+        "Zz": 73923.99014
+      }
+    },
+    "IPEO240X122X34.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO240X122X34.3",
+      "designation": "IPE",
+      "properties": {
+        "A": 4370.857143,
+        "D": 242.0,
+        "BF": 122.0,
+        "TW": 7.0,
+        "TF": 10.8,
+        "Iy": 43692557.27,
+        "Zy": 410239.9901,
+        "Iz": 3279022.553,
+        "Zz": 84396.70214
+      }
+    },
+    "IPEA270X135X30.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA270X135X30.7",
+      "designation": "IPE",
+      "properties": {
+        "A": 3914.657143,
+        "D": 267.0,
+        "BF": 135.0,
+        "TW": 5.5,
+        "TF": 8.7,
+        "Iy": 49172929.41,
+        "Zy": 412454.9684,
+        "Iz": 3574230.672,
+        "Zz": 82344.69714
+      }
+    },
+    "IPE270X135X36.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE270X135X36.1",
+      "designation": "IPE",
+      "properties": {
+        "A": 4594.217143,
+        "D": 270.0,
+        "BF": 135.0,
+        "TW": 6.6,
+        "TF": 10.2,
+        "Iy": 57897773.32,
+        "Zy": 483958.3381,
+        "Iz": 4192533.874,
+        "Zz": 96950.21814
+      }
+    },
+    "IPEO270X136X42.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO270X136X42.3",
+      "designation": "IPE",
+      "properties": {
+        "A": 5383.257143,
+        "D": 274.0,
+        "BF": 136.0,
+        "TW": 7.5,
+        "TF": 12.2,
+        "Iy": 69470444.32,
+        "Zy": 574609.2684,
+        "Iz": 5128103.56,
+        "Zz": 117707.0871
+      }
+    },
+    "IPEA300X150X36.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEA300X150X36.5",
+      "designation": "IPE",
+      "properties": {
+        "A": 4652.317143,
+        "D": 297.0,
+        "BF": 150.0,
+        "TW": 6.1,
+        "TF": 9.2,
+        "Iy": 71734909.11,
+        "Zy": 541746.5746,
+        "Iz": 5183858.016,
+        "Zz": 107327.9656
+      }
+    },
+    "IPE300X150X42.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPE300X150X42.2",
+      "designation": "IPE",
+      "properties": {
+        "A": 5380.917143,
+        "D": 300.0,
+        "BF": 150.0,
+        "TW": 7.1,
+        "TF": 10.7,
+        "Iy": 83561026.92,
+        "Zy": 628313.1403,
+        "Iz": 6031328.283,
+        "Zz": 125218.9156
+      }
+    },
+    "IPEO300X152X49.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "IPEO300X152X49.3",
+      "designation": "IPE",
+      "properties": {
+        "A": 6282.457143,
+        "D": 304.0,
+        "BF": 152.0,
+        "TW": 8.0,
+        "TF": 12.7,
+        "Iy": 99942004.25,
+        "Zy": 743775.6356,
+        "Iz": 7450177.676,
+        "Zz": 152587.7721
+      }
+    },
+    "NPB300X150X36.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB300X150X36.5",
+      "designation": "NPB",
+      "properties": {
+        "A": 4652.317143,
+        "D": 297.0,
+        "BF": 150.0,
+        "TW": 6.1,
+        "TF": 9.2,
+        "Iy": 71734909.11,
+        "Zy": 541746.5746,
+        "Iz": 5183858.016,
+        "Zz": 107327.9656
+      }
+    },
+    "NPB300X150X42.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB300X150X42.2",
+      "designation": "NPB",
+      "properties": {
+        "A": 5380.917143,
+        "D": 300.0,
+        "BF": 150.0,
+        "TW": 7.1,
+        "TF": 10.7,
+        "Iy": 83561026.92,
+        "Zy": 628313.1403,
+        "Iz": 6031328.283,
+        "Zz": 125218.9156
+      }
+    },
+    "NPB300X150X49.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB300X150X49.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 6282.457143,
+        "D": 304.0,
+        "BF": 152.0,
+        "TW": 8.0,
+        "TF": 12.7,
+        "Iy": 99942004.25,
+        "Zy": 743775.6356,
+        "Iz": 7450177.676,
+        "Zz": 152587.7721
+      }
+    },
+    "NPB350X170X50.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB350X170X50.2",
+      "designation": "NPB",
+      "properties": {
+        "A": 6396.074286,
+        "D": 357.6,
+        "BF": 170.0,
+        "TW": 6.6,
+        "TF": 11.5,
+        "Iy": 145154472.2,
+        "Zy": 906693.3473,
+        "Iz": 9431201.658,
+        "Zz": 171854.9779
+      }
+    },
+    "NPB350X170X57.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB350X170X57.1",
+      "designation": "NPB",
+      "properties": {
+        "A": 7272.514286,
+        "D": 360.0,
+        "BF": 170.0,
+        "TW": 8.0,
+        "TF": 12.7,
+        "Iy": 162656174.4,
+        "Zy": 1019073.065,
+        "Iz": 10421569.76,
+        "Zz": 191099.469
+      }
+    },
+    "NPB350X170X66": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB350X170X66",
+      "designation": "NPB",
+      "properties": {
+        "A": 8412.834286,
+        "D": 364.0,
+        "BF": 172.0,
+        "TW": 9.2,
+        "TF": 14.7,
+        "Iy": 190474580.7,
+        "Zy": 1186008.818,
+        "Iz": 12498029.85,
+        "Zz": 226920.2779
+      }
+    },
+    "NPB400X180X57.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB400X180X57.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 7309.0,
+        "D": 397.0,
+        "BF": 180.0,
+        "TW": 7.0,
+        "TF": 12.0,
+        "Iy": 202925702.1,
+        "Zy": 1143790.147,
+        "Iz": 11685744.18,
+        "Zz": 202070.1405
+      }
+    },
+    "NPB400X180X66.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB400X180X66.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 8445.8,
+        "D": 400.0,
+        "BF": 180.0,
+        "TW": 8.6,
+        "TF": 13.5,
+        "Iy": 231283456.0,
+        "Zy": 1307035.915,
+        "Iz": 13155350.83,
+        "Zz": 229000.504
+      }
+    },
+    "NPB400X180X75.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB400X180X75.7",
+      "designation": "NPB",
+      "properties": {
+        "A": 9638.1,
+        "D": 404.0,
+        "BF": 182.0,
+        "TW": 9.7,
+        "TF": 15.5,
+        "Iy": 267470159.6,
+        "Zy": 1502058.782,
+        "Iz": 15617747.77,
+        "Zz": 269096.8315
+      }
+    },
+    "NPB450X190X67.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB450X190X67.1",
+      "designation": "NPB",
+      "properties": {
+        "A": 8554.08,
+        "D": 447.0,
+        "BF": 190.0,
+        "TW": 7.6,
+        "TF": 13.1,
+        "Iy": 297588013.5,
+        "Zy": 1494163.103,
+        "Iz": 15002839.13,
+        "Zz": 245745.8088
+      }
+    },
+    "NPB450X190X77.6": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB450X190X77.6",
+      "designation": "NPB",
+      "properties": {
+        "A": 9881.52,
+        "D": 450.0,
+        "BF": 190.0,
+        "TW": 9.4,
+        "TF": 14.6,
+        "Iy": 337429141.0,
+        "Zy": 1701667.46,
+        "Iz": 16734369.68,
+        "Zz": 276380.6278
+      }
+    },
+    "NPB450X190X92.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB450X190X92.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 11765.2,
+        "D": 456.0,
+        "BF": 192.0,
+        "TW": 11.0,
+        "TF": 17.6,
+        "Iy": 409233958.1,
+        "Zy": 2046136.532,
+        "Iz": 20826713.39,
+        "Zz": 340990.3993
+      }
+    },
+    "NPB500X200X79.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB500X200X79.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 10109.2,
+        "D": 497.0,
+        "BF": 200.0,
+        "TW": 8.4,
+        "TF": 14.5,
+        "Iy": 429334091.9,
+        "Zy": 1945868.411,
+        "Iz": 19369690.19,
+        "Zz": 301621.3986
+      }
+    },
+    "NPB500X200X90.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB500X200X90.7",
+      "designation": "NPB",
+      "properties": {
+        "A": 11551.6,
+        "D": 500.0,
+        "BF": 200.0,
+        "TW": 10.2,
+        "TF": 16.0,
+        "Iy": 481985026.7,
+        "Zy": 2193978.379,
+        "Iz": 21391282.57,
+        "Zz": 335879.2576
+      }
+    },
+    "NPB500X200X107.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB500X200X107.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 13670.0,
+        "D": 506.0,
+        "BF": 202.0,
+        "TW": 12.0,
+        "TF": 19.0,
+        "Iy": 577772608.9,
+        "Zy": 2612843.516,
+        "Iz": 26188846.78,
+        "Zz": 408533.2765
+      }
+    },
+    "NPB600X220X107.6": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB600X220X107.6",
+      "designation": "NPB",
+      "properties": {
+        "A": 13701.31429,
+        "D": 597.0,
+        "BF": 220.0,
+        "TW": 9.8,
+        "TF": 17.5,
+        "Iy": 829188025.5,
+        "Zy": 3140962.861,
+        "Iz": 31123677.73,
+        "Zz": 442067.3491
+      }
+    },
+    "NPB600X220X122.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB600X220X122.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 15597.71429,
+        "D": 600.0,
+        "BF": 220.0,
+        "TW": 12.0,
+        "TF": 19.0,
+        "Iy": 920833980.7,
+        "Zy": 3512180.975,
+        "Iz": 33828697.9,
+        "Zz": 485649.6113
+      }
+    },
+    "NPB600X220X154.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB600X220X154.5",
+      "designation": "NPB",
+      "properties": {
+        "A": 19675.71429,
+        "D": 610.0,
+        "BF": 224.0,
+        "TW": 15.0,
+        "TF": 24.0,
+        "Iy": 1183020620.0,
+        "Zy": 4470816.355,
+        "Iz": 45155205.48,
+        "Zz": 640083.7689
+      }
+    },
+    "NPB100X55X8.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB100X55X8.1",
+      "designation": "NPB",
+      "properties": {
+        "A": 1032.26,
+        "D": 100.0,
+        "BF": 55.0,
+        "TW": 4.1,
+        "TF": 5.7,
+        "Iy": 1710119.395,
+        "Zy": 39403.73195,
+        "Iz": 158854.5357,
+        "Zz": 9145.59371
+      }
+    },
+    "NPB120X60X10.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB120X60X10.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 1320.96,
+        "D": 120.0,
+        "BF": 64.0,
+        "TW": 4.4,
+        "TF": 6.3,
+        "Iy": 3177531.492,
+        "Zy": 60721.31199,
+        "Iz": 276332.649,
+        "Zz": 13580.52745
+      }
+    },
+    "NPB140X70X12.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB140X70X12.9",
+      "designation": "NPB",
+      "properties": {
+        "A": 1642.54,
+        "D": 140.0,
+        "BF": 73.0,
+        "TW": 4.7,
+        "TF": 6.9,
+        "Iy": 5412237.478,
+        "Zy": 88340.03603,
+        "Iz": 448812.0001,
+        "Zz": 19246.61019
+      }
+    },
+    "NPB160X80X15.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB160X80X15.8",
+      "designation": "NPB",
+      "properties": {
+        "A": 2009.028571,
+        "D": 160.0,
+        "BF": 82.0,
+        "TW": 5.0,
+        "TF": 7.4,
+        "Iy": 8692922.28,
+        "Zy": 123851.4429,
+        "Iz": 682245.5639,
+        "Zz": 26099.92382
+      }
+    },
+    "NPB180X90X15.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB180X90X15.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 1957.628571,
+        "D": 177.0,
+        "BF": 91.0,
+        "TW": 4.3,
+        "TF": 6.5,
+        "Iy": 10627353.32,
+        "Zy": 135316.6331,
+        "Iz": 818043.6757,
+        "Zz": 27960.62818
+      }
+    },
+    "NPB180X90X18.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB180X90X18.8",
+      "designation": "NPB",
+      "properties": {
+        "A": 2394.628571,
+        "D": 180.0,
+        "BF": 91.0,
+        "TW": 5.3,
+        "TF": 8.0,
+        "Iy": 13169581.74,
+        "Zy": 166405.7304,
+        "Iz": 1007566.888,
+        "Zz": 34599.74338
+      }
+    },
+    "NPB180X90X21.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB180X90X21.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 2709.428571,
+        "D": 182.0,
+        "BF": 92.0,
+        "TW": 6.0,
+        "TF": 9.0,
+        "Iy": 15052329.47,
+        "Zy": 189140.4286,
+        "Iz": 1171903.272,
+        "Zz": 39912.38902
+      }
+    },
+    "NPB200X100X18.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB200X100X18.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 2346.928571,
+        "D": 197.0,
+        "BF": 100.0,
+        "TW": 4.5,
+        "TF": 7.0,
+        "Iy": 15914659.0,
+        "Zy": 181636.1995,
+        "Iz": 1169434.61,
+        "Zz": 36535.93172
+      }
+    },
+    "NPB200X100X22.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB200X100X22.4",
+      "designation": "NPB",
+      "properties": {
+        "A": 2848.228571,
+        "D": 200.0,
+        "BF": 100.0,
+        "TW": 5.6,
+        "TF": 8.5,
+        "Iy": 19431661.98,
+        "Zy": 220620.4029,
+        "Iz": 1421096.8,
+        "Zz": 44612.1995
+      }
+    },
+    "NPB200X100X25.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB200X100X25.1",
+      "designation": "NPB",
+      "properties": {
+        "A": 3196.028571,
+        "D": 202.0,
+        "BF": 102.0,
+        "TW": 6.2,
+        "TF": 9.5,
+        "Iy": 22110473.16,
+        "Zy": 249401.0719,
+        "Iz": 1685867.848,
+        "Zz": 51892.19238
+      }
+    },
+    "NPB200X130X27.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB200X130X27.2",
+      "designation": "NPB",
+      "properties": {
+        "A": 3460.988571,
+        "D": 207.0,
+        "BF": 133.0,
+        "TW": 5.8,
+        "TF": 8.4,
+        "Iy": 26427490.3,
+        "Zy": 285736.3419,
+        "Iz": 3298612.294,
+        "Zz": 76583.22246
+      }
+    },
+    "NPB200X130X32": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB200X130X32",
+      "designation": "NPB",
+      "properties": {
+        "A": 4070.468571,
+        "D": 210.0,
+        "BF": 134.0,
+        "TW": 6.4,
+        "TF": 10.2,
+        "Iy": 31989700.18,
+        "Zy": 341971.5055,
+        "Iz": 4096589.419,
+        "Zz": 94244.02734
+      }
+    },
+    "NPB220X110X22.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB220X110X22.2",
+      "designation": "NPB",
+      "properties": {
+        "A": 2825.428571,
+        "D": 217.0,
+        "BF": 110.0,
+        "TW": 5.0,
+        "TF": 7.7,
+        "Iy": 23165051.68,
+        "Zy": 240189.1335,
+        "Iz": 1711755.548,
+        "Zz": 48485.39662
+      }
+    },
+    "NPB220X110X26.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB220X110X26.2",
+      "designation": "NPB",
+      "properties": {
+        "A": 3336.868571,
+        "D": 220.0,
+        "BF": 110.0,
+        "TW": 5.9,
+        "TF": 9.2,
+        "Iy": 27718364.68,
+        "Zy": 285385.9379,
+        "Iz": 2046183.92,
+        "Zz": 58110.44494
+      }
+    },
+    "NPB220X110X29.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB220X110X29.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 3738.788571,
+        "D": 222.0,
+        "BF": 112.0,
+        "TW": 6.6,
+        "TF": 10.2,
+        "Iy": 31340512.51,
+        "Zy": 321128.9249,
+        "Iz": 2395364.145,
+        "Zz": 66909.1083
+      }
+    },
+    "NPB240X120X26.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB240X120X26.1",
+      "designation": "NPB",
+      "properties": {
+        "A": 3330.937143,
+        "D": 237.0,
+        "BF": 120.0,
+        "TW": 5.2,
+        "TF": 8.3,
+        "Iy": 32904562.37,
+        "Zy": 311537.5053,
+        "Iz": 2396040.883,
+        "Zz": 62399.28014
+      }
+    },
+    "NPB240X120X30.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB240X120X30.7",
+      "designation": "NPB",
+      "properties": {
+        "A": 3911.337143,
+        "D": 240.0,
+        "BF": 120.0,
+        "TW": 6.2,
+        "TF": 9.8,
+        "Iy": 38916214.51,
+        "Zy": 366611.121,
+        "Iz": 2830429.27,
+        "Zz": 73923.99014
+      }
+    },
+    "NPB240X120X34.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB240X120X34.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 4370.857143,
+        "D": 242.0,
+        "BF": 122.0,
+        "TW": 7.0,
+        "TF": 10.8,
+        "Iy": 43692557.27,
+        "Zy": 410239.9901,
+        "Iz": 3279022.553,
+        "Zz": 84396.70214
+      }
+    },
+    "NPB270X135X30.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB270X135X30.7",
+      "designation": "NPB",
+      "properties": {
+        "A": 3914.657143,
+        "D": 267.0,
+        "BF": 135.0,
+        "TW": 5.5,
+        "TF": 8.7,
+        "Iy": 49172929.41,
+        "Zy": 412454.9684,
+        "Iz": 3574230.672,
+        "Zz": 82344.69714
+      }
+    },
+    "NPB270X135X36.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB270X135X36.1",
+      "designation": "NPB",
+      "properties": {
+        "A": 4594.217143,
+        "D": 270.0,
+        "BF": 135.0,
+        "TW": 6.6,
+        "TF": 10.2,
+        "Iy": 57897773.32,
+        "Zy": 483958.3381,
+        "Iz": 4192533.874,
+        "Zz": 96950.21814
+      }
+    },
+    "NPB270X135X42.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "NPB270X135X42.3",
+      "designation": "NPB",
+      "properties": {
+        "A": 5383.257143,
+        "D": 274.0,
+        "BF": 136.0,
+        "TW": 7.5,
+        "TF": 12.2,
+        "Iy": 69470444.32,
+        "Zy": 574609.2684,
+        "Iz": 5128103.56,
+        "Zz": 117707.0871
+      }
+    },
+    "UB203X133X25": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB203X133X25",
+      "designation": "UB",
+      "properties": {
+        "A": 3196.748571,
+        "D": 203.2,
+        "BF": 133.2,
+        "TW": 5.7,
+        "TF": 7.8,
+        "Iy": 23401687.75,
+        "Zy": 257723.0487,
+        "Iz": 3075709.882,
+        "Zz": 70944.00429
+      }
+    },
+    "UB203X133X30": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB203X133X30",
+      "designation": "UB",
+      "properties": {
+        "A": 3821.028571,
+        "D": 206.8,
+        "BF": 133.9,
+        "TW": 6.4,
+        "TF": 9.6,
+        "Iy": 28955677.63,
+        "Zy": 314357.81,
+        "Iz": 3845933.296,
+        "Zz": 88224.07271
+      }
+    },
+    "UB254X146X31": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB254X146X31",
+      "designation": "UB",
+      "properties": {
+        "A": 3967.628571,
+        "D": 251.4,
+        "BF": 146.1,
+        "TW": 6.0,
+        "TF": 8.6,
+        "Iy": 44134100.62,
+        "Zy": 393055.5963,
+        "Iz": 4474731.276,
+        "Zz": 94125.12747
+      }
+    },
+    "UB254X146X37": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB254X146X37",
+      "designation": "UB",
+      "properties": {
+        "A": 4716.488571,
+        "D": 256.0,
+        "BF": 146.4,
+        "TW": 6.3,
+        "TF": 10.9,
+        "Iy": 55367892.66,
+        "Zy": 483221.4403,
+        "Iz": 5705854.437,
+        "Zz": 119373.8431
+      }
+    },
+    "UB254X146X43": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB254X146X43",
+      "designation": "UB",
+      "properties": {
+        "A": 5477.168571,
+        "D": 259.6,
+        "BF": 147.3,
+        "TW": 7.2,
+        "TF": 12.7,
+        "Iy": 65437040.59,
+        "Zy": 566320.0016,
+        "Iz": 6772999.003,
+        "Zz": 141075.6967
+      }
+    },
+    "UB305X165X40": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB305X165X40",
+      "designation": "UB",
+      "properties": {
+        "A": 5131.894286,
+        "D": 303.4,
+        "BF": 165.0,
+        "TW": 6.0,
+        "TF": 10.2,
+        "Iy": 85025956.22,
+        "Zy": 623059.9363,
+        "Iz": 7642601.204,
+        "Zz": 141733.6711
+      }
+    },
+    "UB305X165X46": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB305X165X46",
+      "designation": "UB",
+      "properties": {
+        "A": 5874.514286,
+        "D": 306.6,
+        "BF": 165.7,
+        "TW": 6.7,
+        "TF": 11.8,
+        "Iy": 98986622.53,
+        "Zy": 720030.3999,
+        "Iz": 8955578.887,
+        "Zz": 165532.2274
+      }
+    },
+    "UB305X165X54": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB305X165X54",
+      "designation": "UB",
+      "properties": {
+        "A": 6849.254286,
+        "D": 310.4,
+        "BF": 165.9,
+        "TW": 7.9,
+        "TF": 13.7,
+        "Iy": 116355558.4,
+        "Zy": 841994.9237,
+        "Iz": 10438778.04,
+        "Zz": 193350.5212
+      }
+    },
+    "UB356X171X45": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB356X171X45",
+      "designation": "UB",
+      "properties": {
+        "A": 5732.517143,
+        "D": 351.4,
+        "BF": 171.1,
+        "TW": 7.0,
+        "TF": 9.7,
+        "Iy": 120657549.1,
+        "Zy": 774599.8718,
+        "Iz": 8108917.166,
+        "Zz": 146567.8505
+      }
+    },
+    "UB356X171X51": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB356X171X51",
+      "designation": "UB",
+      "properties": {
+        "A": 6490.477143,
+        "D": 355.0,
+        "BF": 171.5,
+        "TW": 7.4,
+        "TF": 11.5,
+        "Iy": 141359300.7,
+        "Zy": 895980.6724,
+        "Iz": 9680962.327,
+        "Zz": 174199.4611
+      }
+    },
+    "UB356X171X57": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB356X171X57",
+      "designation": "UB",
+      "properties": {
+        "A": 7255.577143,
+        "D": 358.0,
+        "BF": 172.2,
+        "TW": 8.1,
+        "TF": 13.0,
+        "Iy": 160383129.3,
+        "Zy": 1010118.801,
+        "Iz": 11080133.47,
+        "Zz": 198754.2913
+      }
+    },
+    "UB356X171X67": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB356X171X67",
+      "designation": "UB",
+      "properties": {
+        "A": 8548.857143,
+        "D": 363.4,
+        "BF": 173.2,
+        "TW": 9.1,
+        "TF": 15.7,
+        "Iy": 194628288.7,
+        "Zy": 1210837.196,
+        "Iz": 13618610.8,
+        "Zz": 242969.2693
+      }
+    },
+    "UB406X178X54": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB406X178X54",
+      "designation": "UB",
+      "properties": {
+        "A": 6895.197143,
+        "D": 402.6,
+        "BF": 177.7,
+        "TW": 7.7,
+        "TF": 10.9,
+        "Iy": 187222141.9,
+        "Zy": 1054611.511,
+        "Iz": 10210127.28,
+        "Zz": 178287.9783
+      }
+    },
+    "UB406X178X60": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB406X178X60",
+      "designation": "UB",
+      "properties": {
+        "A": 7651.737143,
+        "D": 406.4,
+        "BF": 177.9,
+        "TW": 7.9,
+        "TF": 12.8,
+        "Iy": 215962587.7,
+        "Zy": 1199440.646,
+        "Iz": 12028730.56,
+        "Zz": 209047.5266
+      }
+    },
+    "UB406X178X67": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB406X178X67",
+      "designation": "UB",
+      "properties": {
+        "A": 8553.897143,
+        "D": 409.4,
+        "BF": 178.8,
+        "TW": 8.8,
+        "TF": 14.3,
+        "Iy": 243308675.5,
+        "Zy": 1346000.445,
+        "Iz": 13647316.3,
+        "Zz": 236550.2431
+      }
+    },
+    "UB406X178X74": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB406X178X74",
+      "designation": "UB",
+      "properties": {
+        "A": 9450.777143,
+        "D": 412.8,
+        "BF": 179.5,
+        "TW": 9.5,
+        "TF": 16.0,
+        "Iy": 273097254.3,
+        "Zy": 1500778.851,
+        "Iz": 15452500.77,
+        "Zz": 266981.5169
+      }
+    },
+    "UB457X152X52": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X152X52",
+      "designation": "UB",
+      "properties": {
+        "A": 6664.297143,
+        "D": 449.8,
+        "BF": 152.4,
+        "TW": 7.6,
+        "TF": 10.9,
+        "Iy": 213688896.5,
+        "Zy": 1096011.703,
+        "Iz": 6447711.148,
+        "Zz": 133303.5864
+      }
+    },
+    "UB457X152X60": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X152X60",
+      "designation": "UB",
+      "properties": {
+        "A": 7623.117143,
+        "D": 454.6,
+        "BF": 152.9,
+        "TW": 8.1,
+        "TF": 13.3,
+        "Iy": 254999941.9,
+        "Zy": 1287240.706,
+        "Iz": 7944515.933,
+        "Zz": 163051.8978
+      }
+    },
+    "UB457X152X67": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X152X67",
+      "designation": "UB",
+      "properties": {
+        "A": 8555.177143,
+        "D": 458.0,
+        "BF": 153.8,
+        "TW": 9.0,
+        "TF": 15.0,
+        "Iy": 289265432.9,
+        "Zy": 1453043.442,
+        "Iz": 9123450.415,
+        "Zz": 186680.6899
+      }
+    },
+    "UB457X152X74": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X152X74",
+      "designation": "UB",
+      "properties": {
+        "A": 9447.577143,
+        "D": 462.0,
+        "BF": 154.4,
+        "TW": 9.6,
+        "TF": 17.0,
+        "Iy": 326740274.4,
+        "Zy": 1626555.781,
+        "Iz": 10463059.31,
+        "Zz": 213127.8623
+      }
+    },
+    "UB457X152X82": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X152X82",
+      "designation": "UB",
+      "properties": {
+        "A": 10453.51714,
+        "D": 465.8,
+        "BF": 155.3,
+        "TW": 10.5,
+        "TF": 18.9,
+        "Iy": 365886292.1,
+        "Zy": 1811463.405,
+        "Iz": 11842737.89,
+        "Zz": 240385.0714
+      }
+    },
+    "UB457X191X67": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X191X67",
+      "designation": "UB",
+      "properties": {
+        "A": 8550.637143,
+        "D": 453.4,
+        "BF": 189.9,
+        "TW": 8.5,
+        "TF": 12.7,
+        "Iy": 293802616.6,
+        "Zy": 1470994.154,
+        "Iz": 14519320.92,
+        "Zz": 237307.5764
+      }
+    },
+    "UB457X191X74": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X191X74",
+      "designation": "UB",
+      "properties": {
+        "A": 9462.777143,
+        "D": 457.0,
+        "BF": 190.4,
+        "TW": 9.0,
+        "TF": 14.5,
+        "Iy": 333193389.4,
+        "Zy": 1652696.508,
+        "Iz": 16709145.46,
+        "Zz": 272100.5499
+      }
+    },
+    "UB457X191X82": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X191X82",
+      "designation": "UB",
+      "properties": {
+        "A": 10447.97714,
+        "D": 460.0,
+        "BF": 191.3,
+        "TW": 9.9,
+        "TF": 16.0,
+        "Iy": 370513433.8,
+        "Zy": 1831253.912,
+        "Iz": 18706003.63,
+        "Zz": 303898.1685
+      }
+    },
+    "UB457X191X89": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X191X89",
+      "designation": "UB",
+      "properties": {
+        "A": 11376.43714,
+        "D": 463.4,
+        "BF": 191.9,
+        "TW": 10.5,
+        "TF": 17.7,
+        "Iy": 410151108.2,
+        "Zy": 2013614.08,
+        "Iz": 20891450.8,
+        "Zz": 338375.7694
+      }
+    },
+    "UB457X191X98": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB457X191X98",
+      "designation": "UB",
+      "properties": {
+        "A": 12526.13714,
+        "D": 467.2,
+        "BF": 192.8,
+        "TW": 11.4,
+        "TF": 19.6,
+        "Iy": 457269491.2,
+        "Zy": 2232378.929,
+        "Iz": 23467620.44,
+        "Zz": 378902.3114
+      }
+    },
+    "UB533X210X82": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB533X210X82",
+      "designation": "UB",
+      "properties": {
+        "A": 10468.80857,
+        "D": 528.3,
+        "BF": 208.8,
+        "TW": 9.6,
+        "TF": 13.2,
+        "Iy": 475391441.1,
+        "Zy": 2058564.671,
+        "Iz": 20068198.31,
+        "Zz": 300364.2578
+      }
+    },
+    "UB533X210X92": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB533X210X92",
+      "designation": "UB",
+      "properties": {
+        "A": 11737.59857,
+        "D": 533.1,
+        "BF": 209.3,
+        "TW": 10.1,
+        "TF": 15.6,
+        "Iy": 552272959.5,
+        "Zy": 2360033.02,
+        "Iz": 23886338.66,
+        "Zz": 355582.3174
+      }
+    },
+    "UB533X210X101": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB533X210X101",
+      "designation": "UB",
+      "properties": {
+        "A": 12866.76857,
+        "D": 536.7,
+        "BF": 210.0,
+        "TW": 10.8,
+        "TF": 17.4,
+        "Iy": 615187240.5,
+        "Zy": 2611959.087,
+        "Iz": 26914746.08,
+        "Zz": 399445.8526
+      }
+    },
+    "UB533X210X109.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB533X210X109.8",
+      "designation": "UB",
+      "properties": {
+        "A": 13986.74857,
+        "D": 539.5,
+        "BF": 210.8,
+        "TW": 11.8,
+        "TF": 18.8,
+        "Iy": 670327063.9,
+        "Zy": 2840967.433,
+        "Iz": 29425388.59,
+        "Zz": 436385.2292
+      }
+    },
+    "UB533X210X122": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB533X210X122",
+      "designation": "UB",
+      "properties": {
+        "A": 15539.31857,
+        "D": 544.5,
+        "BF": 211.9,
+        "TW": 12.7,
+        "TF": 21.3,
+        "Iy": 760425323.6,
+        "Zy": 3195537.815,
+        "Iz": 33869448.09,
+        "Zz": 499711.9866
+      }
+    },
+    "UB610X229X101": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB610X229X101",
+      "designation": "UB",
+      "properties": {
+        "A": 12891.70857,
+        "D": 602.6,
+        "BF": 227.6,
+        "TW": 10.5,
+        "TF": 14.8,
+        "Iy": 757799944.2,
+        "Zy": 2881068.572,
+        "Iz": 29142403.52,
+        "Zz": 400246.0174
+      }
+    },
+    "UB610X229X113": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB610X229X113",
+      "designation": "UB",
+      "properties": {
+        "A": 14394.26857,
+        "D": 607.6,
+        "BF": 228.2,
+        "TW": 11.1,
+        "TF": 17.3,
+        "Iy": 873184697.1,
+        "Zy": 3280746.63,
+        "Iz": 34334992.53,
+        "Zz": 469261.8748
+      }
+    },
+    "UB610X229X125.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB610X229X125.1",
+      "designation": "UB",
+      "properties": {
+        "A": 15933.74857,
+        "D": 612.2,
+        "BF": 229.0,
+        "TW": 11.9,
+        "TF": 19.6,
+        "Iy": 986099730.9,
+        "Zy": 3675816.045,
+        "Iz": 39315887.34,
+        "Zz": 535424.0293
+      }
+    },
+    "UB610X229X139.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UB610X229X139.9",
+      "designation": "UB",
+      "properties": {
+        "A": 17819.38857,
+        "D": 617.2,
+        "BF": 230.2,
+        "TW": 13.1,
+        "TF": 22.1,
+        "Iy": 1117772993.0,
+        "Zy": 4142012.04,
+        "Iz": 45046606.14,
+        "Zz": 611444.8421
+      }
+    },
+    "UC152X152X23": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC152X152X23",
+      "designation": "UC",
+      "properties": {
+        "A": 2924.468571,
+        "D": 152.4,
+        "BF": 152.2,
+        "TW": 5.8,
+        "TF": 6.8,
+        "Iy": 12498034.59,
+        "Zy": 181976.2842,
+        "Iz": 3998621.045,
+        "Zz": 80155.73035
+      }
+    },
+    "UC152X152X30": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC152X152X30",
+      "designation": "UC",
+      "properties": {
+        "A": 3826.228571,
+        "D": 157.6,
+        "BF": 152.9,
+        "TW": 6.5,
+        "TF": 9.4,
+        "Iy": 17480408.74,
+        "Zy": 247659.3034,
+        "Iz": 5604017.014,
+        "Zz": 111589.9218
+      }
+    },
+    "UC152X152X37": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC152X152X37",
+      "designation": "UC",
+      "properties": {
+        "A": 4711.108571,
+        "D": 161.8,
+        "BF": 154.4,
+        "TW": 8.0,
+        "TF": 11.5,
+        "Iy": 22104674.0,
+        "Zy": 308754.4389,
+        "Iz": 7061767.874,
+        "Zz": 139579.6257
+      }
+    },
+    "UC203X203X46.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC203X203X46.1",
+      "designation": "UC",
+      "properties": {
+        "A": 5873.017143,
+        "D": 203.2,
+        "BF": 203.6,
+        "TW": 7.2,
+        "TF": 11.0,
+        "Iy": 45678154.67,
+        "Zy": 497425.8182,
+        "Iz": 15480274.52,
+        "Zz": 230864.6448
+      }
+    },
+    "UC203X203X52": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC203X203X52",
+      "designation": "UC",
+      "properties": {
+        "A": 6628.157143,
+        "D": 206.2,
+        "BF": 204.3,
+        "TW": 7.9,
+        "TF": 12.5,
+        "Iy": 52588144.31,
+        "Zy": 567381.729,
+        "Iz": 17774269.93,
+        "Zz": 264249.0061
+      }
+    },
+    "UC203X203X60": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC203X203X60",
+      "designation": "UC",
+      "properties": {
+        "A": 7637.177143,
+        "D": 209.6,
+        "BF": 205.8,
+        "TW": 9.4,
+        "TF": 14.2,
+        "Iy": 61245121.8,
+        "Zy": 656061.8157,
+        "Iz": 20643795.26,
+        "Zz": 305336.8035
+      }
+    },
+    "UC203X203X71": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC203X203X71",
+      "designation": "UC",
+      "properties": {
+        "A": 9042.617143,
+        "D": 215.8,
+        "BF": 206.4,
+        "TW": 10.0,
+        "TF": 17.3,
+        "Iy": 76180149.14,
+        "Zy": 798745.2022,
+        "Iz": 25370544.71,
+        "Zz": 373678.3479
+      }
+    },
+    "UC203X203X86.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC203X203X86.1",
+      "designation": "UC",
+      "properties": {
+        "A": 10963.51714,
+        "D": 222.2,
+        "BF": 209.1,
+        "TW": 12.7,
+        "TF": 20.5,
+        "Iy": 94488312.14,
+        "Zy": 976716.5707,
+        "Iz": 31271782.81,
+        "Zz": 456235.8491
+      }
+    },
+    "UC254X254X73.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC254X254X73.1",
+      "designation": "UC",
+      "properties": {
+        "A": 9309.908571,
+        "D": 254.1,
+        "BF": 254.6,
+        "TW": 8.6,
+        "TF": 14.2,
+        "Iy": 114072106.5,
+        "Zy": 992042.9822,
+        "Iz": 39073782.49,
+        "Zz": 465391.5811
+      }
+    },
+    "UC254X254X89.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC254X254X89.5",
+      "designation": "UC",
+      "properties": {
+        "A": 11400.13857,
+        "D": 260.3,
+        "BF": 258.3,
+        "TW": 10.3,
+        "TF": 17.3,
+        "Iy": 143700707.2,
+        "Zy": 1232244.164,
+        "Iz": 49715224.48,
+        "Zz": 584210.3625
+      }
+    },
+    "UC254X254X107.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC254X254X107.1",
+      "designation": "UC",
+      "properties": {
+        "A": 13638.00857,
+        "D": 266.7,
+        "BF": 258.8,
+        "TW": 12.8,
+        "TF": 20.5,
+        "Iy": 175103709.3,
+        "Zy": 1484403.431,
+        "Iz": 59269983.18,
+        "Zz": 697042.3319
+      }
+    },
+    "UC254X254X132": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC254X254X132",
+      "designation": "UC",
+      "properties": {
+        "A": 16813.23857,
+        "D": 276.3,
+        "BF": 261.3,
+        "TW": 15.3,
+        "TF": 25.3,
+        "Iy": 225287050.8,
+        "Zy": 1869384.174,
+        "Iz": 75306109.59,
+        "Zz": 878373.2708
+      }
+    },
+    "UC254X254X167.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC254X254X167.1",
+      "designation": "UC",
+      "properties": {
+        "A": 21285.36857,
+        "D": 289.1,
+        "BF": 265.2,
+        "TW": 19.2,
+        "TF": 31.7,
+        "Iy": 299976636.7,
+        "Zy": 2423637.08,
+        "Iz": 98690897.54,
+        "Zz": 1137269.44
+      }
+    },
+    "UC305X305X96.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X96.9",
+      "designation": "UC",
+      "properties": {
+        "A": 12344.56429,
+        "D": 307.9,
+        "BF": 305.3,
+        "TW": 9.9,
+        "TF": 15.4,
+        "Iy": 222490157.3,
+        "Zy": 1592024.995,
+        "Iz": 73067485.2,
+        "Zz": 726147.0905
+      }
+    },
+    "UC305X305X117.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X117.9",
+      "designation": "UC",
+      "properties": {
+        "A": 15019.99429,
+        "D": 314.5,
+        "BF": 307.4,
+        "TW": 12.0,
+        "TF": 18.7,
+        "Iy": 276721165.0,
+        "Zy": 1957482.806,
+        "Iz": 90581149.79,
+        "Zz": 895365.0018
+      }
+    },
+    "UC305X305X136.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X136.9",
+      "designation": "UC",
+      "properties": {
+        "A": 17441.29429,
+        "D": 320.5,
+        "BF": 309.2,
+        "TW": 13.8,
+        "TF": 21.7,
+        "Iy": 328142586.2,
+        "Zy": 2296504.547,
+        "Iz": 106984471.0,
+        "Zz": 1052544.963
+      }
+    },
+    "UC305X305X158.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X158.1",
+      "designation": "UC",
+      "properties": {
+        "A": 20136.21429,
+        "D": 327.1,
+        "BF": 311.2,
+        "TW": 15.8,
+        "TF": 25.0,
+        "Iy": 387467973.5,
+        "Zy": 2680393.361,
+        "Iz": 125682023.4,
+        "Zz": 1230102.024
+      }
+    },
+    "UC305X305X198.1": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X198.1",
+      "designation": "UC",
+      "properties": {
+        "A": 25241.24429,
+        "D": 339.9,
+        "BF": 314.5,
+        "TW": 19.1,
+        "TF": 31.4,
+        "Iy": 509040201.3,
+        "Zy": 3439930.691,
+        "Iz": 162976177.0,
+        "Zz": 1580730.586
+      }
+    },
+    "UC305X305X240": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X240",
+      "designation": "UC",
+      "properties": {
+        "A": 30578.69429,
+        "D": 352.5,
+        "BF": 318.4,
+        "TW": 23.0,
+        "TF": 37.7,
+        "Iy": 642025211.9,
+        "Zy": 4247022.074,
+        "Iz": 203129113.9,
+        "Zz": 1950586.513
+      }
+    },
+    "UC305X305X282.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC305X305X282.9",
+      "designation": "UC",
+      "properties": {
+        "A": 36042.35429,
+        "D": 365.3,
+        "BF": 322.2,
+        "TW": 26.8,
+        "TF": 44.1,
+        "Iy": 788716840.8,
+        "Zy": 5105144.165,
+        "Iz": 246329350.8,
+        "Zz": 2342160.197
+      }
+    },
+    "UC368X368X129": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC368X368X129",
+      "designation": "UC",
+      "properties": {
+        "A": 16433.27429,
+        "D": 355.6,
+        "BF": 368.6,
+        "TW": 10.4,
+        "TF": 17.5,
+        "Iy": 402455892.7,
+        "Zy": 2479219.752,
+        "Iz": 146104716.5,
+        "Zz": 1199200.91
+      }
+    },
+    "UC368X368X152.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC368X368X152.9",
+      "designation": "UC",
+      "properties": {
+        "A": 19480.11429,
+        "D": 362.0,
+        "BF": 370.5,
+        "TW": 12.3,
+        "TF": 20.7,
+        "Iy": 485893103.6,
+        "Zy": 2964676.498,
+        "Iz": 175521638.8,
+        "Zz": 1434766.125
+      }
+    },
+    "UC368X368X177": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC368X368X177",
+      "designation": "UC",
+      "properties": {
+        "A": 22550.43429,
+        "D": 368.2,
+        "BF": 372.6,
+        "TW": 14.4,
+        "TF": 23.8,
+        "Iy": 571180190.8,
+        "Zy": 3455186.104,
+        "Iz": 205281392.6,
+        "Zz": 1670807.333
+      }
+    },
+    "UC368X368X201.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "UC368X368X201.9",
+      "designation": "UC",
+      "properties": {
+        "A": 25721.73429,
+        "D": 374.6,
+        "BF": 374.7,
+        "TW": 16.5,
+        "TF": 27.0,
+        "Iy": 662614335.8,
+        "Zy": 3971683.532,
+        "Iz": 236871467.2,
+        "Zz": 1919531.679
+      }
+    },
+    "WPB150X150X23": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB150X150X23",
+      "designation": "WPB",
+      "properties": {
+        "A": 2924.468571,
+        "D": 152.4,
+        "BF": 152.2,
+        "TW": 5.8,
+        "TF": 6.8,
+        "Iy": 12498034.59,
+        "Zy": 181976.2842,
+        "Iz": 3998621.045,
+        "Zz": 80155.73035
+      }
+    },
+    "WPB150X150X30": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB150X150X30",
+      "designation": "WPB",
+      "properties": {
+        "A": 3826.228571,
+        "D": 157.6,
+        "BF": 152.9,
+        "TW": 6.5,
+        "TF": 9.4,
+        "Iy": 17480408.74,
+        "Zy": 247659.3034,
+        "Iz": 5604017.014,
+        "Zz": 111589.9218
+      }
+    },
+    "WPB150X150X37": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB150X150X37",
+      "designation": "WPB",
+      "properties": {
+        "A": 4711.108571,
+        "D": 161.8,
+        "BF": 154.4,
+        "TW": 8.0,
+        "TF": 11.5,
+        "Iy": 22104674.0,
+        "Zy": 308754.4389,
+        "Iz": 7061767.874,
+        "Zz": 139579.6257
+      }
+    },
+    "WPB320X300X74.2": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB320X300X74.2",
+      "designation": "WPB",
+      "properties": {
+        "A": 9456.857143,
+        "D": 301.0,
+        "BF": 300.0,
+        "TW": 8.0,
+        "TF": 11.0,
+        "Iy": 164473300.2,
+        "Zy": 1196064.949,
+        "Iz": 49539009.22,
+        "Zz": 505741.6356
+      }
+    },
+    "WPB320X300X97.6": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB320X300X97.6",
+      "designation": "WPB",
+      "properties": {
+        "A": 12435.85714,
+        "D": 310.0,
+        "BF": 300.0,
+        "TW": 9.0,
+        "TF": 15.5,
+        "Iy": 229285578.5,
+        "Zy": 1627946.075,
+        "Iz": 69796853.81,
+        "Zz": 709740.2724
+      }
+    },
+    "WPB320X300X126.6": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB320X300X126.6",
+      "designation": "WPB",
+      "properties": {
+        "A": 16133.35714,
+        "D": 320.0,
+        "BF": 300.0,
+        "TW": 11.5,
+        "TF": 20.5,
+        "Iy": 308235086.6,
+        "Zy": 2149092.118,
+        "Iz": 92323632.12,
+        "Zz": 939097.1769
+      }
+    },
+    "WPB320X300X245": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB320X300X245",
+      "designation": "WPB",
+      "properties": {
+        "A": 31203.85714,
+        "D": 359.0,
+        "BF": 309.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 681348172.5,
+        "Zy": 4434861.622,
+        "Iz": 196994080.0,
+        "Zz": 1950724.914
+      }
+    },
+    "WPB600X300X128.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB600X300X128.8",
+      "designation": "WPB",
+      "properties": {
+        "A": 16404.85714,
+        "D": 571.0,
+        "BF": 300.0,
+        "TW": 12.0,
+        "TF": 15.5,
+        "Iy": 918718628.7,
+        "Zy": 3622797.682,
+        "Iz": 69867939.88,
+        "Zz": 724469.1828
+      }
+    },
+    "WPB600X300X177.8": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB600X300X177.8",
+      "designation": "WPB",
+      "properties": {
+        "A": 22644.85714,
+        "D": 590.0,
+        "BF": 300.0,
+        "TW": 13.0,
+        "TF": 25.0,
+        "Iy": 1412080354.0,
+        "Zy": 5350113.976,
+        "Iz": 112643095.8,
+        "Zz": 1155657.07
+      }
+    },
+    "WPB600X300X211.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB600X300X211.9",
+      "designation": "WPB",
+      "properties": {
+        "A": 26994.85714,
+        "D": 600.0,
+        "BF": 300.0,
+        "TW": 15.5,
+        "TF": 30.0,
+        "Iy": 1710410354.0,
+        "Zy": 6424859.394,
+        "Iz": 135223301.2,
+        "Zz": 1391058.037
+      }
+    },
+    "WPB600X300X285.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB600X300X285.5",
+      "designation": "WPB",
+      "properties": {
+        "A": 36364.85714,
+        "D": 620.0,
+        "BF": 305.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 2374474687.0,
+        "Zy": 8771800.229,
+        "Iz": 189655480.1,
+        "Zz": 1930380.164
+      }
+    },
+    "WPB700X300X149.9": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB700X300X149.9",
+      "designation": "WPB",
+      "properties": {
+        "A": 19092.85714,
+        "D": 670.0,
+        "BF": 300.0,
+        "TW": 13.0,
+        "TF": 17.0,
+        "Iy": 1427205176.0,
+        "Zy": 4839826.45,
+        "Iz": 76660671.77,
+        "Zz": 799713.0696
+      }
+    },
+    "WPB700X300X204.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB700X300X204.5",
+      "designation": "WPB",
+      "properties": {
+        "A": 26046.85714,
+        "D": 690.0,
+        "BF": 300.0,
+        "TW": 14.5,
+        "TF": 27.0,
+        "Iy": 2153012608.0,
+        "Zy": 7031503.286,
+        "Iz": 121712470.9,
+        "Zz": 1256741.15
+      }
+    },
+    "WPB700X300X240.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB700X300X240.5",
+      "designation": "WPB",
+      "properties": {
+        "A": 30636.85714,
+        "D": 700.0,
+        "BF": 300.0,
+        "TW": 17.0,
+        "TF": 32.0,
+        "Iy": 2568883328.0,
+        "Zy": 8326808.704,
+        "Iz": 144323952.2,
+        "Zz": 1495044.617
+      }
+    },
+    "WPB700X300X300.7": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB700X300X300.7",
+      "designation": "WPB",
+      "properties": {
+        "A": 38300.85714,
+        "D": 716.0,
+        "BF": 304.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 3292779626.0,
+        "Zy": 10538657.37,
+        "Iz": 187875161.4,
+        "Zz": 1928784.164
+      }
+    },
+    "WPB800X300X171.5": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB800X300X171.5",
+      "designation": "WPB",
+      "properties": {
+        "A": 21847.42857,
+        "D": 770.0,
+        "BF": 300.0,
+        "TW": 14.0,
+        "TF": 18.0,
+        "Iy": 2088821026.0,
+        "Zy": 6224362.223,
+        "Iz": 81232451.59,
+        "Zz": 856551.6171
+      }
+    },
+    "WPB800X300X224.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB800X300X224.4",
+      "designation": "WPB",
+      "properties": {
+        "A": 28581.42857,
+        "D": 790.0,
+        "BF": 300.0,
+        "TW": 15.0,
+        "TF": 28.0,
+        "Iy": 3034424935.0,
+        "Zy": 8699039.909,
+        "Iz": 126276821.4,
+        "Zz": 1312259.397
+      }
+    },
+    "WPB800X300X262.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB800X300X262.3",
+      "designation": "WPB",
+      "properties": {
+        "A": 33416.42857,
+        "D": 800.0,
+        "BF": 300.0,
+        "TW": 17.5,
+        "TF": 33.0,
+        "Iy": 3590834707.0,
+        "Zy": 10228256.75,
+        "Iz": 148914323.1,
+        "Zz": 1553134.472
+      }
+    },
+    "WPB800X300X317.3": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB800X300X317.3",
+      "designation": "WPB",
+      "properties": {
+        "A": 40425.42857,
+        "D": 814.0,
+        "BF": 303.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 4425978547.0,
+        "Zy": 12487240.33,
+        "Iz": 186133782.2,
+        "Zz": 1930393.077
+      }
+    },
+    "WPB900X300X198": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB900X300X198",
+      "designation": "WPB",
+      "properties": {
+        "A": 25221.42857,
+        "D": 870.0,
+        "BF": 300.0,
+        "TW": 15.0,
+        "TF": 20.0,
+        "Iy": 3011449408.0,
+        "Zy": 7998317.531,
+        "Iz": 90303821.41,
+        "Zz": 957659.3971
+      }
+    },
+    "WPB900X300X251.6": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB900X300X251.6",
+      "designation": "WPB",
+      "properties": {
+        "A": 32051.42857,
+        "D": 890.0,
+        "BF": 300.0,
+        "TW": 16.0,
+        "TF": 30.0,
+        "Iy": 4220748325.0,
+        "Zy": 10810531.22,
+        "Iz": 135359850.5,
+        "Zz": 1414478.177
+      }
+    },
+    "WPB900X300X291.4": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB900X300X291.4",
+      "designation": "WPB",
+      "properties": {
+        "A": 37126.42857,
+        "D": 900.0,
+        "BF": 300.0,
+        "TW": 18.5,
+        "TF": 35.0,
+        "Iy": 4940645617.0,
+        "Zy": 12583588.06,
+        "Iz": 158031571.0,
+        "Zz": 1658340.752
+      }
+    },
+    "WPB900X300X333": {
+      "type": "STEEL_I_SECTION",
+      "edi_std": "WPB900X300X333",
+      "designation": "WPB",
+      "properties": {
+        "A": 42360.0,
+        "D": 910.0,
+        "BF": 302.0,
+        "TW": 21.0,
+        "TF": 40.0,
+        "Iy": 5990233742.0,
+        "Zy": 15474594.9,
+        "Iz": 185155258.4,
+        "Zz": 1990954.757
+      }
+    }
+  }
+}

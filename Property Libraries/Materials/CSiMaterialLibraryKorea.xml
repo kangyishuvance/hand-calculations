@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<propertyFile xmlns="http://www.csiamerica.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiamerica.com CSiMaterialLibrary.xsd">
+
+  <!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+  
+  <control lengthUnits="m" forceUnits="KN">
+    <fileID>CSI Material Library for Korea</fileID>
+    <fileVersion>1.0</fileVersion>
+    <fileDescription>Built-in Material Property templates for Korea</fileDescription>
+  </control>
+
+  <region name="Korea" lengthUnits="m" forceUnits="KN">
+
+    <collection type="Materials">
+
+      <standard name="KBC2016">
+        
+<!-- STEEL MATERIALS -->        
+
+        <material type="Steel" grade="SS400" name="SS400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SS490" name="SS490">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>275000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>302500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SS540" name="SS540">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>390000</minimumYieldStress>
+          <minimumTensileStress>540000</minimumTensileStress>
+          <effectiveYieldStress>429000</effectiveYieldStress>
+          <effectiveTensileStress>594000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SN400" name="SN400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SN490" name="SN490">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>325000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>357500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM400" name="SM400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM490" name="SM490">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>315000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>346500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM490-TMC" name="SM490-TMC">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>315000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>346500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM490Y" name="SM490Y">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>355000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>390500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM520" name="SM520">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>355000</minimumYieldStress>
+          <minimumTensileStress>520000</minimumTensileStress>
+          <effectiveYieldStress>390500</effectiveYieldStress>
+          <effectiveTensileStress>572000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM520-TMC" name="SM520-TMC">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>355000</minimumYieldStress>
+          <minimumTensileStress>520000</minimumTensileStress>
+          <effectiveYieldStress>390500</effectiveYieldStress>
+          <effectiveTensileStress>572000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM570" name="SM570">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>450000</minimumYieldStress>
+          <minimumTensileStress>570000</minimumTensileStress>
+          <effectiveYieldStress>495000</effectiveYieldStress>
+          <effectiveTensileStress>627000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SM570-TMC" name="SM570-TMC">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>450000</minimumYieldStress>
+          <minimumTensileStress>570000</minimumTensileStress>
+          <effectiveYieldStress>495000</effectiveYieldStress>
+          <effectiveTensileStress>627000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SMA400" name="SMA400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SMA490" name="SMA490">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>315000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>346500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SMA570" name="SMA570">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>450000</minimumYieldStress>
+          <minimumTensileStress>570000</minimumTensileStress>
+          <effectiveYieldStress>495000</effectiveYieldStress>
+          <effectiveTensileStress>627000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SHN400" name="SHN400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SHN490" name="SHN490">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>325000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>357500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="HSA800" name="HSA800">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>650000</minimumYieldStress>
+          <minimumTensileStress>800000</minimumTensileStress>
+          <effectiveYieldStress>715000</effectiveYieldStress>
+          <effectiveTensileStress>880000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="HSB500" name="HSB500">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>380000</minimumYieldStress>
+          <minimumTensileStress>500000</minimumTensileStress>
+          <effectiveYieldStress>418000</effectiveYieldStress>
+          <effectiveTensileStress>550000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="HSB600" name="HSB600">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>450000</minimumYieldStress>
+          <minimumTensileStress>600000</minimumTensileStress>
+          <effectiveYieldStress>490000</effectiveYieldStress>
+          <effectiveTensileStress>660000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="HSB800" name="HSB800">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>690000</minimumYieldStress>
+          <minimumTensileStress>800000</minimumTensileStress>
+          <effectiveYieldStress>759000</effectiveYieldStress>
+          <effectiveTensileStress>880000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SSC400" name="SSC400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SWH400" name="SWH400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="STK400" name="STK400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="STK490" name="STK490">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>325000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>357500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="STKN490B" name="STKN490B">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>325000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>357500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="STK500" name="STK500">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>355000</minimumYieldStress>
+          <minimumTensileStress>500000</minimumTensileStress>
+          <effectiveYieldStress>390500</effectiveYieldStress>
+          <effectiveTensileStress>550000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="STKT590" name="STKT590">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>440000</minimumYieldStress>
+          <minimumTensileStress>590000</minimumTensileStress>
+          <effectiveYieldStress>484000</effectiveYieldStress>
+          <effectiveTensileStress>649000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SPSR400" name="SPSR400">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SPAP235" name="SPAP235">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SPAP325" name="SPAP325">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>325000</minimumYieldStress>
+          <minimumTensileStress>490000</minimumTensileStress>
+          <effectiveYieldStress>357500</effectiveYieldStress>
+          <effectiveTensileStress>539000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SPAR295" name="SPAR295">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>295000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>324500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SDP1" name="SDP1">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>205000</minimumYieldStress>
+          <minimumTensileStress>265000</minimumTensileStress>
+          <effectiveYieldStress>225500</effectiveYieldStress>
+          <effectiveTensileStress>291500</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SDP2" name="SDP2">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SDP3" name="SDP3">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SCW410" name="SCW410">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+        <material type="Steel" grade="SCW480" name="SCW480">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>205000000</modulusOfElasticity>
+          <poissonsRatio>0.297468354</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>235000</minimumYieldStress>
+          <minimumTensileStress>400000</minimumTensileStress>
+          <effectiveYieldStress>258500</effectiveYieldStress>
+          <effectiveTensileStress>440000</effectiveTensileStress>
+          <strainAtHardening>0.01875</strainAtHardening>
+          <strainAtMaxStress>0.125</strainAtMaxStress>
+          <strainAtRupture>0.23</strainAtRupture>
+        </material>
+
+<!-- CONCRETE MATERIALS-->
+
+        <material type="concrete" grade="C15" name="C15">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>22663849.60</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>15000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C18" name="C18">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>23798890.24</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>18000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C21" name="C21">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>24834903.80</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>21000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C24" name="C24">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>25791018.30</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>24000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C27" name="C27">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>26681057.81</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>27000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C30" name="C30">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>27515375.98</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>30000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C35" name="C35">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>28802975.05</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>35000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C40" name="C40">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>29984722.78</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>40000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C45" name="C45">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>31185368.40</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>45000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C50" name="C50">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>32300063.47</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>50000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C55" name="C55">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>33342713.25</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>55000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C60" name="C60">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>34323939.23</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>60000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C65" name="C65">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>35169694.47</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>65000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C70" name="C70">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>35976618.70</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>70000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C75" name="C75">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>36748883.77</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>75000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C80" name="C80">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>37489987.56</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>80000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C85" name="C85">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>38202895.16</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>85000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="C90" name="C90">
+          <weightDensity>23.54</weightDensity>
+          <massDensity>2.4</massDensity>
+          <modulusOfElasticity>38890144.51</modulusOfElasticity>
+          <poissonsRatio>0.167</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>90000</compressiveStrength>
+          <strainAtfc>0.00154919</strainAtfc>
+          <strainAtUltimate>0.005</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+ <!--  REBAR MATERIALS  -->
+
+        <material type="rebar" grade="SD300" name="SD300">
+          <weightDensity>76.9729</weightDensity>
+          <massDensity>7.849047</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>300000</minimumYieldStress>
+          <minimumTensileStress>345000</minimumTensileStress>
+          <expectedYieldStress>330000</expectedYieldStress>
+          <expectedTensileStress>379500</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="SD400" name="SD400">
+          <weightDensity>76.9729</weightDensity>
+          <massDensity>7.849047</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>400000</minimumYieldStress>
+          <minimumTensileStress>460000</minimumTensileStress>
+          <expectedYieldStress>440000</expectedYieldStress>
+          <expectedTensileStress>506000</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="SD500" name="SD500">
+          <weightDensity>76.9729</weightDensity>
+          <massDensity>7.849047</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>500000</minimumYieldStress>
+          <minimumTensileStress>540000</minimumTensileStress>
+          <expectedYieldStress>550000</expectedYieldStress>
+          <expectedTensileStress>594000</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="SD600" name="SD600">
+          <weightDensity>76.9729</weightDensity>
+          <massDensity>7.849047</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>600000</minimumYieldStress>
+          <minimumTensileStress>648000</minimumTensileStress>
+          <expectedYieldStress>660000</expectedYieldStress>
+          <expectedTensileStress>712800</expectedTensileStress>
+          <strainAtHardening>0.02</strainAtHardening>
+          <strainAtUltimate>0.12</strainAtUltimate>
+        </material>
+
+<!--  TENDON MATERIALS  -->
+
+        <material type="tendon" grade="SWPC7A" name="SWPC7A">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>1460000</minimumYieldStress>
+          <!-- assumed yield strain 0.0076 -->
+          <minimumTensileStress>1720000</minimumTensileStress>
+          <tendonStressStrainCurveType>1</tendonStressStrainCurveType>
+        </material>
+
+         <material type="tendon" grade="SWPC7B" name="SWPC7B">
+          <weightDensity>76.98</weightDensity>
+          <massDensity>7.847094</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>1580000</minimumYieldStress>
+          <!-- assumed yield strain 0.0076 -->
+          <minimumTensileStress>1860000</minimumTensileStress>
+          <tendonStressStrainCurveType>1</tendonStressStrainCurveType>
+        </material>
+        
+      </standard>
+    </collection>
+  </region>
+</propertyFile>

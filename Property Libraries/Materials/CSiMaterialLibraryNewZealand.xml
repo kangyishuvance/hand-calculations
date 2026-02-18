@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<propertyFile xmlns="http://www.csiberkeley.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiberkeley.com CSiMaterialLibrary.xsd">
+
+  <!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+  
+  <control lengthUnits="m" forceUnits="kN">
+    <fileID>CSI Material Library for New Zealand</fileID>
+    <fileVersion>2.2</fileVersion>
+    <fileDescription>Built-in Material Property templates for New Zealand</fileDescription>
+    <!-- 
+	Version 2.0 
+		steel materials rationalised
+		steel materials updated for AS 1163:2016, AS/NZS 3678:2016 and AS 3679.1:2016 standards
+		steel material naming convention enhanced to include relevant plate thickness range
+		masonry materials added in accordance with NZS 4230:2004
+		aluminium material added in accordance with AS/NZS 1664.1:1997
+		cold formed steel material properties added in accordance with AS 1397:2001, AS/NZS 1594:2002 and AS/NZS 1595:1998
+		common tendon (strand) materials added in accordance with AS/NZS 4671.2:2007
+	Version 2.1
+		steel materials updated to include AS/NZS3678:2016 Grade 450PL
+		cold-formed steel materials for AS/NZS 1594:2002 and AS/NZS 1595:1998 standards renamed from "AS1594..." and "AS1595..." to "AS/NZS1594..." and "AS/NZS1595..." respectively
+	Version 2.2
+		aluminium material properties corrected (previous versions of the material library erronesouly defined these materials in MPa units)
+	Version 2.3
+	    Removed materials per Australian standards as well as per standards common to Australia and New Zealand. 
+		-->
+  </control>
+  
+  <region name="New Zealand" lengthUnits="m" forceUnits="kN">
+  
+    <collection type="Materials">
+	
+	
+<!-- CONCRETE MATERIALS  -->
+		
+      <standard name="NZS 3101:2006">
+
+        <material type="concrete" grade="f'c 20MPa" name="NZS3101-20MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>21019039</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>20000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+		  <expectedCompressiveStrength>30000</expectedCompressiveStrength>  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+        <material type="concrete" grade="f'c 25MPa" name="NZS3101-25MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>23500000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>25000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+		  <expectedCompressiveStrength>35000</expectedCompressiveStrength>  
+		  <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>      
+		
+        <material type="concrete" grade="f'c 30MPa" name="NZS3101-30MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>25742960</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>30000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+ 		  <expectedCompressiveStrength>40000</expectedCompressiveStrength>  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+        <material type="concrete" grade="f'c 35MPa" name="NZS3101-35MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>27805575</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>35000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+ 		  <expectedCompressiveStrength>45000</expectedCompressiveStrength>  		  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+        <material type="concrete" grade="f'c 40MPa" name="NZS3101-40MPa" isDefault="true">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>29725410</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>40000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+ 		  <expectedCompressiveStrength>50000</expectedCompressiveStrength>  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+        <material type="concrete" grade="f'c 45MPa" name="NZS3101-45MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>31528558</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>45000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+ 		  <expectedCompressiveStrength>55000</expectedCompressiveStrength>	 	  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+        <material type="concrete" grade="f'c 50MPa" name="NZS3101-50MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>33234019</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>50000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+ 		  <expectedCompressiveStrength>60000</expectedCompressiveStrength>  		  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+        <material type="concrete" grade="f'c 55MPa" name="NZS3101-55MPa">
+          <weightDensity>24</weightDensity>
+          <massDensity>2.447</massDensity>
+          <modulusOfElasticity>34856133</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>55000</compressiveStrength>
+		  <!-- Mean strength taken as f'c+10MPa in accordance with NZS 3101:2006 Cl. 5.2.3(c)	-->
+ 		  <expectedCompressiveStrength>65000</expectedCompressiveStrength>  		  
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+		
+      </standard>
+	  
+
+<!-- MASONRY MATERIALS  -->
+
+      <standard name="NZS 4230:2004">
+
+		<!-- Single skin block density 2200 kg/m3  -->
+		
+        <material type="masonry" grade="Grade C (f'm 4MPa) - Light" name="NZS4230-C(4MPa)-L">
+          <weightDensity>18.5</weightDensity>
+          <massDensity>1.886</massDensity> 
+		  <!--  mass/weight density determined with reference to NZS4229:1998 assuming all cores filled with grout  -->
+          <modulusOfElasticity>15000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>4000</compressiveStrength>
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+        </material>
+	  
+	    <material type="masonry" grade="Grade B (f'm 12MPa) - Light" name="NZS4230-B(12MPa)-L">
+          <weightDensity>18.5</weightDensity>
+          <massDensity>1.886</massDensity> 
+		  <!--  mass/weight density determined with reference to NZS4229:1998 assuming all cores filled with grout  -->
+          <modulusOfElasticity>15000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>12000</compressiveStrength>
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+        </material>
+		
+		<!-- Single skin block density 2200 kg/m3  -->
+		
+        <material type="masonry" grade="Grade C (f'm 4MPa) - Heavy" name="NZS4230-C(4MPa)-H">
+          <weightDensity>20.5</weightDensity>
+          <massDensity>2.090</massDensity> 
+		  <!--  mass/weight density determined with reference to NZS4229:1998 assuming all cores filled with grout  -->
+          <modulusOfElasticity>15000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>4000</compressiveStrength>
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+        </material>
+	  
+	    <material type="masonry" grade="Grade B (f'm 12MPa) - Heavy" name="NZS4230-B(12MPa)-H">
+          <weightDensity>20.5</weightDensity>
+          <massDensity>2.090</massDensity> 
+		  <!--  mass/weight density determined with reference to NZS4229:1998 assuming all cores filled with grout  -->
+          <modulusOfElasticity>15000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>12000</compressiveStrength>
+          <strainAtfc>0.002</strainAtfc>
+          <strainAtUltimate>0.004</strainAtUltimate>
+        </material>		
+		
+	  </standard>
+	  
+
+    </collection>
+  </region>
+
+  </propertyFile>

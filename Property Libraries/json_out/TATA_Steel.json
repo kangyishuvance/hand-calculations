@@ -1,0 +1,2482 @@
+{
+  "meta": {
+    "source_file": "TATA_Steel.xml",
+    "source_format": "CSI/ETABS XML",
+    "length_units_in_source": "",
+    "converted_to_mm_basis": true,
+    "note": "If converted_to_mm_basis is true: lengths=mm, areas=mm^2, section moduli=mm^3, inertias/torsion constants=mm^4.",
+    "control": {}
+  },
+  "sections_by_label": {
+    "50X25X2.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x25x2.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 274.0,
+        "HT": 50.0,
+        "B": 25.0,
+        "TF": 2.0,
+        "TW": 2.0,
+        "Iy": 83800.0,
+        "Zy": 4260.0,
+        "Iz": 28100.0,
+        "Zz": 2620.0,
+        "J": 4330.0
+      }
+    },
+    "50X25X2.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x25x2.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 346.0,
+        "HT": 50.0,
+        "B": 25.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 101600.0,
+        "Zy": 5260.0,
+        "Iz": 33600.0,
+        "Zz": 3210.0,
+        "J": 5330.0
+      }
+    },
+    "50X25X3.2RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x25x3.2 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 413.0,
+        "HT": 50.0,
+        "B": 25.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 116300.0,
+        "Zy": 6140.0,
+        "Iz": 38000.0,
+        "Zz": 3730.0,
+        "J": 6180.0
+      }
+    },
+    "50X25X4.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x25x4.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 495.0,
+        "HT": 50.0,
+        "B": 25.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 131300.0,
+        "Zy": 7130.0,
+        "Iz": 42300.0,
+        "Zz": 4290.0,
+        "J": 7040.0
+      }
+    },
+    "60X40X2.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x40x2.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 476.0,
+        "HT": 60.0,
+        "B": 40.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 227600.0,
+        "Zy": 9360.0,
+        "Iz": 120900.0,
+        "Zz": 7070.0,
+        "J": 10970.0
+      }
+    },
+    "60X40X2.9RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x40x2.9 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 525.0,
+        "HT": 60.0,
+        "B": 40.0,
+        "TF": 2.9,
+        "TW": 2.9,
+        "Iy": 247400.0,
+        "Zy": 10250.0,
+        "Iz": 131100.0,
+        "Zz": 7730.0,
+        "J": 12030.0
+      }
+    },
+    "60X40X3.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x40x3.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 635.0,
+        "HT": 60.0,
+        "B": 40.0,
+        "TF": 3.6,
+        "TW": 3.6,
+        "Iy": 289000.0,
+        "Zy": 12160.0,
+        "Iz": 152300.0,
+        "Zz": 9150.0,
+        "J": 14280.0
+      }
+    },
+    "60X40X4.5RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x40x4.5 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 767.0,
+        "HT": 60.0,
+        "B": 40.0,
+        "TF": 4.5,
+        "TW": 4.5,
+        "Iy": 333100.0,
+        "Zy": 14320.0,
+        "Iz": 174400.0,
+        "Zz": 10750.0,
+        "J": 16750.0
+      }
+    },
+    "66X33X2.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "66x33x2.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 470.0,
+        "HT": 66.0,
+        "B": 33.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 251500.0,
+        "Zy": 9680.0,
+        "Iz": 84300.0,
+        "Zz": 5940.0,
+        "J": 9830.0
+      }
+    },
+    "66X33X2.9RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "66x33x2.9 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 519.0,
+        "HT": 66.0,
+        "B": 33.0,
+        "TF": 2.9,
+        "TW": 2.9,
+        "Iy": 273300.0,
+        "Zy": 10590.0,
+        "Iz": 91200.0,
+        "Zz": 6490.0,
+        "J": 10750.0
+      }
+    },
+    "66X33X3.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "66x33x3.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 628.0,
+        "HT": 66.0,
+        "B": 33.0,
+        "TF": 3.6,
+        "TW": 3.6,
+        "Iy": 318700.0,
+        "Zy": 12560.0,
+        "Iz": 105200.0,
+        "Zz": 7660.0,
+        "J": 12710.0
+      }
+    },
+    "66X33X4.5RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "66x33x4.5 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 758.0,
+        "HT": 66.0,
+        "B": 33.0,
+        "TF": 4.5,
+        "TW": 4.5,
+        "Iy": 366400.0,
+        "Zy": 14770.0,
+        "Iz": 119300.0,
+        "Zz": 8940.0,
+        "J": 14800.0
+      }
+    },
+    "80X40X2.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x40x2.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 580.0,
+        "HT": 80.0,
+        "B": 40.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 465800.0,
+        "Zy": 14640.0,
+        "Iz": 157400.0,
+        "Zz": 9010.0,
+        "J": 14860.0
+      }
+    },
+    "80X40X2.9RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x40x2.9 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 641.0,
+        "HT": 80.0,
+        "B": 40.0,
+        "TF": 2.9,
+        "TW": 2.9,
+        "Iy": 508700.0,
+        "Zy": 16070.0,
+        "Iz": 171100.0,
+        "Zz": 9880.0,
+        "J": 16330.0
+      }
+    },
+    "80X40X3.2RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x40x3.2 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 701.0,
+        "HT": 80.0,
+        "B": 40.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 549400.0,
+        "Zy": 17460.0,
+        "Iz": 184100.0,
+        "Zz": 10720.0,
+        "J": 17740.0
+      }
+    },
+    "80X40X4.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x40x4.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 855.0,
+        "HT": 80.0,
+        "B": 40.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 647900.0,
+        "Zy": 20910.0,
+        "Iz": 214900.0,
+        "Zz": 12770.0,
+        "J": 21200.0
+      }
+    },
+    "80X40X4.8RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x40x4.8 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1001.0,
+        "HT": 80.0,
+        "B": 40.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 732200.0,
+        "Zy": 24010.0,
+        "Iz": 240300.0,
+        "Zz": 14600.0,
+        "J": 24220.0
+      }
+    },
+    "96X48X3.2RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "96x48x3.2 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 854.0,
+        "HT": 96.0,
+        "B": 48.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 986100.0,
+        "Zy": 25850.0,
+        "Iz": 332800.0,
+        "Zz": 15910.0,
+        "J": 26260.0
+      }
+    },
+    "96X48X4.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "96x48x4.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1047.0,
+        "HT": 96.0,
+        "B": 48.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 1175400.0,
+        "Zy": 31210.0,
+        "Iz": 393200.0,
+        "Zz": 19140.0,
+        "J": 31700.0
+      }
+    },
+    "96X48X4.8RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "96x48x4.8 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1231.0,
+        "HT": 96.0,
+        "B": 48.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 1343500.0,
+        "Zy": 36130.0,
+        "Iz": 445500.0,
+        "Zz": 22080.0,
+        "J": 36640.0
+      }
+    },
+    "120X60X3.2RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "120x60x3.2 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1085.0,
+        "HT": 120.0,
+        "B": 60.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 1998800.0,
+        "Zy": 41510.0,
+        "Iz": 679500.0,
+        "Zz": 25630.0,
+        "J": 42110.0
+      }
+    },
+    "120X60X3.6RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "120x60x3.6 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1211.0,
+        "HT": 120.0,
+        "B": 60.0,
+        "TF": 3.6,
+        "TW": 3.6,
+        "Iy": 2207500.0,
+        "Zy": 46070.0,
+        "Iz": 747700.0,
+        "Zz": 28400.0,
+        "J": 46770.0
+      }
+    },
+    "120X60X4.5RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "120x60x4.5 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1487.0,
+        "HT": 120.0,
+        "B": 60.0,
+        "TF": 4.5,
+        "TW": 4.5,
+        "Iy": 2645200.0,
+        "Zy": 55820.0,
+        "Iz": 888800.0,
+        "Zz": 34300.0,
+        "J": 56710.0
+      }
+    },
+    "120X60X5.4RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "120x60x5.4 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 1752.0,
+        "HT": 120.0,
+        "B": 60.0,
+        "TF": 5.4,
+        "TW": 5.4,
+        "Iy": 3040000.0,
+        "Zy": 64900.0,
+        "Iz": 1013300.0,
+        "Zz": 39740.0,
+        "J": 65890.0
+      }
+    },
+    "145X82X4.8RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "145x82x4.8 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2028.0,
+        "HT": 145.0,
+        "B": 82.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 5551600.0,
+        "Zy": 94930.0,
+        "Iz": 2285000.0,
+        "Zz": 63930.0,
+        "J": 102720.0
+      }
+    },
+    "145X82X5.4RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "145x82x5.4 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2260.0,
+        "HT": 145.0,
+        "B": 82.0,
+        "TF": 5.4,
+        "TW": 5.4,
+        "Iy": 6108500.0,
+        "Zy": 105070.0,
+        "Iz": 2505900.0,
+        "Zz": 70660.0,
+        "J": 113800.0
+      }
+    },
+    "172X92X4.8RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "172x92x4.8 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2383.0,
+        "HT": 172.0,
+        "B": 92.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 9171300.0,
+        "Zy": 132080.0,
+        "Iz": 3469100.0,
+        "Zz": 85610.0,
+        "J": 138780.0
+      }
+    },
+    "172X92X5.4RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "172x92x5.4 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2660.0,
+        "HT": 172.0,
+        "B": 92.0,
+        "TF": 5.4,
+        "TW": 5.4,
+        "Iy": 10124700.0,
+        "Zy": 146550.0,
+        "Iz": 3817400.0,
+        "Zz": 94860.0,
+        "J": 154130.0
+      }
+    },
+    "200X100X4.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "200x100x4.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2295.0,
+        "HT": 200.0,
+        "B": 100.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 11997100.0,
+        "Zy": 148040.0,
+        "Iz": 4107800.0,
+        "Zz": 91700.0,
+        "J": 149840.0
+      }
+    },
+    "200X100X5.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "200x100x5.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2836.0,
+        "HT": 200.0,
+        "B": 100.0,
+        "TF": 5.0,
+        "TW": 5.0,
+        "Iy": 14592500.0,
+        "Zy": 181370.0,
+        "Iz": 4969400.0,
+        "Zz": 112090.0,
+        "J": 183910.0
+      }
+    },
+    "200X100X6.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "200x100x6.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 3363.0,
+        "HT": 200.0,
+        "B": 100.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 17033100.0,
+        "Zy": 213270.0,
+        "Iz": 5769100.0,
+        "Zz": 131500.0,
+        "J": 216510.0
+      }
+    },
+    "200X100X8.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "200x100x8.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 4379.0,
+        "HT": 200.0,
+        "B": 100.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 21462100.0,
+        "Zy": 272790.0,
+        "Iz": 7191900.0,
+        "Zz": 167430.0,
+        "J": 277130.0
+      }
+    },
+    "220X140X4.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x140x4.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2775.0,
+        "HT": 220.0,
+        "B": 140.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 18925500.0,
+        "Zy": 206350.0,
+        "Iz": 9476400.0,
+        "Zz": 151670.0,
+        "J": 234320.0
+      }
+    },
+    "220X140X5.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x140x5.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 3436.0,
+        "HT": 220.0,
+        "B": 140.0,
+        "TF": 5.0,
+        "TW": 5.0,
+        "Iy": 23133600.0,
+        "Zy": 253730.0,
+        "Iz": 11552300.0,
+        "Zz": 186300.0,
+        "J": 288910.0
+      }
+    },
+    "220X140X6.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x140x6.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 4083.0,
+        "HT": 220.0,
+        "B": 140.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 27139700.0,
+        "Zy": 299460.0,
+        "Iz": 13516600.0,
+        "Zz": 219650.0,
+        "J": 341790.0
+      }
+    },
+    "220X140X8.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x140x8.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 5339.0,
+        "HT": 220.0,
+        "B": 140.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 34561000.0,
+        "Zy": 386020.0,
+        "Iz": 17121700.0,
+        "Zz": 282530.0,
+        "J": 442250.0
+      }
+    },
+    "240X120X4.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "240x120x4.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 2775.0,
+        "HT": 240.0,
+        "B": 120.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 21107200.0,
+        "Zy": 216010.0,
+        "Iz": 7253500.0,
+        "Zz": 134010.0,
+        "J": 218320.0
+      }
+    },
+    "240X120X5.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "240x120x5.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 3436.0,
+        "HT": 240.0,
+        "B": 120.0,
+        "TF": 5.0,
+        "TW": 5.0,
+        "Iy": 25796700.0,
+        "Zy": 265580.0,
+        "Iz": 8824700.0,
+        "Zz": 164450.0,
+        "J": 268910.0
+      }
+    },
+    "240X120X6.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "240x120x6.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 4083.0,
+        "HT": 240.0,
+        "B": 120.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 30259100.0,
+        "Zy": 313410.0,
+        "Iz": 10304500.0,
+        "Zz": 193690.0,
+        "J": 317790.0
+      }
+    },
+    "240X120X8.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "240x120x8.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 5339.0,
+        "HT": 240.0,
+        "B": 120.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 38518400.0,
+        "Zy": 403890.0,
+        "Iz": 12999500.0,
+        "Zz": 248660.0,
+        "J": 410250.0
+      }
+    },
+    "260X180X6.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "260x180x6.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 5043.0,
+        "HT": 260.0,
+        "B": 180.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 48558700.0,
+        "Zy": 446880.0,
+        "Iz": 27634300.0,
+        "Zz": 347870.0,
+        "J": 528030.0
+      }
+    },
+    "260X180X8.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "260x180x8.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 6619.0,
+        "HT": 260.0,
+        "B": 180.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 62386900.0,
+        "Zy": 579850.0,
+        "Iz": 35381000.0,
+        "Zz": 450760.0,
+        "J": 688010.0
+      }
+    },
+    "260X180X10.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "260x180x10.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 8143.0,
+        "HT": 260.0,
+        "B": 180.0,
+        "TF": 10.0,
+        "TW": 10.0,
+        "Iy": 75095100.0,
+        "Zy": 705010.0,
+        "Iz": 42442600.0,
+        "Zz": 547310.0,
+        "J": 839270.0
+      }
+    },
+    "260X180X12.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "260x180x12.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 9614.0,
+        "HT": 260.0,
+        "B": 180.0,
+        "TF": 12.0,
+        "TW": 12.0,
+        "Iy": 86718000.0,
+        "Zy": 822480.0,
+        "Iz": 48846900.0,
+        "Zz": 637640.0,
+        "J": 981390.0
+      }
+    },
+    "300X150X6.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x150x6.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 5163.0,
+        "HT": 300.0,
+        "B": 150.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 60735100.0,
+        "Zy": 499630.0,
+        "Iz": 20795700.0,
+        "Zz": 309480.0,
+        "J": 505710.0
+      }
+    },
+    "300X150X8.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x150x8.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 6779.0,
+        "HT": 300.0,
+        "B": 150.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 78079500.0,
+        "Zy": 648550.0,
+        "Iz": 26541200.0,
+        "Zz": 400510.0,
+        "J": 657930.0
+      }
+    },
+    "300X150X10.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x150x10.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 8343.0,
+        "HT": 300.0,
+        "B": 150.0,
+        "TF": 10.0,
+        "TW": 10.0,
+        "Iy": 94039000.0,
+        "Zy": 788860.0,
+        "Iz": 31737100.0,
+        "Zz": 485670.0,
+        "J": 801270.0
+      }
+    },
+    "300X150X12.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x150x12.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 9854.0,
+        "HT": 300.0,
+        "B": 150.0,
+        "TF": 12.0,
+        "TW": 12.0,
+        "Iy": 108652100.0,
+        "Zy": 920670.0,
+        "Iz": 36408900.0,
+        "Zz": 565080.0,
+        "J": 935310.0
+      }
+    },
+    "300X200X6.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x200x6.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 5763.0,
+        "HT": 300.0,
+        "B": 200.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 73702300.0,
+        "Zy": 587830.0,
+        "Iz": 39621900.0,
+        "Zz": 446070.0,
+        "J": 682110.0
+      }
+    },
+    "300X200X8.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x200x8.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 7579.0,
+        "HT": 300.0,
+        "B": 200.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 95136600.0,
+        "Zy": 765350.0,
+        "Iz": 50970400.0,
+        "Zz": 579990.0,
+        "J": 891530.0
+      }
+    },
+    "300X200X10.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x200x10.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 9343.0,
+        "HT": 300.0,
+        "B": 200.0,
+        "TF": 10.0,
+        "TW": 10.0,
+        "Iy": 115072400.0,
+        "Zy": 933860.0,
+        "Iz": 61443000.0,
+        "Zz": 706730.0,
+        "J": 1091270.0
+      }
+    },
+    "300X200X12.0RHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "300x200x12.0 RHS",
+      "designation": "RHS",
+      "properties": {
+        "A": 11054.0,
+        "HT": 300.0,
+        "B": 200.0,
+        "TF": 12.0,
+        "TW": 12.0,
+        "Iy": 133549700.0,
+        "Zy": 1093470.0,
+        "Iz": 71071100.0,
+        "Zz": 826410.0,
+        "J": 1280910.0
+      }
+    },
+    "25X25X1.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "25x25x1.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 143.0,
+        "HT": 25.0,
+        "B": 25.0,
+        "TF": 1.6,
+        "TW": 1.6,
+        "Iy": 12800.0,
+        "Zy": 1240.0,
+        "Iz": 12800.0,
+        "Zz": 1240.0,
+        "J": 1710.0
+      }
+    },
+    "25X25X2.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "25x25x2.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 174.0,
+        "HT": 25.0,
+        "B": 25.0,
+        "TF": 2.0,
+        "TW": 2.0,
+        "Iy": 14800.0,
+        "Zy": 1470.0,
+        "Iz": 14800.0,
+        "Zz": 1470.0,
+        "J": 2030.0
+      }
+    },
+    "25X25X2.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "25x25x2.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 216.0,
+        "HT": 25.0,
+        "B": 25.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 17200.0,
+        "Zy": 1760.0,
+        "Iz": 17200.0,
+        "Zz": 1760.0,
+        "J": 2420.0
+      }
+    },
+    "25X25X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "25x25x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 253.0,
+        "HT": 25.0,
+        "B": 25.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 18900.0,
+        "Zy": 1980.0,
+        "Iz": 18900.0,
+        "Zz": 1980.0,
+        "J": 2690.0
+      }
+    },
+    "30X30X2.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "30x30x2.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 214.0,
+        "HT": 30.0,
+        "B": 30.0,
+        "TF": 2.0,
+        "TW": 2.0,
+        "Iy": 27200.0,
+        "Zy": 2210.0,
+        "Iz": 27200.0,
+        "Zz": 2210.0,
+        "J": 3050.0
+      }
+    },
+    "30X30X2.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "30x30x2.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 268.0,
+        "HT": 30.0,
+        "B": 30.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 32300.0,
+        "Zy": 2680.0,
+        "Iz": 32300.0,
+        "Zz": 2680.0,
+        "J": 3720.0
+      }
+    },
+    "30X30X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "30x30x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 317.0,
+        "HT": 30.0,
+        "B": 30.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 36200.0,
+        "Zy": 3080.0,
+        "Iz": 36200.0,
+        "Zz": 3080.0,
+        "J": 4250.0
+      }
+    },
+    "38X38X2.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "38x38x2.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 278.0,
+        "HT": 38.0,
+        "B": 38.0,
+        "TF": 2.0,
+        "TW": 2.0,
+        "Iy": 58800.0,
+        "Zy": 3700.0,
+        "Iz": 58800.0,
+        "Zz": 3700.0,
+        "J": 5100.0
+      }
+    },
+    "38X38X2.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "38x38x2.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 351.0,
+        "HT": 38.0,
+        "B": 38.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 71400.0,
+        "Zy": 4570.0,
+        "Iz": 71400.0,
+        "Zz": 4570.0,
+        "J": 6330.0
+      }
+    },
+    "38X38X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "38x38x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 419.0,
+        "HT": 38.0,
+        "B": 38.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 81800.0,
+        "Zy": 5340.0,
+        "Iz": 81800.0,
+        "Zz": 5340.0,
+        "J": 7400.0
+      }
+    },
+    "38X38X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "38x38x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 503.0,
+        "HT": 38.0,
+        "B": 38.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 92600.0,
+        "Zy": 6220.0,
+        "Iz": 92600.0,
+        "Zz": 6220.0,
+        "J": 8560.0
+      }
+    },
+    "40X40X2.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "40x40x2.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 372.0,
+        "HT": 40.0,
+        "B": 40.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 84500.0,
+        "Zy": 5120.0,
+        "Iz": 84500.0,
+        "Zz": 5120.0,
+        "J": 7080.0
+      }
+    },
+    "40X40X2.9SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "40x40x2.9 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 409.0,
+        "HT": 40.0,
+        "B": 40.0,
+        "TF": 2.9,
+        "TW": 2.9,
+        "Iy": 91100.0,
+        "Zy": 5580.0,
+        "Iz": 91100.0,
+        "Zz": 5580.0,
+        "J": 7720.0
+      }
+    },
+    "40X40X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "40x40x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 445.0,
+        "HT": 40.0,
+        "B": 40.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 97200.0,
+        "Zy": 6010.0,
+        "Iz": 97200.0,
+        "Zz": 6010.0,
+        "J": 8320.0
+      }
+    },
+    "40X40X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "40x40x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 535.0,
+        "HT": 40.0,
+        "B": 40.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 110700.0,
+        "Zy": 7010.0,
+        "Iz": 110700.0,
+        "Zz": 7010.0,
+        "J": 9680.0
+      }
+    },
+    "50X50X2.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x50x2.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 476.0,
+        "HT": 50.0,
+        "B": 50.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 174700.0,
+        "Zy": 8340.0,
+        "Iz": 174700.0,
+        "Zz": 8340.0,
+        "J": 11490.0
+      }
+    },
+    "50X50X2.9SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x50x2.9 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 525.0,
+        "HT": 50.0,
+        "B": 50.0,
+        "TF": 2.9,
+        "TW": 2.9,
+        "Iy": 189800.0,
+        "Zy": 9130.0,
+        "Iz": 189800.0,
+        "Zz": 9130.0,
+        "J": 12610.0
+      }
+    },
+    "50X50X3.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x50x3.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 635.0,
+        "HT": 50.0,
+        "B": 50.0,
+        "TF": 3.6,
+        "TW": 3.6,
+        "Iy": 221500.0,
+        "Zy": 10840.0,
+        "Iz": 221500.0,
+        "Zz": 10840.0,
+        "J": 15000.0
+      }
+    },
+    "50X50X4.5SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "50x50x4.5 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 767.0,
+        "HT": 50.0,
+        "B": 50.0,
+        "TF": 4.5,
+        "TW": 4.5,
+        "Iy": 255000.0,
+        "Zy": 12760.0,
+        "Iz": 255000.0,
+        "Zz": 12760.0,
+        "J": 17650.0
+      }
+    },
+    "60X60X2.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x60x2.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 580.0,
+        "HT": 60.0,
+        "B": 60.0,
+        "TF": 2.6,
+        "TW": 2.6,
+        "Iy": 313300.0,
+        "Zy": 12340.0,
+        "Iz": 313300.0,
+        "Zz": 12340.0,
+        "J": 16940.0
+      }
+    },
+    "60X60X2.9SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x60x2.9 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 641.0,
+        "HT": 60.0,
+        "B": 60.0,
+        "TF": 2.9,
+        "TW": 2.9,
+        "Iy": 342100.0,
+        "Zy": 13560.0,
+        "Iz": 342100.0,
+        "Zz": 13560.0,
+        "J": 18650.0
+      }
+    },
+    "60X60X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x60x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 701.0,
+        "HT": 60.0,
+        "B": 60.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 369400.0,
+        "Zy": 14730.0,
+        "Iz": 369400.0,
+        "Zz": 14730.0,
+        "J": 20300.0
+      }
+    },
+    "60X60X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x60x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 855.0,
+        "HT": 60.0,
+        "B": 60.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 435500.0,
+        "Zy": 17640.0,
+        "Iz": 435500.0,
+        "Zz": 17640.0,
+        "J": 24400.0
+      }
+    },
+    "60X60X4.8SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "60x60x4.8 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1001.0,
+        "HT": 60.0,
+        "B": 60.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 492200.0,
+        "Zy": 20270.0,
+        "Iz": 492200.0,
+        "Zz": 20270.0,
+        "J": 28060.0
+      }
+    },
+    "72X72X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "72x72x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 854.0,
+        "HT": 72.0,
+        "B": 72.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 663200.0,
+        "Zy": 21800.0,
+        "Iz": 663200.0,
+        "Zz": 21800.0,
+        "J": 29940.0
+      }
+    },
+    "72X72X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "72x72x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1047.0,
+        "HT": 72.0,
+        "B": 72.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 790300.0,
+        "Zy": 26320.0,
+        "Iz": 790300.0,
+        "Zz": 26320.0,
+        "J": 36310.0
+      }
+    },
+    "72X72X4.8SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "72x72x4.8 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1231.0,
+        "HT": 72.0,
+        "B": 72.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 903100.0,
+        "Zy": 30490.0,
+        "Iz": 903100.0,
+        "Zz": 30490.0,
+        "J": 42170.0
+      }
+    },
+    "80X80X3.2SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x80x3.2 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 957.0,
+        "HT": 80.0,
+        "B": 80.0,
+        "TF": 3.2,
+        "TW": 3.2,
+        "Iy": 927100.0,
+        "Zy": 27290.0,
+        "Iz": 927100.0,
+        "Zz": 27290.0,
+        "J": 37400.0
+      }
+    },
+    "80X80X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x80x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1175.0,
+        "HT": 80.0,
+        "B": 80.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 1110400.0,
+        "Zy": 33070.0,
+        "Iz": 1110400.0,
+        "Zz": 33070.0,
+        "J": 45520.0
+      }
+    },
+    "80X80X4.8SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "80x80x4.8 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1385.0,
+        "HT": 80.0,
+        "B": 80.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 1275800.0,
+        "Zy": 38450.0,
+        "Iz": 1275800.0,
+        "Zz": 38450.0,
+        "J": 53100.0
+      }
+    },
+    "91.5X91.5X3.6SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "91.5x91.5x3.6 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1232.0,
+        "HT": 91.5,
+        "B": 91.5,
+        "TF": 3.6,
+        "TW": 3.6,
+        "Iy": 1564900.0,
+        "Zy": 40240.0,
+        "Iz": 1564900.0,
+        "Zz": 40240.0,
+        "J": 55130.0
+      }
+    },
+    "91.5X91.5X4.5SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "91.5x91.5x4.5 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1514.0,
+        "HT": 91.5,
+        "B": 91.5,
+        "TF": 4.5,
+        "TW": 4.5,
+        "Iy": 1875700.0,
+        "Zy": 48790.0,
+        "Iz": 1875700.0,
+        "Zz": 48790.0,
+        "J": 67140.0
+      }
+    },
+    "91.5X91.5X5.4SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "91.5x91.5x5.4 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1785.0,
+        "HT": 91.5,
+        "B": 91.5,
+        "TF": 5.4,
+        "TW": 5.4,
+        "Iy": 2156800.0,
+        "Zy": 56770.0,
+        "Iz": 2156800.0,
+        "Zz": 56770.0,
+        "J": 78370.0
+      }
+    },
+    "100X100X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "100x100x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1495.0,
+        "HT": 100.0,
+        "B": 100.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 2263500.0,
+        "Zy": 53300.0,
+        "Iz": 2263500.0,
+        "Zz": 53300.0,
+        "J": 73040.0
+      }
+    },
+    "100X100X5.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "100x100x5.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 1836.0,
+        "HT": 100.0,
+        "B": 100.0,
+        "TF": 5.0,
+        "TW": 5.0,
+        "Iy": 2711000.0,
+        "Zy": 64590.0,
+        "Iz": 2711000.0,
+        "Zz": 64590.0,
+        "J": 88910.0
+      }
+    },
+    "100X100X6.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "100x100x6.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2163.0,
+        "HT": 100.0,
+        "B": 100.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 3114700.0,
+        "Zy": 75100.0,
+        "Iz": 3114700.0,
+        "Zz": 75100.0,
+        "J": 103710.0
+      }
+    },
+    "113.5X113.5X4.8SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "113.5x113.5x4.8 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2028.0,
+        "HT": 113.5,
+        "B": 113.5,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 3933000.0,
+        "Zy": 81810.0,
+        "Iz": 3933000.0,
+        "Zz": 81810.0,
+        "J": 112240.0
+      }
+    },
+    "113.5X113.5X5.4SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "113.5x113.5x5.4 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2260.0,
+        "HT": 113.5,
+        "B": 113.5,
+        "TF": 5.4,
+        "TW": 5.4,
+        "Iy": 4325800.0,
+        "Zy": 90550.0,
+        "Iz": 4325800.0,
+        "Zz": 90550.0,
+        "J": 124510.0
+      }
+    },
+    "132X132X4.8SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "132x132x4.8 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2383.0,
+        "HT": 132.0,
+        "B": 132.0,
+        "TF": 4.8,
+        "TW": 4.8,
+        "Iy": 6343900.0,
+        "Zy": 112690.0,
+        "Iz": 6343900.0,
+        "Zz": 112690.0,
+        "J": 154140.0
+      }
+    },
+    "132X132X5.4SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "132x132x5.4 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2660.0,
+        "HT": 132.0,
+        "B": 132.0,
+        "TF": 5.4,
+        "TW": 5.4,
+        "Iy": 7001100.0,
+        "Zy": 125020.0,
+        "Iz": 7001100.0,
+        "Zz": 125020.0,
+        "J": 171410.0
+      }
+    },
+    "150X150X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "150x150x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2295.0,
+        "HT": 150.0,
+        "B": 150.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 8078200.0,
+        "Zy": 124870.0,
+        "Iz": 8078200.0,
+        "Zz": 124870.0,
+        "J": 169840.0
+      }
+    },
+    "150X150X5.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "150x150x5.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2836.0,
+        "HT": 150.0,
+        "B": 150.0,
+        "TF": 5.0,
+        "TW": 5.0,
+        "Iy": 9821200.0,
+        "Zy": 152980.0,
+        "Iz": 9821200.0,
+        "Zz": 152980.0,
+        "J": 208910.0
+      }
+    },
+    "150X150X6.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "150x150x6.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 3363.0,
+        "HT": 150.0,
+        "B": 150.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 11459100.0,
+        "Zy": 179880.0,
+        "Iz": 11459100.0,
+        "Zz": 179880.0,
+        "J": 246510.0
+      }
+    },
+    "150X150X7.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "150x150x7.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 3878.0,
+        "HT": 150.0,
+        "B": 150.0,
+        "TF": 7.0,
+        "TW": 7.0,
+        "Iy": 12994400.0,
+        "Zy": 205590.0,
+        "Iz": 12994400.0,
+        "Zz": 205590.0,
+        "J": 282610.0
+      }
+    },
+    "150X150X8.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "150x150x8.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 4379.0,
+        "HT": 150.0,
+        "B": 150.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 14430000.0,
+        "Zy": 230110.0,
+        "Iz": 14430000.0,
+        "Zz": 230110.0,
+        "J": 317130.0
+      }
+    },
+    "180X180X4.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "180x180x4.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 2775.0,
+        "HT": 180.0,
+        "B": 180.0,
+        "TF": 4.0,
+        "TW": 4.0,
+        "Iy": 14217400.0,
+        "Zy": 182210.0,
+        "Iz": 14217400.0,
+        "Zz": 182210.0,
+        "J": 247120.0
+      }
+    },
+    "180X180X5.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "180x180x5.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 3436.0,
+        "HT": 180.0,
+        "B": 180.0,
+        "TF": 5.0,
+        "TW": 5.0,
+        "Iy": 17368700.0,
+        "Zy": 224020.0,
+        "Iz": 17368700.0,
+        "Zz": 224020.0,
+        "J": 304910.0
+      }
+    },
+    "180X180X6.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "180x180x6.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 4083.0,
+        "HT": 180.0,
+        "B": 180.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 20365200.0,
+        "Zy": 264350.0,
+        "Iz": 20365200.0,
+        "Zz": 264350.0,
+        "J": 360990.0
+      }
+    },
+    "180X180X7.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "180x180x7.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 4718.0,
+        "HT": 180.0,
+        "B": 180.0,
+        "TF": 7.0,
+        "TW": 7.0,
+        "Iy": 23210400.0,
+        "Zy": 303240.0,
+        "Iz": 23210400.0,
+        "Zz": 303240.0,
+        "J": 415330.0
+      }
+    },
+    "180X180X8.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "180x180x8.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 5339.0,
+        "HT": 180.0,
+        "B": 180.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 25907300.0,
+        "Zy": 340680.0,
+        "Iz": 25907300.0,
+        "Zz": 340680.0,
+        "J": 467850.0
+      }
+    },
+    "220X220X6.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x220x6.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 5043.0,
+        "HT": 220.0,
+        "B": 220.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 38133600.0,
+        "Zy": 402180.0,
+        "Iz": 38133600.0,
+        "Zz": 402180.0,
+        "J": 547230.0
+      }
+    },
+    "220X220X8.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x220x8.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 6619.0,
+        "HT": 220.0,
+        "B": 220.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 48949900.0,
+        "Zy": 521700.0,
+        "Iz": 48949900.0,
+        "Zz": 521700.0,
+        "J": 713610.0
+      }
+    },
+    "220X220X10.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x220x10.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 8143.0,
+        "HT": 220.0,
+        "B": 220.0,
+        "TF": 10.0,
+        "TW": 10.0,
+        "Iy": 58871900.0,
+        "Zy": 634160.0,
+        "Iz": 58871900.0,
+        "Zz": 634160.0,
+        "J": 871270.0
+      }
+    },
+    "220X220X12.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "220x220x12.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 9614.0,
+        "HT": 220.0,
+        "B": 220.0,
+        "TF": 12.0,
+        "TW": 12.0,
+        "Iy": 67930800.0,
+        "Zy": 739660.0,
+        "Iz": 67930800.0,
+        "Zz": 739660.0,
+        "J": 1019790.0
+      }
+    },
+    "250X250X6.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "250x250x6.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 5763.0,
+        "HT": 250.0,
+        "B": 250.0,
+        "TF": 6.0,
+        "TW": 6.0,
+        "Iy": 56720000.0,
+        "Zy": 524450.0,
+        "Iz": 56720000.0,
+        "Zz": 524450.0,
+        "J": 712110.0
+      }
+    },
+    "250X250X8.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "250x250x8.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 7579.0,
+        "HT": 250.0,
+        "B": 250.0,
+        "TF": 8.0,
+        "TW": 8.0,
+        "Iy": 73156500.0,
+        "Zy": 682670.0,
+        "Iz": 73156500.0,
+        "Zz": 682670.0,
+        "J": 931530.0
+      }
+    },
+    "250X250X10.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "250x250x10.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 9343.0,
+        "HT": 250.0,
+        "B": 250.0,
+        "TF": 10.0,
+        "TW": 10.0,
+        "Iy": 88418600.0,
+        "Zy": 832790.0,
+        "Iz": 88418600.0,
+        "Zz": 832790.0,
+        "J": 1141270.0
+      }
+    },
+    "250X250X12.0SHS": {
+      "type": "STEEL_BOX",
+      "edi_std": "250x250x12.0 SHS",
+      "designation": "SHS",
+      "properties": {
+        "A": 11054.0,
+        "HT": 250.0,
+        "B": 250.0,
+        "TF": 12.0,
+        "TW": 12.0,
+        "Iy": 102542100.0,
+        "Zy": 974940.0,
+        "Iz": 102542100.0,
+        "Zz": 974940.0,
+        "J": 1340910.0
+      }
+    },
+    "21.3X2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "21.3x2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 121.0,
+        "OD": 21.3,
+        "TDES": 2.0,
+        "Iy": 5700.0,
+        "Zy": 750.0
+      }
+    },
+    "21.3X2.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "21.3x2.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 153.0,
+        "OD": 21.3,
+        "TDES": 2.6,
+        "Iy": 6800.0,
+        "Zy": 920.0
+      }
+    },
+    "21.3X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "21.3x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 182.0,
+        "OD": 21.3,
+        "TDES": 3.2,
+        "Iy": 7700.0,
+        "Zy": 1060.0
+      }
+    },
+    "26.9X2.3CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "26.9x2.3 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 178.0,
+        "OD": 26.9,
+        "TDES": 2.3,
+        "Iy": 13600.0,
+        "Zy": 1400.0
+      }
+    },
+    "26.9X2.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "26.9x2.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 198.0,
+        "OD": 26.9,
+        "TDES": 2.6,
+        "Iy": 14800.0,
+        "Zy": 1540.0
+      }
+    },
+    "26.9X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "26.9x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 238.0,
+        "OD": 26.9,
+        "TDES": 3.2,
+        "Iy": 17000.0,
+        "Zy": 1810.0
+      }
+    },
+    "33.7X2.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "33.7x2.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 254.0,
+        "OD": 33.7,
+        "TDES": 2.6,
+        "Iy": 30900.0,
+        "Zy": 2520.0
+      }
+    },
+    "33.7X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "33.7x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 307.0,
+        "OD": 33.7,
+        "TDES": 3.2,
+        "Iy": 36000.0,
+        "Zy": 2990.0
+      }
+    },
+    "33.7X4CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "33.7x4 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 373.0,
+        "OD": 33.7,
+        "TDES": 4.0,
+        "Iy": 41900.0,
+        "Zy": 3550.0
+      }
+    },
+    "42.4X2.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "42.4x2.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 325.0,
+        "OD": 42.4,
+        "TDES": 2.6,
+        "Iy": 64600.0,
+        "Zy": 4120.0
+      }
+    },
+    "42.4X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "42.4x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 394.0,
+        "OD": 42.4,
+        "TDES": 3.2,
+        "Iy": 76200.0,
+        "Zy": 4930.0
+      }
+    },
+    "42.4X4CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "42.4x4 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 483.0,
+        "OD": 42.4,
+        "TDES": 4.0,
+        "Iy": 89900.0,
+        "Zy": 5920.0
+      }
+    },
+    "48.3X2.9CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "48.3x2.9 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 414.0,
+        "OD": 48.3,
+        "TDES": 2.9,
+        "Iy": 107000.0,
+        "Zy": 5990.0
+      }
+    },
+    "48.3X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "48.3x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 453.0,
+        "OD": 48.3,
+        "TDES": 3.2,
+        "Iy": 115900.0,
+        "Zy": 6520.0
+      }
+    },
+    "48.3X4CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "48.3x4 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 557.0,
+        "OD": 48.3,
+        "TDES": 4.0,
+        "Iy": 137700.0,
+        "Zy": 7870.0
+      }
+    },
+    "60.3X2.9CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "60.3x2.9 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 523.0,
+        "OD": 60.3,
+        "TDES": 2.9,
+        "Iy": 215900.0,
+        "Zy": 9560.0
+      }
+    },
+    "60.3X3.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "60.3x3.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 641.0,
+        "OD": 60.3,
+        "TDES": 3.6,
+        "Iy": 258700.0,
+        "Zy": 11590.0
+      }
+    },
+    "60.3X4.5CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "60.3x4.5 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 789.0,
+        "OD": 60.3,
+        "TDES": 4.5,
+        "Iy": 309000.0,
+        "Zy": 14040.0
+      }
+    },
+    "76.1X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "76.1x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 733.0,
+        "OD": 76.1,
+        "TDES": 3.2,
+        "Iy": 487800.0,
+        "Zy": 17020.0
+      }
+    },
+    "76.1X3.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "76.1x3.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 820.0,
+        "OD": 76.1,
+        "TDES": 3.6,
+        "Iy": 540100.0,
+        "Zy": 18940.0
+      }
+    },
+    "76.1X4.5CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "76.1x4.5 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1012.0,
+        "OD": 76.1,
+        "TDES": 4.5,
+        "Iy": 651200.0,
+        "Zy": 23100.0
+      }
+    },
+    "88.9X3.2CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "88.9x3.2 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 862.0,
+        "OD": 88.9,
+        "TDES": 3.2,
+        "Iy": 792100.0,
+        "Zy": 23510.0
+      }
+    },
+    "88.9X4CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "88.9x4 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1067.0,
+        "OD": 88.9,
+        "TDES": 4.0,
+        "Iy": 963400.0,
+        "Zy": 28850.0
+      }
+    },
+    "88.9X4.8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "88.9x4.8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1268.0,
+        "OD": 88.9,
+        "TDES": 4.8,
+        "Iy": 1124900.0,
+        "Zy": 33990.0
+      }
+    },
+    "114.3X3.6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "114.3x3.6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1252.0,
+        "OD": 114.3,
+        "TDES": 3.6,
+        "Iy": 1919800.0,
+        "Zy": 44130.0
+      }
+    },
+    "114.3X4.5CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "114.3x4.5 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1552.0,
+        "OD": 114.3,
+        "TDES": 4.5,
+        "Iy": 2343200.0,
+        "Zy": 54280.0
+      }
+    },
+    "114.3X5.4CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "114.3x5.4 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1847.0,
+        "OD": 114.3,
+        "TDES": 5.4,
+        "Iy": 2745400.0,
+        "Zy": 64090.0
+      }
+    },
+    "139.7X4.5CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "139.7x4.5 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 1911.0,
+        "OD": 139.7,
+        "TDES": 4.5,
+        "Iy": 4372000.0,
+        "Zy": 82290.0
+      }
+    },
+    "139.7X4.8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "139.7x4.8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 2034.0,
+        "OD": 139.7,
+        "TDES": 4.8,
+        "Iy": 4633300.0,
+        "Zy": 87390.0
+      }
+    },
+    "139.7X5.4CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "139.7x5.4 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 2278.0,
+        "OD": 139.7,
+        "TDES": 5.4,
+        "Iy": 5145000.0,
+        "Zy": 97450.0
+      }
+    },
+    "165.1X4.5CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "165.1x4.5 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 2270.0,
+        "OD": 165.1,
+        "TDES": 4.5,
+        "Iy": 7325700.0,
+        "Zy": 116100.0
+      }
+    },
+    "165.1X6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "165.1x6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 2999.0,
+        "OD": 165.1,
+        "TDES": 6.0,
+        "Iy": 9502500.0,
+        "Zy": 151950.0
+      }
+    },
+    "165.1X8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "165.1x8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 3948.0,
+        "OD": 165.1,
+        "TDES": 8.0,
+        "Iy": 12212500.0,
+        "Zy": 197610.0
+      }
+    },
+    "165.1X10CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "165.1x10 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 4873.0,
+        "OD": 165.1,
+        "TDES": 10.0,
+        "Iy": 14712900.0,
+        "Zy": 240890.0
+      }
+    },
+    "219.1X5CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "219.1x5 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 3363.0,
+        "OD": 219.1,
+        "TDES": 5.0,
+        "Iy": 19280400.0,
+        "Zy": 229240.0
+      }
+    },
+    "219.1X6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "219.1x6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 4017.0,
+        "OD": 219.1,
+        "TDES": 6.0,
+        "Iy": 22819500.0,
+        "Zy": 272540.0
+      }
+    },
+    "219.1X8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "219.1x8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 5306.0,
+        "OD": 219.1,
+        "TDES": 8.0,
+        "Iy": 29596300.0,
+        "Zy": 356680.0
+      }
+    },
+    "219.1X10CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "219.1x10 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 6569.0,
+        "OD": 219.1,
+        "TDES": 10.0,
+        "Iy": 35984400.0,
+        "Zy": 437560.0
+      }
+    },
+    "219.1X12CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "219.1x12 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 7807.0,
+        "OD": 219.1,
+        "TDES": 12.0,
+        "Iy": 41998800.0,
+        "Zy": 515260.0
+      }
+    },
+    "273X6CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "273x6 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 5033.0,
+        "OD": 273.0,
+        "TDES": 6.0,
+        "Iy": 44870800.0,
+        "Zy": 427810.0
+      }
+    },
+    "273X8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "273x8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 6660.0,
+        "OD": 273.0,
+        "TDES": 8.0,
+        "Iy": 58517100.0,
+        "Zy": 561970.0
+      }
+    },
+    "273X10CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "273x10 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 8262.0,
+        "OD": 273.0,
+        "TDES": 10.0,
+        "Iy": 71540900.0,
+        "Zy": 692020.0
+      }
+    },
+    "273X12CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "273x12 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 9839.0,
+        "OD": 273.0,
+        "TDES": 12.0,
+        "Iy": 83961400.0,
+        "Zy": 818030.0
+      }
+    },
+    "323.9X6.3CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "323.9x6.3 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 6286.0,
+        "OD": 323.9,
+        "TDES": 6.3,
+        "Iy": 79289000.0,
+        "Zy": 635560.0
+      }
+    },
+    "323.9X8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "323.9x8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 7939.0,
+        "OD": 323.9,
+        "TDES": 8.0,
+        "Iy": 99100800.0,
+        "Zy": 798510.0
+      }
+    },
+    "323.9X10CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "323.9x10 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 9861.0,
+        "OD": 323.9,
+        "TDES": 10.0,
+        "Iy": 121583400.0,
+        "Zy": 985670.0
+      }
+    },
+    "323.9X12CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "323.9x12 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 11758.0,
+        "OD": 323.9,
+        "TDES": 12.0,
+        "Iy": 143195600.0,
+        "Zy": 1167960.0
+      }
+    },
+    "355.6X8CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "355.6x8 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 8736.0,
+        "OD": 355.6,
+        "TDES": 8.0,
+        "Iy": 132013700.0,
+        "Zy": 966780.0
+      }
+    },
+    "355.6X10CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "355.6x10 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 10857.0,
+        "OD": 355.6,
+        "TDES": 10.0,
+        "Iy": 162235000.0,
+        "Zy": 1194730.0
+      }
+    },
+    "355.6X12CHS": {
+      "type": "STEEL_PIPE",
+      "edi_std": "355.6x12 CHS",
+      "designation": "CHS",
+      "properties": {
+        "A": 12953.0,
+        "OD": 355.6,
+        "TDES": 12.0,
+        "Iy": 191394700.0,
+        "Zy": 1417310.0
+      }
+    }
+  }
+}

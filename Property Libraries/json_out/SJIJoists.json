@@ -1,0 +1,2844 @@
+{
+  "meta": {
+    "source_file": "SJIJoists.xml",
+    "source_format": "CSI/ETABS XML",
+    "length_units_in_source": "",
+    "converted_to_mm_basis": true,
+    "note": "If converted_to_mm_basis is true: lengths=mm, areas=mm^2, section moduli=mm^3, inertias/torsion constants=mm^4.",
+    "control": {}
+  },
+  "sections_by_label": {
+    "8K1": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 8.0,
+        "UNIT_WEIGHT": 0.425,
+        "ANALYSIS_I33": 6.642759,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "10K1": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 10.0,
+        "UNIT_WEIGHT": 0.4166667,
+        "ANALYSIS_I33": 13.31195,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "12K1": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 12.0,
+        "UNIT_WEIGHT": 0.4166667,
+        "ANALYSIS_I33": 23.3978,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "12K3": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 12.0,
+        "UNIT_WEIGHT": 0.475,
+        "ANALYSIS_I33": 23.3978,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "12K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 12.0,
+        "UNIT_WEIGHT": 0.5916666,
+        "ANALYSIS_I33": 23.3978,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "14K1": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.4333333,
+        "ANALYSIS_I33": 37.60693,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "14K3": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.5,
+        "ANALYSIS_I33": 37.60693,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "14K4": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.5583333,
+        "ANALYSIS_I33": 37.60693,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "14K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.6416667,
+        "ANALYSIS_I33": 37.60693,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K2": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.4583333,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K3": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.525,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K4": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.5833333,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.625,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.675,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.7166666,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "16K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 56.64602,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K3": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.55,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K4": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.6,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.6416667,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.7083333,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.75,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.85,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.975,
+        "ANALYSIS_I33": 81.22169,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K3": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.5583333,
+        "ANALYSIS_I33": 105.3182,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K4": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.6333333,
+        "ANALYSIS_I33": 112.0406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.6833333,
+        "ANALYSIS_I33": 112.0406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.7416667,
+        "ANALYSIS_I33": 112.0406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.775,
+        "ANALYSIS_I33": 112.0406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.9,
+        "ANALYSIS_I33": 112.0406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.016667,
+        "ANALYSIS_I33": 112.0406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K4": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 0.6666667,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 0.7333333,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 0.7666667,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 0.8083333,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 0.9416667,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 1.05,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "22K11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 22.0,
+        "UNIT_WEIGHT": 1.15,
+        "ANALYSIS_I33": 149.2647,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K4": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.7,
+        "ANALYSIS_I33": 183.1657,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.775,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.8083333,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.8416666,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K8": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.9583333,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.0,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.091667,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24K12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.333333,
+        "ANALYSIS_I33": 193.1049,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K5": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 0.8166667,
+        "ANALYSIS_I33": 242.2318,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 0.8833333,
+        "ANALYSIS_I33": 244.9484,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 0.9083334,
+        "ANALYSIS_I33": 244.9484,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K8": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.008333,
+        "ANALYSIS_I33": 244.9484,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.016667,
+        "ANALYSIS_I33": 244.9484,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.15,
+        "ANALYSIS_I33": 244.9484,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "26K12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.383333,
+        "ANALYSIS_I33": 244.9484,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28K6": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 28.0,
+        "UNIT_WEIGHT": 0.95,
+        "ANALYSIS_I33": 306.7782,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 28.0,
+        "UNIT_WEIGHT": 0.9833333,
+        "ANALYSIS_I33": 307.9123,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28K8": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.058333,
+        "ANALYSIS_I33": 307.9123,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.083333,
+        "ANALYSIS_I33": 307.9123,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.191667,
+        "ANALYSIS_I33": 307.9123,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28K12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.425,
+        "ANALYSIS_I33": 307.9123,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "30K7": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.025,
+        "ANALYSIS_I33": 379.6227,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "30K8": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.1,
+        "ANALYSIS_I33": 379.6227,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "30K9": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.116667,
+        "ANALYSIS_I33": 379.6227,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "30K10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.25,
+        "ANALYSIS_I33": 379.6227,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "30K11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.366667,
+        "ANALYSIS_I33": 379.6227,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "30K12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "K",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.466667,
+        "ANALYSIS_I33": 379.6227,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH02": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 108.8769,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH03": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.9166667,
+        "ANALYSIS_I33": 121.0517,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH04": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.0,
+        "ANALYSIS_I33": 140.1834,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH05": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.25,
+        "ANALYSIS_I33": 157.9237,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH06": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.25,
+        "ANALYSIS_I33": 182.9689,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH07": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.416667,
+        "ANALYSIS_I33": 192.3608,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.583333,
+        "ANALYSIS_I33": 200.7092,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "18LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 214.2753,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH02": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 111.8247,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH03": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.9166667,
+        "ANALYSIS_I33": 123.1534,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH04": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.0,
+        "ANALYSIS_I33": 156.4084,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH05": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.166667,
+        "ANALYSIS_I33": 167.7371,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH06": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.25,
+        "ANALYSIS_I33": 221.4568,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH07": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.416667,
+        "ANALYSIS_I33": 236.4399,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.583333,
+        "ANALYSIS_I33": 244.4796,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 266.406,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "20LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.916667,
+        "ANALYSIS_I33": 287.2361,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH03": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.9166667,
+        "ANALYSIS_I33": 190.4463,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH04": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.0,
+        "ANALYSIS_I33": 233.398,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH05": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.083333,
+        "ANALYSIS_I33": 249.6062,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH06": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.333333,
+        "ANALYSIS_I33": 333.0784,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH07": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.416667,
+        "ANALYSIS_I33": 366.3052,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.5,
+        "ANALYSIS_I33": 388.9967,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 455.4503,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.916667,
+        "ANALYSIS_I33": 483.0042,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "24LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 24.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 505.6957,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH05": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.083333,
+        "ANALYSIS_I33": 322.6609,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH06": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.333333,
+        "ANALYSIS_I33": 425.7946,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH07": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.416667,
+        "ANALYSIS_I33": 480.3081,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.5,
+        "ANALYSIS_I33": 512.7215,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 630.5885,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.916667,
+        "ANALYSIS_I33": 686.5753,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 733.7222,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 2.25,
+        "ANALYSIS_I33": 802.969,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "28LH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 28.0,
+        "UNIT_WEIGHT": 2.5,
+        "ANALYSIS_I33": 838.3291,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH06": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 1.166667,
+        "ANALYSIS_I33": 511.2966,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH07": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 1.333333,
+        "ANALYSIS_I33": 569.4536,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 1.416667,
+        "ANALYSIS_I33": 617.9177,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 773.0029,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 852.9688,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 2.0,
+        "ANALYSIS_I33": 932.9346,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 2.25,
+        "ANALYSIS_I33": 1090.443,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 2.5,
+        "ANALYSIS_I33": 1211.603,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 2.75,
+        "ANALYSIS_I33": 1247.951,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "32LH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 32.0,
+        "UNIT_WEIGHT": 2.916667,
+        "ANALYSIS_I33": 1289.146,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH07": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 1.333333,
+        "ANALYSIS_I33": 641.1733,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 1.5,
+        "ANALYSIS_I33": 702.7549,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 894.7447,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 988.9283,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 1.916667,
+        "ANALYSIS_I33": 1075.867,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 1282.347,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 2.5,
+        "ANALYSIS_I33": 1503.316,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 3.0,
+        "ANALYSIS_I33": 1651.836,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "36LH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 36.0,
+        "UNIT_WEIGHT": 3.0,
+        "ANALYSIS_I33": 1738.775,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH08": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 1.333333,
+        "ANALYSIS_I33": 791.0943,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 1033.697,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 1139.176,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 1.833333,
+        "ANALYSIS_I33": 1234.107,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 1503.079,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 2.5,
+        "ANALYSIS_I33": 1761.503,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 2.916667,
+        "ANALYSIS_I33": 2019.927,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 3.0,
+        "ANALYSIS_I33": 2251.982,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "40LH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 40.0,
+        "UNIT_WEIGHT": 3.5,
+        "ANALYSIS_I33": 2473.488,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH09": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 1.583333,
+        "ANALYSIS_I33": 1163.38,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 1281.19,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 1.833333,
+        "ANALYSIS_I33": 1384.275,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 1708.254,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 2.5,
+        "ANALYSIS_I33": 2024.87,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 2.583333,
+        "ANALYSIS_I33": 2319.396,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 3.0,
+        "ANALYSIS_I33": 2694.918,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 3.5,
+        "ANALYSIS_I33": 3099.892,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "44LH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 44.0,
+        "UNIT_WEIGHT": 3.916667,
+        "ANALYSIS_I33": 3313.424,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 1376.58,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 1.833333,
+        "ANALYSIS_I33": 1483.973,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 1864.729,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 2.416667,
+        "ANALYSIS_I33": 2225.96,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 2.666667,
+        "ANALYSIS_I33": 2626.242,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 3.0,
+        "ANALYSIS_I33": 3006.998,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 3.5,
+        "ANALYSIS_I33": 3465.858,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "48LH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "LH",
+        "D": 48.0,
+        "UNIT_WEIGHT": 3.916667,
+        "ANALYSIS_I33": 3875.904,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH10": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 2.083333,
+        "ANALYSIS_I33": 2196.503,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 2.166667,
+        "ANALYSIS_I33": 2402.023,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 2.416667,
+        "ANALYSIS_I33": 2620.389,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 2.833333,
+        "ANALYSIS_I33": 3172.726,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 3.25,
+        "ANALYSIS_I33": 3545.233,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 3.5,
+        "ANALYSIS_I33": 3994.809,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 3.75,
+        "ANALYSIS_I33": 4444.386,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "52DLH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 52.0,
+        "UNIT_WEIGHT": 4.333333,
+        "ANALYSIS_I33": 5073.793,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH11": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 2.166667,
+        "ANALYSIS_I33": 2791.127,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 2.5,
+        "ANALYSIS_I33": 3038.861,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 2.833333,
+        "ANALYSIS_I33": 3682.967,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 3.25,
+        "ANALYSIS_I33": 4112.371,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 3.5,
+        "ANALYSIS_I33": 4640.869,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 3.833333,
+        "ANALYSIS_I33": 5169.366,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "56DLH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 56.0,
+        "UNIT_WEIGHT": 4.25,
+        "ANALYSIS_I33": 5879.535,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 2.416667,
+        "ANALYSIS_I33": 3448.548,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 2.916667,
+        "ANALYSIS_I33": 4166.996,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 3.333333,
+        "ANALYSIS_I33": 4433.848,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 3.583333,
+        "ANALYSIS_I33": 5234.404,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 3.833333,
+        "ANALYSIS_I33": 5850.216,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 4.333333,
+        "ANALYSIS_I33": 6650.772,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "60DLH18": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 60.0,
+        "UNIT_WEIGHT": 4.916667,
+        "ANALYSIS_I33": 7512.909,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH12": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 2.583333,
+        "ANALYSIS_I33": 3898.694,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 2.833333,
+        "ANALYSIS_I33": 4739.589,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 3.333333,
+        "ANALYSIS_I33": 5070.851,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 3.583333,
+        "ANALYSIS_I33": 5962.709,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 3.833333,
+        "ANALYSIS_I33": 6676.195,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 4.333333,
+        "ANALYSIS_I33": 7593.535,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "64DLH18": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 64.0,
+        "UNIT_WEIGHT": 4.916667,
+        "ANALYSIS_I33": 8587.32,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH13": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 3.083333,
+        "ANALYSIS_I33": 5331.0,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 3.333333,
+        "ANALYSIS_I33": 5736.281,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 3.333333,
+        "ANALYSIS_I33": 6422.14,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 4.083333,
+        "ANALYSIS_I33": 7544.456,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 4.583333,
+        "ANALYSIS_I33": 8573.245,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH18": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 5.083333,
+        "ANALYSIS_I33": 9695.562,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "68DLH19": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 68.0,
+        "UNIT_WEIGHT": 5.583333,
+        "ANALYSIS_I33": 11004.93,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "72DLH14": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 72.0,
+        "UNIT_WEIGHT": 3.416667,
+        "ANALYSIS_I33": 6362.877,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "72DLH15": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 72.0,
+        "UNIT_WEIGHT": 3.666667,
+        "ANALYSIS_I33": 7107.074,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "72DLH16": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 72.0,
+        "UNIT_WEIGHT": 4.166667,
+        "ANALYSIS_I33": 8372.207,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "72DLH17": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 72.0,
+        "UNIT_WEIGHT": 4.666667,
+        "ANALYSIS_I33": 9525.712,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "72DLH18": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 72.0,
+        "UNIT_WEIGHT": 4.916667,
+        "ANALYSIS_I33": 10753.64,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "72DLH19": {
+      "type": "JOIST_STANDARD",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "DLH",
+        "D": 72.0,
+        "UNIT_WEIGHT": 5.833333,
+        "ANALYSIS_I33": 12204.82,
+        "JOIST_CAPACITY": null
+      }
+    },
+    "10KCS1": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 10.0,
+        "UNIT_WEIGHT": 0.5,
+        "ANALYSIS_I33": 29.0,
+        "MOMENT_CAPACITY": 172000.0,
+        "SHEAR_CAPACITY": 2000.0,
+        "MINIMUM_SPAN": 120.0,
+        "MAXIMUM_SPAN": 240.0
+      }
+    },
+    "10KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 10.0,
+        "UNIT_WEIGHT": 0.625,
+        "ANALYSIS_I33": 37.0,
+        "MOMENT_CAPACITY": 225000.0,
+        "SHEAR_CAPACITY": 2500.0,
+        "MINIMUM_SPAN": 120.0,
+        "MAXIMUM_SPAN": 240.0
+      }
+    },
+    "10KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 10.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 47.0,
+        "MOMENT_CAPACITY": 296000.0,
+        "SHEAR_CAPACITY": 3000.0,
+        "MINIMUM_SPAN": 120.0,
+        "MAXIMUM_SPAN": 240.0
+      }
+    },
+    "12KCS1": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 12.0,
+        "UNIT_WEIGHT": 0.5,
+        "ANALYSIS_I33": 43.0,
+        "MOMENT_CAPACITY": 209000.0,
+        "SHEAR_CAPACITY": 2400.0,
+        "MINIMUM_SPAN": 144.0,
+        "MAXIMUM_SPAN": 288.0
+      }
+    },
+    "12KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 12.0,
+        "UNIT_WEIGHT": 0.6666667,
+        "ANALYSIS_I33": 55.0,
+        "MOMENT_CAPACITY": 274000.0,
+        "SHEAR_CAPACITY": 3000.0,
+        "MINIMUM_SPAN": 144.0,
+        "MAXIMUM_SPAN": 288.0
+      }
+    },
+    "12KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 12.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 71.0,
+        "MOMENT_CAPACITY": 362000.0,
+        "SHEAR_CAPACITY": 3500.0,
+        "MINIMUM_SPAN": 144.0,
+        "MAXIMUM_SPAN": 288.0
+      }
+    },
+    "14KCS1": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.5416667,
+        "ANALYSIS_I33": 59.0,
+        "MOMENT_CAPACITY": 247000.0,
+        "SHEAR_CAPACITY": 2900.0,
+        "MINIMUM_SPAN": 168.0,
+        "MAXIMUM_SPAN": 336.0
+      }
+    },
+    "14KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.6666667,
+        "ANALYSIS_I33": 77.0,
+        "MOMENT_CAPACITY": 324000.0,
+        "SHEAR_CAPACITY": 3400.0,
+        "MINIMUM_SPAN": 168.0,
+        "MAXIMUM_SPAN": 336.0
+      }
+    },
+    "14KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 14.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 99.0,
+        "MOMENT_CAPACITY": 428000.0,
+        "SHEAR_CAPACITY": 3900.0,
+        "MINIMUM_SPAN": 168.0,
+        "MAXIMUM_SPAN": 336.0
+      }
+    },
+    "16KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.7083333,
+        "ANALYSIS_I33": 99.0,
+        "MOMENT_CAPACITY": 349000.0,
+        "SHEAR_CAPACITY": 4000.0,
+        "MINIMUM_SPAN": 192.0,
+        "MAXIMUM_SPAN": 384.0
+      }
+    },
+    "16KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 16.0,
+        "UNIT_WEIGHT": 0.875,
+        "ANALYSIS_I33": 128.0,
+        "MOMENT_CAPACITY": 470000.0,
+        "SHEAR_CAPACITY": 4800.0,
+        "MINIMUM_SPAN": 192.0,
+        "MAXIMUM_SPAN": 384.0
+      }
+    },
+    "16KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 16.0,
+        "UNIT_WEIGHT": 1.208333,
+        "ANALYSIS_I33": 192.0,
+        "MOMENT_CAPACITY": 720000.0,
+        "SHEAR_CAPACITY": 5300.0,
+        "MINIMUM_SPAN": 192.0,
+        "MAXIMUM_SPAN": 384.0
+      }
+    },
+    "16KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 16.0,
+        "UNIT_WEIGHT": 1.5,
+        "ANALYSIS_I33": 245.0,
+        "MOMENT_CAPACITY": 934000.0,
+        "SHEAR_CAPACITY": 5800.0,
+        "MINIMUM_SPAN": 192.0,
+        "MAXIMUM_SPAN": 384.0
+      }
+    },
+    "18KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.75,
+        "ANALYSIS_I33": 127.0,
+        "MOMENT_CAPACITY": 395000.0,
+        "SHEAR_CAPACITY": 4700.0,
+        "MINIMUM_SPAN": 216.0,
+        "MAXIMUM_SPAN": 432.0
+      }
+    },
+    "18KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 18.0,
+        "UNIT_WEIGHT": 0.9166667,
+        "ANALYSIS_I33": 164.0,
+        "MOMENT_CAPACITY": 532000.0,
+        "SHEAR_CAPACITY": 5200.0,
+        "MINIMUM_SPAN": 216.0,
+        "MAXIMUM_SPAN": 432.0
+      }
+    },
+    "18KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.25,
+        "ANALYSIS_I33": 247.0,
+        "MOMENT_CAPACITY": 817000.0,
+        "SHEAR_CAPACITY": 5700.0,
+        "MINIMUM_SPAN": 216.0,
+        "MAXIMUM_SPAN": 432.0
+      }
+    },
+    "18KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 18.0,
+        "UNIT_WEIGHT": 1.541667,
+        "ANALYSIS_I33": 316.0,
+        "MOMENT_CAPACITY": 1062000.0,
+        "SHEAR_CAPACITY": 6200.0,
+        "MINIMUM_SPAN": 216.0,
+        "MAXIMUM_SPAN": 432.0
+      }
+    },
+    "20KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.7916667,
+        "ANALYSIS_I33": 159.0,
+        "MOMENT_CAPACITY": 442000.0,
+        "SHEAR_CAPACITY": 5200.0,
+        "MINIMUM_SPAN": 240.0,
+        "MAXIMUM_SPAN": 480.0
+      }
+    },
+    "20KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 20.0,
+        "UNIT_WEIGHT": 0.9583333,
+        "ANALYSIS_I33": 205.0,
+        "MOMENT_CAPACITY": 595000.0,
+        "SHEAR_CAPACITY": 6000.0,
+        "MINIMUM_SPAN": 240.0,
+        "MAXIMUM_SPAN": 480.0
+      }
+    },
+    "20KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.375,
+        "ANALYSIS_I33": 308.0,
+        "MOMENT_CAPACITY": 914000.0,
+        "SHEAR_CAPACITY": 7900.0,
+        "MINIMUM_SPAN": 240.0,
+        "MAXIMUM_SPAN": 480.0
+      }
+    },
+    "20KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 20.0,
+        "UNIT_WEIGHT": 1.666667,
+        "ANALYSIS_I33": 396.0,
+        "MOMENT_CAPACITY": 1191000.0,
+        "SHEAR_CAPACITY": 8400.0,
+        "MINIMUM_SPAN": 240.0,
+        "MAXIMUM_SPAN": 480.0
+      }
+    },
+    "22KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 22.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 194.0,
+        "MOMENT_CAPACITY": 488000.0,
+        "SHEAR_CAPACITY": 5900.0,
+        "MINIMUM_SPAN": 264.0,
+        "MAXIMUM_SPAN": 528.0
+      }
+    },
+    "22KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 22.0,
+        "UNIT_WEIGHT": 1.041667,
+        "ANALYSIS_I33": 251.0,
+        "MOMENT_CAPACITY": 658000.0,
+        "SHEAR_CAPACITY": 6600.0,
+        "MINIMUM_SPAN": 264.0,
+        "MAXIMUM_SPAN": 528.0
+      }
+    },
+    "22KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 22.0,
+        "UNIT_WEIGHT": 1.375,
+        "ANALYSIS_I33": 377.0,
+        "MOMENT_CAPACITY": 1012000.0,
+        "SHEAR_CAPACITY": 7900.0,
+        "MINIMUM_SPAN": 264.0,
+        "MAXIMUM_SPAN": 528.0
+      }
+    },
+    "22KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 22.0,
+        "UNIT_WEIGHT": 1.708333,
+        "ANALYSIS_I33": 485.0,
+        "MOMENT_CAPACITY": 1319000.0,
+        "SHEAR_CAPACITY": 8600.0,
+        "MINIMUM_SPAN": 264.0,
+        "MAXIMUM_SPAN": 528.0
+      }
+    },
+    "24KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 24.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 232.0,
+        "MOMENT_CAPACITY": 534000.0,
+        "SHEAR_CAPACITY": 6300.0,
+        "MINIMUM_SPAN": 288.0,
+        "MAXIMUM_SPAN": 576.0
+      }
+    },
+    "24KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.041667,
+        "ANALYSIS_I33": 301.0,
+        "MOMENT_CAPACITY": 720000.0,
+        "SHEAR_CAPACITY": 7200.0,
+        "MINIMUM_SPAN": 288.0,
+        "MAXIMUM_SPAN": 576.0
+      }
+    },
+    "24KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.375,
+        "ANALYSIS_I33": 453.0,
+        "MOMENT_CAPACITY": 1108000.0,
+        "SHEAR_CAPACITY": 8400.0,
+        "MINIMUM_SPAN": 288.0,
+        "MAXIMUM_SPAN": 576.0
+      }
+    },
+    "24KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 24.0,
+        "UNIT_WEIGHT": 1.708333,
+        "ANALYSIS_I33": 584.0,
+        "MOMENT_CAPACITY": 1448000.0,
+        "SHEAR_CAPACITY": 8900.0,
+        "MINIMUM_SPAN": 288.0,
+        "MAXIMUM_SPAN": 576.0
+      }
+    },
+    "26KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 26.0,
+        "UNIT_WEIGHT": 0.8333333,
+        "ANALYSIS_I33": 274.0,
+        "MOMENT_CAPACITY": 580000.0,
+        "SHEAR_CAPACITY": 6600.0,
+        "MINIMUM_SPAN": 312.0,
+        "MAXIMUM_SPAN": 624.0
+      }
+    },
+    "26KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.041667,
+        "ANALYSIS_I33": 355.0,
+        "MOMENT_CAPACITY": 783000.0,
+        "SHEAR_CAPACITY": 7800.0,
+        "MINIMUM_SPAN": 312.0,
+        "MAXIMUM_SPAN": 624.0
+      }
+    },
+    "26KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.375,
+        "ANALYSIS_I33": 536.0,
+        "MOMENT_CAPACITY": 1206000.0,
+        "SHEAR_CAPACITY": 8500.0,
+        "MINIMUM_SPAN": 312.0,
+        "MAXIMUM_SPAN": 624.0
+      }
+    },
+    "26KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 26.0,
+        "UNIT_WEIGHT": 1.708333,
+        "ANALYSIS_I33": 691.0,
+        "MOMENT_CAPACITY": 1576000.0,
+        "SHEAR_CAPACITY": 9200.0,
+        "MINIMUM_SPAN": 312.0,
+        "MAXIMUM_SPAN": 624.0
+      }
+    },
+    "28KCS2": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 28.0,
+        "UNIT_WEIGHT": 0.875,
+        "ANALYSIS_I33": 320.0,
+        "MOMENT_CAPACITY": 626000.0,
+        "SHEAR_CAPACITY": 6900.0,
+        "MINIMUM_SPAN": 336.0,
+        "MAXIMUM_SPAN": 672.0
+      }
+    },
+    "28KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.041667,
+        "ANALYSIS_I33": 414.0,
+        "MOMENT_CAPACITY": 846000.0,
+        "SHEAR_CAPACITY": 8000.0,
+        "MINIMUM_SPAN": 336.0,
+        "MAXIMUM_SPAN": 672.0
+      }
+    },
+    "28KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.375,
+        "ANALYSIS_I33": 626.0,
+        "MOMENT_CAPACITY": 1303000.0,
+        "SHEAR_CAPACITY": 8500.0,
+        "MINIMUM_SPAN": 336.0,
+        "MAXIMUM_SPAN": 672.0
+      }
+    },
+    "28KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 28.0,
+        "UNIT_WEIGHT": 1.708333,
+        "ANALYSIS_I33": 808.0,
+        "MOMENT_CAPACITY": 1704000.0,
+        "SHEAR_CAPACITY": 9200.0,
+        "MINIMUM_SPAN": 336.0,
+        "MAXIMUM_SPAN": 672.0
+      }
+    },
+    "30KCS3": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.083333,
+        "ANALYSIS_I33": 478.0,
+        "MOMENT_CAPACITY": 908000.0,
+        "SHEAR_CAPACITY": 8000.0,
+        "MINIMUM_SPAN": 360.0,
+        "MAXIMUM_SPAN": 720.0
+      }
+    },
+    "30KCS4": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.375,
+        "ANALYSIS_I33": 722.0,
+        "MOMENT_CAPACITY": 1400000.0,
+        "SHEAR_CAPACITY": 8500.0,
+        "MINIMUM_SPAN": 360.0,
+        "MAXIMUM_SPAN": 720.0
+      }
+    },
+    "30KCS5": {
+      "type": "JOIST_ENVELOPE",
+      "edi_std": null,
+      "designation": null,
+      "properties": {
+        "JOIST_TYPE": "KCS",
+        "D": 30.0,
+        "UNIT_WEIGHT": 1.75,
+        "ANALYSIS_I33": 934.0,
+        "MOMENT_CAPACITY": 1833000.0,
+        "SHEAR_CAPACITY": 9200.0,
+        "MINIMUM_SPAN": 360.0,
+        "MAXIMUM_SPAN": 720.0
+      }
+    }
+  }
+}

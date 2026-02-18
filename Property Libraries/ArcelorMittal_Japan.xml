@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PROPERTY_FILE xmlns="http://www.csiamerica.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiamerica.com CSIExtendedSectionPropertyFile.xsd">
+
+  <CONTROL>
+      <FILE_ID>CSI Frame Properties</FILE_ID>
+      <VERSION>1</VERSION>
+      <DESCRIPTION>ArcelorMittal_Japan</DESCRIPTION>
+      <LENGTH_UNITS>mm</LENGTH_UNITS>
+  </CONTROL>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 100 X 100 X 6 X 8</LABEL>
+      <EDI_STD>H 100 X 100 X 6 X 8</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>100</D>
+      <BF>100</BF>
+      <TF>8</TF>
+      <TW>6</TW>
+      <A>2159</A>
+      <I33>3779000</I33>
+      <Z33>86400</Z33>
+      <AS3>1333.333</AS3>
+      <I22>1340000</I22>
+      <Z22>41000</Z22>
+      <AS2>600</AS2>
+      <J>49100</J>
+      <S33POS>75580</S33POS>
+      <S33NEG>75580</S33NEG>
+      <S22POS>26800</S22POS>
+      <S22NEG>26800</S22NEG>
+      <R33>41.83715</R33>
+      <R22>24.913</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 125 X 125 X 6.5 X 9</LABEL>
+      <EDI_STD>H 125 X 125 X 6.5 X 9</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>125</D>
+      <BF>125</BF>
+      <TF>9</TF>
+      <TW>6.5</TW>
+      <A>3000</A>
+      <I33>8390000</I33>
+      <Z33>152000</Z33>
+      <AS3>1875</AS3>
+      <I22>2930000</I22>
+      <Z22>71700</Z22>
+      <AS2>812.5</AS2>
+      <J>81000</J>
+      <S33POS>134240</S33POS>
+      <S33NEG>134240</S33NEG>
+      <S22POS>46880</S22POS>
+      <S22NEG>46880</S22NEG>
+      <R33>52.88352</R33>
+      <R22>31.25167</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 150 X 75 X 5 X 7</LABEL>
+      <EDI_STD>H 150 X 75 X 5 X 7</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>150</D>
+      <BF>75</BF>
+      <TF>7</TF>
+      <TW>5</TW>
+      <A>1785</A>
+      <I33>6661000</I33>
+      <Z33>102000</Z33>
+      <AS3>875</AS3>
+      <I22>494700</I22>
+      <Z22>20800</Z22>
+      <AS2>750</AS2>
+      <J>29000</J>
+      <S33POS>88813.34</S33POS>
+      <S33NEG>88813.34</S33NEG>
+      <S22POS>13192</S22POS>
+      <S22NEG>13192</S22NEG>
+      <R33>61.08725</R33>
+      <R22>16.64761</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 150 X 150 X 7 X 10</LABEL>
+      <EDI_STD>H 150 X 150 X 7 X 10</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>150</D>
+      <BF>150</BF>
+      <TF>10</TF>
+      <TW>7</TW>
+      <A>3965</A>
+      <I33>1.62E+07</I33>
+      <Z33>243000</Z33>
+      <AS3>2500</AS3>
+      <I22>5630000</I22>
+      <Z22>114000</Z22>
+      <AS2>1050</AS2>
+      <J>127000</J>
+      <S33POS>216000</S33POS>
+      <S33NEG>216000</S33NEG>
+      <S22POS>75066.66</S22POS>
+      <S22NEG>75066.66</S22NEG>
+      <R33>63.91987</R33>
+      <R22>37.68188</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 175 X 175 X 7.5 X 11</LABEL>
+      <EDI_STD>H 175 X 175 X 7.5 X 11</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>175</D>
+      <BF>175</BF>
+      <TF>11</TF>
+      <TW>7.5</TW>
+      <A>5142</A>
+      <I33>2.9E+07</I33>
+      <Z33>370000</Z33>
+      <AS3>3208.333</AS3>
+      <I22>9840000</I22>
+      <Z22>172000</Z22>
+      <AS2>1312.5</AS2>
+      <J>213000</J>
+      <S33POS>331428.6</S33POS>
+      <S33NEG>331428.6</S33NEG>
+      <S22POS>112457.1</S22POS>
+      <S22NEG>112457.1</S22NEG>
+      <R33>75.09879</R33>
+      <R22>43.74531</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 200 X 100 X 4.5 X 7</LABEL>
+      <EDI_STD>H 200 X 100 X 4.5 X 7</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>198</D>
+      <BF>99</BF>
+      <TF>7</TF>
+      <TW>4.5</TW>
+      <A>2269</A>
+      <I33>1.54E+07</I33>
+      <Z33>175000</Z33>
+      <AS3>1155</AS3>
+      <I22>1130000</I22>
+      <Z22>35500</Z22>
+      <AS2>891</AS2>
+      <J>33200</J>
+      <S33POS>155555.6</S33POS>
+      <S33NEG>155555.6</S33NEG>
+      <S22POS>22828.28</S22POS>
+      <S22NEG>22828.28</S22NEG>
+      <R33>82.38405</R33>
+      <R22>22.31629</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 200 X 100 X 5.5 X 8</LABEL>
+      <EDI_STD>H 200 X 100 X 5.5 X 8</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>200</D>
+      <BF>100</BF>
+      <TF>8</TF>
+      <TW>5.5</TW>
+      <A>2667</A>
+      <I33>1.81E+07</I33>
+      <Z33>205000</Z33>
+      <AS3>1333.333</AS3>
+      <I22>1340000</I22>
+      <Z22>41600</Z22>
+      <AS2>1100</AS2>
+      <J>51700</J>
+      <S33POS>181000</S33POS>
+      <S33NEG>181000</S33NEG>
+      <S22POS>26800</S22POS>
+      <S22NEG>26800</S22NEG>
+      <R33>82.38113</R33>
+      <R22>22.41511</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 200 X 150 X 6 X 9</LABEL>
+      <EDI_STD>H 200 X 150 X 6 X 9</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>194</D>
+      <BF>150</BF>
+      <TF>9</TF>
+      <TW>6</TW>
+      <A>3810</A>
+      <I33>2.63E+07</I33>
+      <Z33>301000</Z33>
+      <AS3>2250</AS3>
+      <I22>5070000</I22>
+      <Z22>103000</Z22>
+      <AS2>1164</AS2>
+      <J>94300</J>
+      <S33POS>271134</S33POS>
+      <S33NEG>271134</S33NEG>
+      <S22POS>67600</S22POS>
+      <S22NEG>67600</S22NEG>
+      <R33>83.08362</R33>
+      <R22>36.47888</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 200 X 200 X 8 X 12</LABEL>
+      <EDI_STD>H 200 X 200 X 8 X 12</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>200</D>
+      <BF>200</BF>
+      <TF>12</TF>
+      <TW>8</TW>
+      <A>6353</A>
+      <I33>4.72E+07</I33>
+      <Z33>525000</Z33>
+      <AS3>4000</AS3>
+      <I22>1.6E+07</I22>
+      <Z22>244000</Z22>
+      <AS2>1600</AS2>
+      <J>302000</J>
+      <S33POS>472000</S33POS>
+      <S33NEG>472000</S33NEG>
+      <S22POS>160000</S22POS>
+      <S22NEG>160000</S22NEG>
+      <R33>86.1949</R33>
+      <R22>50.18461</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 250 X 125 X 5 X 8</LABEL>
+      <EDI_STD>H 250 X 125 X 5 X 8</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>248</D>
+      <BF>124</BF>
+      <TF>8</TF>
+      <TW>5</TW>
+      <A>3199</A>
+      <I33>3.45E+07</I33>
+      <Z33>312000</Z33>
+      <AS3>1653.333</AS3>
+      <I22>2550000</I22>
+      <Z22>63200</Z22>
+      <AS2>1240</AS2>
+      <J>58000</J>
+      <S33POS>278225.8</S33POS>
+      <S33NEG>278225.8</S33NEG>
+      <S22POS>41129.03</S22POS>
+      <S22NEG>41129.03</S22NEG>
+      <R33>103.849</R33>
+      <R22>28.23339</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 250 X 125 X 6 X 9</LABEL>
+      <EDI_STD>H 250 X 125 X 6 X 9</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>250</D>
+      <BF>125</BF>
+      <TF>9</TF>
+      <TW>6</TW>
+      <A>3697</A>
+      <I33>3.96E+07</I33>
+      <Z33>358000</Z33>
+      <AS3>1875</AS3>
+      <I22>2940000</I22>
+      <Z22>72700</Z22>
+      <AS2>1500</AS2>
+      <J>86100</J>
+      <S33POS>316800</S33POS>
+      <S33NEG>316800</S33NEG>
+      <S22POS>47040</S22POS>
+      <S22NEG>47040</S22NEG>
+      <R33>103.4958</R33>
+      <R22>28.19999</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 250 X 250 X 9 X 14</LABEL>
+      <EDI_STD>H 250 X 250 X 9 X 14</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>250</D>
+      <BF>250</BF>
+      <TF>14</TF>
+      <TW>9</TW>
+      <A>9143</A>
+      <I33>1.07E+08</I33>
+      <Z33>953000</Z33>
+      <AS3>5833.333</AS3>
+      <I22>3.65E+07</I22>
+      <Z22>443000</Z22>
+      <AS2>2250</AS2>
+      <J>562000</J>
+      <S33POS>856000</S33POS>
+      <S33NEG>856000</S33NEG>
+      <S22POS>292000</S22POS>
+      <S22NEG>292000</S22NEG>
+      <R33>108.1801</R33>
+      <R22>63.18327</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 300 X 150 X 5.5 X 8</LABEL>
+      <EDI_STD>H 300 X 150 X 5.5 X 8</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>298</D>
+      <BF>149</BF>
+      <TF>8</TF>
+      <TW>5.5</TW>
+      <A>4080</A>
+      <I33>6.32E+07</I33>
+      <Z33>475000</Z33>
+      <AS3>1986.667</AS3>
+      <I22>4420000</I22>
+      <Z22>91800</Z22>
+      <AS2>1639</AS2>
+      <J>87900</J>
+      <S33POS>424161.1</S33POS>
+      <S33NEG>424161.1</S33NEG>
+      <S22POS>59328.86</S22POS>
+      <S22NEG>59328.86</S22NEG>
+      <R33>124.4596</R33>
+      <R22>32.91403</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 300 X 150 X 6.5 X 9</LABEL>
+      <EDI_STD>H 300 X 150 X 6.5 X 9</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>300</D>
+      <BF>150</BF>
+      <TF>9</TF>
+      <TW>6.5</TW>
+      <A>4678</A>
+      <I33>7.21E+07</I33>
+      <Z33>542000</Z33>
+      <AS3>2250</AS3>
+      <I22>5080000</I22>
+      <Z22>105000</Z22>
+      <AS2>1950</AS2>
+      <J>127000</J>
+      <S33POS>480666.7</S33POS>
+      <S33NEG>480666.7</S33NEG>
+      <S22POS>67733.34</S22POS>
+      <S22NEG>67733.34</S22NEG>
+      <R33>124.1474</R33>
+      <R22>32.95351</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 300 X 200 X 8 X 12</LABEL>
+      <EDI_STD>H 300 X 200 X 8 X 12</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>294</D>
+      <BF>200</BF>
+      <TF>12</TF>
+      <TW>8</TW>
+      <A>7110</A>
+      <I33>1.11E+08</I33>
+      <Z33>842000</Z33>
+      <AS3>4000</AS3>
+      <I22>1.6E+07</I22>
+      <Z22>245000</Z22>
+      <AS2>2352</AS2>
+      <J>318000</J>
+      <S33POS>755102.1</S33POS>
+      <S33NEG>755102.1</S33NEG>
+      <S22POS>160000</S22POS>
+      <S22NEG>160000</S22NEG>
+      <R33>124.9472</R33>
+      <R22>47.43787</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 300 X 300 X 10 X 15</LABEL>
+      <EDI_STD>H 300 X 300 X 10 X 15</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>300</D>
+      <BF>300</BF>
+      <TF>15</TF>
+      <TW>10</TW>
+      <A>11850</A>
+      <I33>2.02E+08</I33>
+      <Z33>1480000</Z33>
+      <AS3>7500</AS3>
+      <I22>6.75E+07</I22>
+      <Z22>683000</Z22>
+      <AS2>3000</AS2>
+      <J>829000</J>
+      <S33POS>1346667</S33POS>
+      <S33NEG>1346667</S33NEG>
+      <S22POS>450000</S22POS>
+      <S22NEG>450000</S22NEG>
+      <R33>130.5619</R33>
+      <R22>75.47319</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 350 X 175 X 6 X 9</LABEL>
+      <EDI_STD>H 350 X 175 X 6 X 9</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>346</D>
+      <BF>174</BF>
+      <TF>9</TF>
+      <TW>6</TW>
+      <A>5245</A>
+      <I33>1.1E+08</I33>
+      <Z33>712000</Z33>
+      <AS3>2610</AS3>
+      <I22>7910000</I22>
+      <Z22>140000</Z22>
+      <AS2>2076</AS2>
+      <J>133000</J>
+      <S33POS>635838.1</S33POS>
+      <S33NEG>635838.1</S33NEG>
+      <S22POS>90919.54</S22POS>
+      <S22NEG>90919.54</S22NEG>
+      <R33>144.8183</R33>
+      <R22>38.8343</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 350 X 175 X 7 X 11</LABEL>
+      <EDI_STD>H 350 X 175 X 7 X 11</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>350</D>
+      <BF>175</BF>
+      <TF>11</TF>
+      <TW>7</TW>
+      <A>6291</A>
+      <I33>1.35E+08</I33>
+      <Z33>864000</Z33>
+      <AS3>3208.333</AS3>
+      <I22>9840000</I22>
+      <Z22>173000</Z22>
+      <AS2>2450</AS2>
+      <J>225000</J>
+      <S33POS>771428.6</S33POS>
+      <S33NEG>771428.6</S33NEG>
+      <S22POS>112457.1</S22POS>
+      <S22NEG>112457.1</S22NEG>
+      <R33>146.4897</R33>
+      <R22>39.5492</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 350 X 350 X 10 X 16</LABEL>
+      <EDI_STD>H 350 X 350 X 10 X 16</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>344</D>
+      <BF>348</BF>
+      <TF>16</TF>
+      <TW>10</TW>
+      <A>14400</A>
+      <I33>3.28E+08</I33>
+      <Z33>2090000</Z33>
+      <AS3>9280</AS3>
+      <I22>1.124E+08</I22>
+      <Z22>978000</Z22>
+      <AS2>3440</AS2>
+      <J>1120000</J>
+      <S33POS>1906977</S33POS>
+      <S33NEG>1906977</S33NEG>
+      <S22POS>645977</S22POS>
+      <S22NEG>645977</S22NEG>
+      <R33>150.9231</R33>
+      <R22>88.34905</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 350 X 350 X 12 X 19</LABEL>
+      <EDI_STD>H 350 X 350 X 12 X 19</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>350</D>
+      <BF>350</BF>
+      <TF>19</TF>
+      <TW>12</TW>
+      <A>17190</A>
+      <I33>3.98E+08</I33>
+      <Z33>2520000</Z33>
+      <AS3>11083.33</AS3>
+      <I22>1.36E+08</I22>
+      <Z22>1180000</Z22>
+      <AS2>4200</AS2>
+      <J>1870000</J>
+      <S33POS>2274286</S33POS>
+      <S33NEG>2274286</S33NEG>
+      <S22POS>777142.9</S22POS>
+      <S22NEG>777142.9</S22NEG>
+      <R33>152.1611</R33>
+      <R22>88.94704</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 200 X 7 X 11</LABEL>
+      <EDI_STD>H 400 X 200 X 7 X 11</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>396</D>
+      <BF>199</BF>
+      <TF>11</TF>
+      <TW>7</TW>
+      <A>7140</A>
+      <I33>1.98E+08</I33>
+      <Z33>1110000</Z33>
+      <AS3>3648.333</AS3>
+      <I22>1.45E+07</I22>
+      <Z22>223000</Z22>
+      <AS2>2772</AS2>
+      <J>251000</J>
+      <S33POS>1000000</S33POS>
+      <S33NEG>1000000</S33NEG>
+      <S22POS>145728.6</S22POS>
+      <S22NEG>145728.6</S22NEG>
+      <R33>166.5266</R33>
+      <R22>45.06453</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 200 X 8 X 13</LABEL>
+      <EDI_STD>H 400 X 200 X 8 X 13</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>400</D>
+      <BF>200</BF>
+      <TF>13</TF>
+      <TW>8</TW>
+      <A>8340</A>
+      <I33>2.35E+08</I33>
+      <Z33>1310000</Z33>
+      <AS3>4333.333</AS3>
+      <I22>1.74E+07</I22>
+      <Z22>267000</Z22>
+      <AS2>3200</AS2>
+      <J>397000</J>
+      <S33POS>1175000</S33POS>
+      <S33NEG>1175000</S33NEG>
+      <S22POS>174000</S22POS>
+      <S22NEG>174000</S22NEG>
+      <R33>167.8614</R33>
+      <R22>45.67637</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 300 X 10 X 16</LABEL>
+      <EDI_STD>H 400 X 300 X 10 X 16</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>390</D>
+      <BF>300</BF>
+      <TF>16</TF>
+      <TW>10</TW>
+      <A>13320</A>
+      <I33>3.79E+08</I33>
+      <Z33>2140000</Z33>
+      <AS3>8000</AS3>
+      <I22>7.2E+07</I22>
+      <Z22>730000</Z22>
+      <AS2>3900</AS2>
+      <J>1000000</J>
+      <S33POS>1943590</S33POS>
+      <S33NEG>1943590</S33NEG>
+      <S22POS>480000</S22POS>
+      <S22NEG>480000</S22NEG>
+      <R33>168.6815</R33>
+      <R22>73.52146</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 400 X 13 X 21</LABEL>
+      <EDI_STD>H 400 X 400 X 13 X 21</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>400</D>
+      <BF>400</BF>
+      <TF>21</TF>
+      <TW>13</TW>
+      <A>21870</A>
+      <I33>6.66E+08</I33>
+      <Z33>3670000</Z33>
+      <AS3>14000</AS3>
+      <I22>2.24E+08</I22>
+      <Z22>1700000</Z22>
+      <AS2>5200</AS2>
+      <J>3040000</J>
+      <S33POS>3330000</S33POS>
+      <S33NEG>3330000</S33NEG>
+      <S22POS>1120000</S22POS>
+      <S22NEG>1120000</S22NEG>
+      <R33>174.5069</R33>
+      <R22>101.2045</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 400 X 21 X 21</LABEL>
+      <EDI_STD>H 400 X 400 X 21 X 21</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>400</D>
+      <BF>408</BF>
+      <TF>21</TF>
+      <TW>21</TW>
+      <A>25070</A>
+      <I33>7.09E+08</I33>
+      <Z33>3990000</Z33>
+      <AS3>14280</AS3>
+      <I22>2.38E+08</I22>
+      <Z22>1800000</Z22>
+      <AS2>8400</AS2>
+      <J>4500000</J>
+      <S33POS>3545000</S33POS>
+      <S33NEG>3545000</S33NEG>
+      <S22POS>1166667</S22POS>
+      <S22NEG>1166667</S22NEG>
+      <R33>168.169</R33>
+      <R22>97.43417</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 400 X 18 X 28</LABEL>
+      <EDI_STD>H 400 X 400 X 18 X 28</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>414</D>
+      <BF>405</BF>
+      <TF>28</TF>
+      <TW>18</TW>
+      <A>29540</A>
+      <I33>9.28E+08</I33>
+      <Z33>5030000</Z33>
+      <AS3>18900</AS3>
+      <I22>3.1E+08</I22>
+      <Z22>2330000</Z22>
+      <AS2>7452</AS2>
+      <J>7200000</J>
+      <S33POS>4483092</S33POS>
+      <S33NEG>4483092</S33NEG>
+      <S22POS>1530864</S22POS>
+      <S22NEG>1530864</S22NEG>
+      <R33>177.2429</R33>
+      <R22>102.4414</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 400 X 20 X 35</LABEL>
+      <EDI_STD>H 400 X 400 X 20 X 35</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>428</D>
+      <BF>407</BF>
+      <TF>35</TF>
+      <TW>20</TW>
+      <A>36070</A>
+      <I33>1.19E+09</I33>
+      <Z33>6310000</Z33>
+      <AS3>23741.67</AS3>
+      <I22>3.94E+08</I22>
+      <Z22>2940000</Z22>
+      <AS2>8560</AS2>
+      <J>1.32E+07</J>
+      <S33POS>5560748</S33POS>
+      <S33NEG>5560748</S33NEG>
+      <S22POS>1936118</S22POS>
+      <S22NEG>1936118</S22NEG>
+      <R33>181.6354</R33>
+      <R22>104.5141</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 400 X 400 X 30 X 50</LABEL>
+      <EDI_STD>H 400 X 400 X 30 X 50</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>458</D>
+      <BF>417</BF>
+      <TF>50</TF>
+      <TW>30</TW>
+      <A>52860</A>
+      <I33>1.87E+09</I33>
+      <Z33>9540000</Z33>
+      <AS3>34750</AS3>
+      <I22>6.05E+08</I22>
+      <Z22>4440000</Z22>
+      <AS2>13740</AS2>
+      <J>3.93E+07</J>
+      <S33POS>8165939</S33POS>
+      <S33NEG>8165939</S33NEG>
+      <S22POS>2901679</S22POS>
+      <S22NEG>2901679</S22NEG>
+      <R33>188.0863</R33>
+      <R22>106.9828</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 500 X 200 X 9 X 14</LABEL>
+      <EDI_STD>H 500 X 200 X 9 X 14</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>496</D>
+      <BF>199</BF>
+      <TF>14</TF>
+      <TW>9</TW>
+      <A>9929</A>
+      <I33>4.08E+08</I33>
+      <Z33>1870000</Z33>
+      <AS3>4643.333</AS3>
+      <I22>1.84E+07</I22>
+      <Z22>288000</Z22>
+      <AS2>4464</AS2>
+      <J>529000</J>
+      <S33POS>1645161</S33POS>
+      <S33NEG>1645161</S33NEG>
+      <S22POS>184924.6</S22POS>
+      <S22NEG>184924.6</S22NEG>
+      <R33>202.711</R33>
+      <R22>43.04831</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 500 X 200 X 10 X 16</LABEL>
+      <EDI_STD>H 500 X 200 X 10 X 16</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>500</D>
+      <BF>200</BF>
+      <TF>16</TF>
+      <TW>10</TW>
+      <A>11220</A>
+      <I33>4.68E+08</I33>
+      <Z33>2130000</Z33>
+      <AS3>5333.333</AS3>
+      <I22>2.14E+07</I22>
+      <Z22>333000</Z22>
+      <AS2>5000</AS2>
+      <J>764000</J>
+      <S33POS>1872000</S33POS>
+      <S33NEG>1872000</S33NEG>
+      <S22POS>214000</S22POS>
+      <S22NEG>214000</S22NEG>
+      <R33>204.2333</R33>
+      <R22>43.67274</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 500 X 300 X 11 X 15</LABEL>
+      <EDI_STD>H 500 X 300 X 11 X 15</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>482</D>
+      <BF>300</BF>
+      <TF>15</TF>
+      <TW>11</TW>
+      <A>14120</A>
+      <I33>5.83E+08</I33>
+      <Z33>2700000</Z33>
+      <AS3>7500</AS3>
+      <I22>6.76E+07</I22>
+      <Z22>690000</Z22>
+      <AS2>5302</AS2>
+      <J>955000</J>
+      <S33POS>2419087</S33POS>
+      <S33NEG>2419087</S33NEG>
+      <S22POS>450666.7</S22POS>
+      <S22NEG>450666.7</S22NEG>
+      <R33>203.1968</R33>
+      <R22>69.19202</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 500 X 300 X 11 X 18</LABEL>
+      <EDI_STD>H 500 X 300 X 11 X 18</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>488</D>
+      <BF>300</BF>
+      <TF>18</TF>
+      <TW>11</TW>
+      <A>15920</A>
+      <I33>6.89E+08</I33>
+      <Z33>3130000</Z33>
+      <AS3>9000</AS3>
+      <I22>8.11E+07</I22>
+      <Z22>825000</Z22>
+      <AS2>5368</AS2>
+      <J>1440000</J>
+      <S33POS>2823771</S33POS>
+      <S33NEG>2823771</S33NEG>
+      <S22POS>540666.7</S22POS>
+      <S22NEG>540666.7</S22NEG>
+      <R33>208.0358</R33>
+      <R22>71.37381</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 600 X 300 X 12 X 17</LABEL>
+      <EDI_STD>H 600 X 300 X 12 X 17</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>582</D>
+      <BF>300</BF>
+      <TF>17</TF>
+      <TW>12</TW>
+      <A>16920</A>
+      <I33>9.89E+08</I33>
+      <Z33>3820000</Z33>
+      <AS3>8500</AS3>
+      <I22>7.66E+07</I22>
+      <Z22>786000</Z22>
+      <AS2>6984</AS2>
+      <J>1390000</J>
+      <S33POS>3398626</S33POS>
+      <S33NEG>3398626</S33NEG>
+      <S22POS>510666.7</S22POS>
+      <S22NEG>510666.7</S22NEG>
+      <R33>241.7675</R33>
+      <R22>67.28437</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 600 X 300 X 12 X 20</LABEL>
+      <EDI_STD>H 600 X 300 X 12 X 20</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>588</D>
+      <BF>300</BF>
+      <TF>20</TF>
+      <TW>12</TW>
+      <A>18720</A>
+      <I33>1.14E+09</I33>
+      <Z33>4350000</Z33>
+      <AS3>10000</AS3>
+      <I22>9.01E+07</I22>
+      <Z22>921000</Z22>
+      <AS2>7056</AS2>
+      <J>2000000</J>
+      <S33POS>3877551</S33POS>
+      <S33NEG>3877551</S33NEG>
+      <S22POS>600666.7</S22POS>
+      <S22NEG>600666.7</S22NEG>
+      <R33>246.7741</R33>
+      <R22>69.37604</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 600 X 300 X 14 X 23</LABEL>
+      <EDI_STD>H 600 X 300 X 14 X 23</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>594</D>
+      <BF>302</BF>
+      <TF>23</TF>
+      <TW>14</TW>
+      <A>21710</A>
+      <I33>1.34E+09</I33>
+      <Z33>5060000</Z33>
+      <AS3>11576.67</AS3>
+      <I22>1.06E+08</I22>
+      <Z22>1080000</Z22>
+      <AS2>8316</AS2>
+      <J>3060000</J>
+      <S33POS>4511785</S33POS>
+      <S33NEG>4511785</S33NEG>
+      <S22POS>701986.8</S22POS>
+      <S22NEG>701986.8</S22NEG>
+      <R33>248.4406</R33>
+      <R22>69.87519</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 700 X 300 X 13 X 20</LABEL>
+      <EDI_STD>H 700 X 300 X 13 X 20</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>692</D>
+      <BF>300</BF>
+      <TF>20</TF>
+      <TW>13</TW>
+      <A>20750</A>
+      <I33>1.68E+09</I33>
+      <Z33>5500000</Z33>
+      <AS3>10000</AS3>
+      <I22>9.02E+07</I22>
+      <Z22>930000</Z22>
+      <AS2>8996</AS2>
+      <J>2280000</J>
+      <S33POS>4855492</S33POS>
+      <S33NEG>4855492</S33NEG>
+      <S22POS>601333.3</S22POS>
+      <S22NEG>601333.3</S22NEG>
+      <R33>284.5415</R33>
+      <R22>65.93169</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 700 X 300 X 13 X 24</LABEL>
+      <EDI_STD>H 700 X 300 X 13 X 24</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>700</D>
+      <BF>300</BF>
+      <TF>24</TF>
+      <TW>13</TW>
+      <A>23150</A>
+      <I33>1.97E+09</I33>
+      <Z33>6340000</Z33>
+      <AS3>12000</AS3>
+      <I22>1.08E+08</I22>
+      <Z22>1110000</Z22>
+      <AS2>9100</AS2>
+      <J>3420000</J>
+      <S33POS>5628572</S33POS>
+      <S33NEG>5628572</S33NEG>
+      <S22POS>720000</S22POS>
+      <S22NEG>720000</S22NEG>
+      <R33>291.7142</R33>
+      <R22>68.30247</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 800 X 300 X 14 X 22</LABEL>
+      <EDI_STD>H 800 X 300 X 14 X 22</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>792</D>
+      <BF>300</BF>
+      <TF>22</TF>
+      <TW>14</TW>
+      <A>23950</A>
+      <I33>2.48E+09</I33>
+      <Z33>7140000</Z33>
+      <AS3>11000</AS3>
+      <I22>9.92E+07</I22>
+      <Z22>1030000</Z22>
+      <AS2>11088</AS2>
+      <J>3050000</J>
+      <S33POS>6262627</S33POS>
+      <S33NEG>6262627</S33NEG>
+      <S22POS>661333.3</S22POS>
+      <S22NEG>661333.3</S22NEG>
+      <R33>321.7904</R33>
+      <R22>64.35808</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 800 X 300 X 14 X 26</LABEL>
+      <EDI_STD>H 800 X 300 X 14 X 26</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>800</D>
+      <BF>300</BF>
+      <TF>26</TF>
+      <TW>14</TW>
+      <A>26350</A>
+      <I33>2.86E+09</I33>
+      <Z33>8100000</Z33>
+      <AS3>13000</AS3>
+      <I22>1.17E+08</I22>
+      <Z22>1210000</Z22>
+      <AS2>11200</AS2>
+      <J>4400000</J>
+      <S33POS>7150000</S33POS>
+      <S33NEG>7150000</S33NEG>
+      <S22POS>780000</S22POS>
+      <S22NEG>780000</S22NEG>
+      <R33>329.4524</R33>
+      <R22>66.63503</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 900 X 300 X 15 X 23</LABEL>
+      <EDI_STD>H 900 X 300 X 15 X 23</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>890</D>
+      <BF>299</BF>
+      <TF>23</TF>
+      <TW>15</TW>
+      <A>26690</A>
+      <I33>3.39E+09</I33>
+      <Z33>8750000</Z33>
+      <AS3>11461.67</AS3>
+      <I22>1.03E+08</I22>
+      <Z22>1080000</Z22>
+      <AS2>13350</AS2>
+      <J>3650000</J>
+      <S33POS>7617978</S33POS>
+      <S33NEG>7617978</S33NEG>
+      <S22POS>688963.2</S22POS>
+      <S22NEG>688963.2</S22NEG>
+      <R33>356.39</R33>
+      <R22>62.12184</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 900 X 300 X 16 X 28</LABEL>
+      <EDI_STD>H 900 X 300 X 16 X 28</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>900</D>
+      <BF>300</BF>
+      <TF>28</TF>
+      <TW>16</TW>
+      <A>30580</A>
+      <I33>4.04E+09</I33>
+      <Z33>1.03E+07</Z33>
+      <AS3>14000</AS3>
+      <I22>1.26E+08</I22>
+      <Z22>1320000</Z22>
+      <AS2>14400</AS2>
+      <J>5810000</J>
+      <S33POS>8977778</S33POS>
+      <S33NEG>8977778</S33NEG>
+      <S22POS>840000</S22POS>
+      <S22NEG>840000</S22NEG>
+      <R33>363.4728</R33>
+      <R22>64.18987</R22>
+  </STEEL_I_SECTION>
+
+  <STEEL_I_SECTION>
+      <LABEL>H 900 X 300 X 18 X 34</LABEL>
+      <EDI_STD>H 900 X 300 X 18 X 34</EDI_STD>
+      <DESIGNATION>W</DESIGNATION>
+      <D>912</D>
+      <BF>302</BF>
+      <TF>34</TF>
+      <TW>18</TW>
+      <A>36010</A>
+      <I33>4.91E+09</I33>
+      <Z33>1.23E+07</Z33>
+      <AS3>17113.33</AS3>
+      <I22>1.57E+08</I22>
+      <Z22>1620000</Z22>
+      <AS2>16416</AS2>
+      <J>9810000</J>
+      <S33POS>1.076754E+07</S33POS>
+      <S33NEG>1.076754E+07</S33NEG>
+      <S22POS>1039735</S22POS>
+      <S22NEG>1039735</S22NEG>
+      <R33>369.2574</R33>
+      <R22>66.02954</R22>
+  </STEEL_I_SECTION>
+
+</PROPERTY_FILE>

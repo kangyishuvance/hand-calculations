@@ -1,0 +1,1863 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.csiamerica.com"
+xmlns="http://www.csiamerica.com"
+elementFormDefault="qualified">
+
+  <!-- definition of simple type elements -->
+  <xsd:element name="FILE_ID" type="xsd:string"/>
+  <xsd:element name="VERSION" type="xsd:string"/>
+  <xsd:element name="DESCRIPTION" type="xsd:string"/>
+  <xsd:element name="LENGTH_UNITS" type="xsd:string"/>
+  <xsd:element name="FORCE_UNITS" type="xsd:string"/>
+  <xsd:element name="LABEL" type="xsd:string"/>
+  <xsd:element name="EDI_STD" type="xsd:string"/>
+  <xsd:element name="DESIGNATION" type="xsd:string"/>
+  <xsd:element name="START_SECTION" type="xsd:string"/>
+
+  <xsd:element name="ALUMINUM_CHANNEL_MATERIAL" type="xsd:string"/>
+  <xsd:element name="ALUMINUM_I_SECTION_MATERIAL" type="xsd:string"/>
+  <xsd:element name="COLDFORMED_C_SECTION_MATERIAL" type="xsd:string"/>
+  <xsd:element name="COLDFORMED_HAT_MATERIAL" type="xsd:string"/>
+  <xsd:element name="COLDFORMED_Z_SECTION_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_CIRCLE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_CIRCLE_LONGITUDINAL_REBAR_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_CIRCLE_CONFINEMENT_REBAR_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_L_SECTION_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_RECTANGLE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_RECTANGLE_LONGITUDINAL_REBAR_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_RECTANGLE_CONFINEMENT_REBAR_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_TEE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="CONCRETE_TRAPEZOID_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_ANGLE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_BOX_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_BOX_FILL_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_CHANNEL_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_DOUBLE_ANGLE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_DOUBLE_CHANNEL_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_I_SECTION_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_PIPE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_PIPE_FILL_MATERIAL" type="xsd:string"/>
+  <xsd:element name="STEEL_TEE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="JOIST_MATERIAL" type="xsd:string"/>
+  <xsd:element name="GENERAL_MATERIAL" type="xsd:string"/>
+  <xsd:element name="BUCKLING_RESTRAINED_BRACE_MATERIAL" type="xsd:string"/>
+  <xsd:element name="COREBRACE_BRB_MATERIAL" type="xsd:string"/>
+
+  <xsd:element name="IS_FILLED" type="xsd:boolean"/>
+
+  <xsd:element name="EMBED" type="xsd:string"/>
+
+  <xsd:element name="D">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="HT">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="OD">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="BF">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="B">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="BB">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TF">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TW">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TWB">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="BFB">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TFB">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="THICK">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="LIP">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="LIPANGL">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="DIS">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TDES">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="KDES">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="FRAD">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CRAD">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="A">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="AS2">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="AS3">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="I33">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="I22">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="I23" type="xsd:double"/>
+
+  <xsd:element name="S33">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="S33POS">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="S33NEG">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="S22">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="S22POS">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="S22NEG">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="R33">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="R22">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="Z33">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="Z22">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="J">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CW">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="X">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="Y">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="XP">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="YP">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="E">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CGOFFX">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CGOFFY">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="PNAOFFX">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="PNAOFFY">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="SCOFFX">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="SCOFFY">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Height">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Width">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Asc">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_tsc">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_tscWL">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_WL-bot">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_WL-top">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Flag_BoltPin">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Flag_Weld">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_br">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_e">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_LEBE_T">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_AEBE">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Lg">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_AEZoverAETE">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_ae3B">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_be2B">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_ceB">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_dB">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_ae3omega">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_be2omega">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_ceomega">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_domega">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_emax">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="SECTION_TYPE">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="ALUMINUM_CHANNEL"/>
+        <xsd:enumeration value="ALUMINUM_I_SECTION"/>
+        <xsd:enumeration value="COLDFORMED_C_SECTION"/>
+        <xsd:enumeration value="COLDFORMED_HAT"/>
+        <xsd:enumeration value="COLDFORMED_Z_SECTION"/>
+        <xsd:enumeration value="CONCRETE_CIRCLE"/>
+        <xsd:enumeration value="CONCRETE_L_SECTION"/>
+        <xsd:enumeration value="CONCRETE_RECTANGLE"/>
+        <xsd:enumeration value="CONCRETE_TEE"/>
+        <xsd:enumeration value="CONCRETE_TRAPEZOID"/>
+        <xsd:enumeration value="STEEL_ANGLE"/>
+        <xsd:enumeration value="STEEL_BOX"/>
+        <xsd:enumeration value="STEEL_CHANNEL"/>
+        <xsd:enumeration value="STEEL_TEE"/>
+        <xsd:enumeration value="STEEL_DOUBLE_ANGLE"/>
+        <xsd:enumeration value="STEEL_DOUBLE_CHANNEL"/>
+        <xsd:enumeration value="STEEL_I_SECTION"/>
+        <xsd:enumeration value="STEEL_PIPE"/>
+        <xsd:enumeration value="STEEL_JOIST"/>
+        <xsd:enumeration value="COREBRACE_BRB"/>
+        <xsd:enumeration value="GENERAL"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CONCRETE_SECTION_CLASSIFICATION">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Column"/>
+        <xsd:enumeration value="Beam"/>
+        <xsd:enumeration value="Other"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CBBRB_Shape">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Rectangular"/>
+        <xsd:enumeration value="Circular"/>
+        <xsd:enumeration value="Other"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+  
+  <xsd:element name="STEELAUTOSELECT_SECTION_CLASSIFICATION">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Lateral Column"/>
+        <xsd:enumeration value="Lateral Girder"/>
+        <xsd:enumeration value="Gravity Column"/>
+        <xsd:enumeration value="Gravity Girder"/>
+        <xsd:enumeration value="Secondary Beam"/>
+        <xsd:enumeration value="Other"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="CS_TYPE" type="xsd:string"/>
+  <xsd:element name="BAR_CONFIG" type="xsd:string"/>
+  <xsd:element name="CONFINE_TYPE" type="xsd:string"/>
+  <xsd:element name="DESIGN" type="xsd:boolean"/>
+
+  <xsd:element name="L_BAR_COVER">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="NUM_L_BARS_2">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">
+        <xsd:minInclusive value="2"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="NUM_L_BARS_3">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">
+        <xsd:minInclusive value="2"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="NUM_L_BARS_C">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">
+        <xsd:minInclusive value="4"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="L_BAR_SIZE" type="xsd:string"/>
+
+  <xsd:element name="L_BAR_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="LC_BAR_SIZE" type="xsd:string"/>
+
+  <xsd:element name="LC_BAR_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="C_BAR_SIZE" type="xsd:string"/>
+
+  <xsd:element name="C_BAR_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="C_BAR_SPACE">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="NUM_C_BARS_2">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">
+        <xsd:minInclusive value="2"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="NUM_C_BARS_3">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer">
+        <xsd:minInclusive value="2"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TB_COVER">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="BB_COVER">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TB_I_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TB_J_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="BB_I_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="BB_J_AREA">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="JOIST_TYPE" type="xsd:string"/>
+
+  <xsd:element name="UNIT_WEIGHT">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="ANALYSIS_I33">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="MOMENT_CAPACITY">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="SHEAR_CAPACITY">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="MINIMUM_SPAN">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="MAXIMUM_SPAN">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="SPAN_LENGTH">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TL">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="LL">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minExclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="AREACORE">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="KELASTIC">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="LENGTHCORE">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="LENGTHELASTIC">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="TOTALWEIGHT">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:double">
+        <xsd:minInclusive value="0"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <!-- definition of complex type elements -->
+  <xsd:element name="CONTROL">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="FILE_ID" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="VERSION" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="DESCRIPTION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LENGTH_UNITS" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FORCE_UNITS" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="SECTION_MATERIAL">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="ALUMINUM_CHANNEL_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="ALUMINUM_I_SECTION_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="COLDFORMED_C_SECTION_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="COLDFORMED_HAT_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="COLDFORMED_Z_SECTION_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_CIRCLE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_CIRCLE_LONGITUDINAL_REBAR_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_CIRCLE_CONFINEMENT_REBAR_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_L_SECTION_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_RECTANGLE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_RECTANGLE_LONGITUDINAL_REBAR_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_RECTANGLE_CONFINEMENT_REBAR_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_TEE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_TRAPEZOID_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_ANGLE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_BOX_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_BOX_FILL_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_CHANNEL_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_DOUBLE_ANGLE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_DOUBLE_CHANNEL_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_I_SECTION_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_PIPE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_PIPE_FILL_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="STEEL_TEE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="JOIST_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="GENERAL_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="BUCKLING_RESTRAINED_BRACE_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="COREBRACE_BRB_MATERIAL" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="REBAR_SET">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="REBAR">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="ALUMINUM_CHANNEL">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="E" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="ALUMINUM_I_SECTION">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BFB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="TFB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="COLDFORMED_C_SECTION">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="THICK" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LIP" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="CRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="E" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="COLDFORMED_HAT">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="THICK" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LIP" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="CRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="E" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="COLDFORMED_Z_SECTION">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="THICK" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LIP" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LIPANGL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="CRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I23" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="E" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="CONCRETE_CIRCLE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_SECTION_CLASSIFICATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="OD" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="BAR_CONFIG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONFINE_TYPE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGN" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="L_BAR_COVER" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_L_BARS_2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_L_BARS_3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_L_BARS_C" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="L_BAR_SIZE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="L_BAR_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LC_BAR_SIZE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LC_BAR_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="C_BAR_SIZE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="C_BAR_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="C_BAR_SPACE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_C_BARS_2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_C_BARS_3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="EMBED" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="CONCRETE_L_SECTION">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_SECTION_CLASSIFICATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TWB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I23" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="CONCRETE_RECTANGLE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_SECTION_CLASSIFICATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CS_TYPE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="BAR_CONFIG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONFINE_TYPE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGN" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="L_BAR_COVER" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_L_BARS_2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_L_BARS_3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_L_BARS_C" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="L_BAR_SIZE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="L_BAR_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LC_BAR_SIZE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LC_BAR_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="C_BAR_SIZE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="C_BAR_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="C_BAR_SPACE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_C_BARS_2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NUM_C_BARS_3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="TB_COVER" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="BB_COVER" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="TB_I_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="TB_J_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="BB_I_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="BB_J_AREA" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="EMBED" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="CONCRETE_TEE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_SECTION_CLASSIFICATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TWB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="CONCRETE_TRAPEZOID">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CONCRETE_SECTION_CLASSIFICATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BB" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_ANGLE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I23" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_BOX">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="HT" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="CRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="IS_FILLED" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_CHANNEL">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="X" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="XP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="E" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_DOUBLE_ANGLE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="DIS" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_DOUBLE_CHANNEL">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="DIS" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_I_SECTION">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BFB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="TFB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_PIPE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="OD" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TDES" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="IS_FILLED" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="STEEL_TEE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="BF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TF" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TW" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="FRAD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KDES" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CW" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Y" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="YP" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="JOIST_CAPACITY">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="SPAN_LENGTH" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="TL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="1" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="JOIST_STANDARD">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="JOIST_TYPE" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="UNIT_WEIGHT" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="ANALYSIS_I33" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="JOIST_CAPACITY" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="JOIST_ENVELOPE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="JOIST_TYPE" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="UNIT_WEIGHT" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="ANALYSIS_I33" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="MOMENT_CAPACITY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SHEAR_CAPACITY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="MINIMUM_SPAN" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="MAXIMUM_SPAN" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="GENERAL">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="A" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS2" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AS3" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="I23" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S33NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22POS" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="S22NEG" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="R22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z33" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="Z22" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="J" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CGOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="PNAOFFY" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFX" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="SCOFFY" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="BUCKLING_RESTRAINED_BRACE">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="D" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="B" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="AREACORE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="KELASTIC" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LENGTHCORE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="LENGTHELASTIC" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="TOTALWEIGHT" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="COREBRACE_BRB">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="EDI_STD" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DESIGNATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Shape" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Height" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Width" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Asc" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_tsc" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_tscWL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_WL-bot" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_WL-top" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Flag_BoltPin" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Flag_Weld" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_br" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_e" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_LEBE_T" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_AEBE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_Lg" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_AEZoverAETE" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_ae3B" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_be2B" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_ceB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_dB" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_ae3omega" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_be2omega" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_ceomega" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_domega" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="CBBRB_emax" minOccurs="0" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="AUTO_SELECT_LIST_ITEM">
+    <xsd:complexType>
+      <xsd:all>
+        <xsd:element ref="SECTION_TYPE" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="AUTO_SELECT_LIST">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="LABEL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="STEELAUTOSELECT_SECTION_CLASSIFICATION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="START_SECTION" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="AUTO_SELECT_LIST_ITEM" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="PROPERTY_FILE">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="CONTROL" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="SECTION_MATERIAL" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="REBAR_SET" minOccurs="0" maxOccurs="1"/>
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element ref="ALUMINUM_CHANNEL"/>
+          <xsd:element ref="ALUMINUM_I_SECTION"/>
+          <xsd:element ref="COLDFORMED_C_SECTION"/>
+          <xsd:element ref="COLDFORMED_HAT"/>
+          <xsd:element ref="COLDFORMED_Z_SECTION"/>
+          <xsd:element ref="CONCRETE_CIRCLE"/>
+          <xsd:element ref="CONCRETE_L_SECTION"/>
+          <xsd:element ref="CONCRETE_RECTANGLE"/>
+          <xsd:element ref="CONCRETE_TEE"/>
+          <xsd:element ref="CONCRETE_TRAPEZOID"/>
+          <xsd:element ref="STEEL_ANGLE"/>
+          <xsd:element ref="STEEL_BOX"/>
+          <xsd:element ref="STEEL_CHANNEL"/>
+          <xsd:element ref="STEEL_DOUBLE_ANGLE"/>
+          <xsd:element ref="STEEL_DOUBLE_CHANNEL"/>
+          <xsd:element ref="STEEL_I_SECTION"/>
+          <xsd:element ref="STEEL_PIPE"/>
+          <xsd:element ref="STEEL_TEE"/>
+          <xsd:element ref="JOIST_STANDARD"/>
+          <xsd:element ref="JOIST_ENVELOPE"/>
+          <xsd:element ref="GENERAL"/>
+          <xsd:element ref="BUCKLING_RESTRAINED_BRACE"/>
+          <xsd:element ref="COREBRACE_BRB"/>
+          <xsd:element ref="REBAR"/>
+          <xsd:element ref="AUTO_SELECT_LIST"/>
+        </xsd:choice>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<propertyFile xmlns="http://www.csiamerica.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiamerica.com CSiMaterialLibrary.xsd">
+
+  <!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+
+  <control lengthUnits="mm" forceUnits="N">
+    <fileID>CSI Material Library for Spain</fileID>
+    <fileVersion>1.0</fileVersion>
+    <fileDescription>Built-in Material Property templates for Spain</fileDescription>
+  </control>
+
+  <region name="Spain" lengthUnits="mm" forceUnits="N">
+
+    <collection type="Materials">
+
+      <standard name="EHE - Instrucción de Hormigón Estructural">
+        
+<!-- CONCRETE MATERIALS-->
+
+        <material type="concrete" grade="HA-20" name="HA-20">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>30327.93236</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>20</compressiveStrength>
+          <strainAtfc>0.00132</strainAtfc>
+          <strainAtUltimate>0.00420</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-25" name="HA-25">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>32035.24912</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>25</compressiveStrength>
+          <strainAtfc>0.00156</strainAtfc>
+          <strainAtUltimate>0.00400</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-30" name="HA-30">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>33577.72938</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>30</compressiveStrength>
+          <strainAtfc>0.00179</strainAtfc>
+          <strainAtUltimate>0.00370</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-35" name="HA-35">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>34990.18813</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>35</compressiveStrength>
+          <strainAtfc>0.002000</strainAtfc>
+          <strainAtUltimate>0.00350</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-40" name="HA-40">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>36296.98384</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>40</compressiveStrength>
+          <strainAtfc>0.00220</strainAtfc>
+          <strainAtUltimate>0.00330</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-45" name="HA-45">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>37515.90397</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>45</compressiveStrength>
+          <strainAtfc>0.00240</strainAtfc>
+          <strainAtUltimate>0.00320</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-50" name="HA-50">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>38660.38045</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>50</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-55" name="HA-55">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>39318.05904</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>55</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-60" name="HA-60">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>39898.17862</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>60</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-70" name="HA-70">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>40857.29864</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>70</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="HA-80" name="HA-80">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>41588.42769</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>80</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="HA-90" name="HA-90">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>42127.86162</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>90</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="HA-100" name="HA-100">
+          <weightDensity>0.00002499261766</weightDensity>
+          <massDensity>0.0000000025485377</massDensity>
+          <modulusOfElasticity>42502.66317</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+
+          <compressiveStrength>100</compressiveStrength>
+          <strainAtfc>0.00260</strainAtfc>
+          <strainAtUltimate>0.00300</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+      </standard>
+    </collection>
+  </region>
+</propertyFile>

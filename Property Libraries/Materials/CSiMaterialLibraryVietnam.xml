@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<propertyFile xmlns="http://www.csiamerica.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.csiamerica.com CSiMaterialLibrary.xsd">
+
+  <!-- This file should be validated against the schema file. 
+       If there are any validation errors in this file, the entire file is ignored.
+  -->
+
+  <control lengthUnits="m" forceUnits="kN">
+    <fileID>CSI Material Library for Vietnam</fileID>
+    <fileVersion>1.0</fileVersion>
+    <fileDescription>Built-in Material Property templates for Vietnam</fileDescription>
+  </control>
+
+  <region name="Vietnam" lengthUnits="m" forceUnits="kN">
+
+    <collection type="Materials">
+
+    <!--CONCRETE MATERIALS-->
+
+      <standard name="TCVN 5574:2012">
+
+        <material type="concrete" grade="B3.5" name="B3.5">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>9500000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>2700</compressiveStrength>
+          <strainAtfc>0.00172</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B5" name="B5">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>13000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>3500</compressiveStrength>
+          <strainAtfc>0.00174</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B7.5" name="B7.5">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>16000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>5500</compressiveStrength>
+          <strainAtfc>0.00193</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B10" name="B10">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>18000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>7500</compressiveStrength>
+          <strainAtfc>0.00197</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B12.5" name="B12.5">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>21000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>9500</compressiveStrength>
+          <strainAtfc>0.00198</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B15" name="B15">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>23000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>11000</compressiveStrength>
+          <strainAtfc>0.00196</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B20" name="B20" isDefault="true">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>27000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>15000</compressiveStrength>
+          <strainAtfc>0.00198</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B25" name="B25">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>30000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>18500</compressiveStrength>
+          <strainAtfc>0.00202</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B30" name="B30">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>32500000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>22000</compressiveStrength>
+          <strainAtfc>0.00204</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B35" name="B35">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>34500000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>25500</compressiveStrength>
+          <strainAtfc>0.00206</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B40" name="B40">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>36000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>29000</compressiveStrength>
+          <strainAtfc>0.00211</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B45" name="B45">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>37500000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>32000</compressiveStrength>
+          <strainAtfc>0.00218</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B50" name="B50">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>39000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>36000</compressiveStrength>
+          <strainAtfc>0.00224</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+        
+        <material type="concrete" grade="B55" name="B55">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>39500000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>39500</compressiveStrength>
+          <strainAtfc>0.00229</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+        <material type="concrete" grade="B60" name="B60">
+          <weightDensity>24.525</weightDensity>
+          <massDensity>2.5</massDensity>
+          <modulusOfElasticity>40000000</modulusOfElasticity>
+          <poissonsRatio>0.2</poissonsRatio>
+          <coefficientOfThermalExpansion>0.00001</coefficientOfThermalExpansion>
+          <compressiveStrength>43000</compressiveStrength>
+          <strainAtfc>0.00237</strainAtfc>
+          <strainAtUltimate>0.0035</strainAtUltimate>
+          <isLightWeight>false</isLightWeight>
+          <shearStrengthReductionFactor>1</shearStrengthReductionFactor>
+        </material>
+
+      
+	  </standard>
+	  
+	  <!--  REBAR MATERIALS  -->
+
+      <standard name="TCVN 5574:2012">
+
+        <material type="rebar" grade="CB240-T" name="CB240-T">
+          <weightDensity>77</weightDensity>
+          <massDensity>7.85</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>240000</minimumYieldStress>
+          <minimumTensileStress>380000</minimumTensileStress>
+          <expectedYieldStress>264000</expectedYieldStress>
+          <expectedTensileStress>418000</expectedTensileStress>
+          <strainAtHardening>0.01</strainAtHardening>
+          <strainAtUltimate>0.1</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="CB300-T" name="CB300-T">
+          <weightDensity>77</weightDensity>
+          <massDensity>7.85</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>300000</minimumYieldStress>
+          <minimumTensileStress>440000</minimumTensileStress>
+          <expectedYieldStress>330000</expectedYieldStress>
+          <expectedTensileStress>484000</expectedTensileStress>
+          <strainAtHardening>0.01</strainAtHardening>
+          <strainAtUltimate>0.10</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="CB300-V" name="CB300-V">
+          <weightDensity>77</weightDensity>
+          <massDensity>7.85</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>300000</minimumYieldStress>
+          <minimumTensileStress>450000</minimumTensileStress>
+          <expectedYieldStress>330000</expectedYieldStress>
+          <expectedTensileStress>495000</expectedTensileStress>
+          <strainAtHardening>0.01</strainAtHardening>
+          <strainAtUltimate>0.1</strainAtUltimate>
+        </material>
+
+        <material type="rebar" grade="CB400-V" name="CB400-V">
+          <weightDensity>77</weightDensity>
+          <massDensity>7.85</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>400000</minimumYieldStress>
+          <minimumTensileStress>570000</minimumTensileStress>
+          <expectedYieldStress>440000</expectedYieldStress>
+          <expectedTensileStress>627000</expectedTensileStress>
+          <strainAtHardening>0.01</strainAtHardening>
+          <strainAtUltimate>0.1</strainAtUltimate>
+        </material>
+        
+        <material type="rebar" grade="CB500-V" name="CB500-V">
+          <weightDensity>77</weightDensity>
+          <massDensity>7.85</massDensity>
+          <modulusOfElasticity>200000000</modulusOfElasticity>
+          <poissonsRatio>0.3</poissonsRatio>
+          <coefficientOfThermalExpansion>0.000012</coefficientOfThermalExpansion>
+
+          <minimumYieldStress>500000</minimumYieldStress>
+          <minimumTensileStress>650000</minimumTensileStress>
+          <expectedYieldStress>550000</expectedYieldStress>
+          <expectedTensileStress>715000</expectedTensileStress>
+          <strainAtHardening>0.01</strainAtHardening>
+          <strainAtUltimate>0.1</strainAtUltimate>
+        </material>
+      </standard>
+    </collection>
+  </region>
+</propertyFile>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
