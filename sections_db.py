@@ -258,10 +258,17 @@ class SectionDB:
 
 def default_db_path() -> Path:
     """
-    Assumes:
-      Hand_calculations/
-        sections_db.py
-        Property Libraries/json_out/_all_libraries_combined.json
+    Fixed path to the section database, anchored to the user's home directory.
+    Always resolves to:
+      ~/Documents/Scripts/Hand_calculations/Property Libraries/json_out/_all_libraries_combined.json
+    Works regardless of where sections_db.py is copied or which directory the script runs from.
     """
-    here = Path(__file__).resolve().parent
-    return here / "Property Libraries" / "json_out" / "_all_libraries_combined.json"
+    return (
+        Path.home()
+        / "Documents"
+        / "Scripts"
+        / "Hand_calculations"
+        / "Property Libraries"
+        / "json_out"
+        / "_all_libraries_combined.json"
+    )
