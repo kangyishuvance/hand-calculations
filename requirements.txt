@@ -1,0 +1,8 @@
+handcalcs
+forallpeople
+structuralcodes
+pandas
+openpyxl
+nbconvert
+traitlets
+ipykernel
