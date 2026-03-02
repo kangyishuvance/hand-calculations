@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>General_template</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Moment_calculator</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7510,15 +7510,785 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=14aa96f4">
+<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=5dfe776f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=14aa96f4">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Calc environment ready.
+<pre>Custom symbols registered.
 </pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=7f9e59aa">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+  <span class="ansi-cyan-fg">Cell</span><span class="ansi-cyan-fg"> </span><span class="ansi-green-fg">In[2]</span><span class="ansi-green-fg">, line 12</span>
+<span class="ansi-red-fg">    </span><span class="ansi-red-fg">conc create_concrete(fck=f_ck.value)</span>
+         ^
+<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=f43f7f33">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-cyan-fg">Cell</span><span class="ansi-cyan-fg"> </span><span class="ansi-green-fg">In[3]</span><span class="ansi-green-fg">, line 1</span>
+<span class="ansi-green-fg">----&gt; </span><span class="ansi-green-fg">1</span> f_cd = <span class="ansi-yellow-bg">conc</span>.fcd() * MPa  <span style="color: rgb(95,135,135)"># Convert back to unit-aware variable</span>
+<span class="ansi-green-fg">      3</span> A_c = b * h
+<span class="ansi-green-fg">      4</span> A_s = n_bars * (pi * (bar_dia/<span class="ansi-green-fg">2</span>)**<span class="ansi-green-fg">2</span>)
+
+<span class="ansi-red-fg">NameError</span>: name 'conc' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=9756ba91">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+<span class="ansi-cyan-fg">Cell</span><span class="ansi-cyan-fg"> </span><span class="ansi-green-fg">In[4]</span><span class="ansi-green-fg">, line 1</span>
+<span class="ansi-green-fg">----&gt; </span><span class="ansi-green-fg">1</span> <span class="ansi-yellow-bg">sec</span>[<span class="ansi-yellow-fg">'</span><span class="ansi-yellow-fg">properties</span><span class="ansi-yellow-fg">'</span>]
+<span class="ansi-green-fg">      2</span> <span style="color: rgb(0,135,0)">print</span>(sec[<span class="ansi-yellow-fg">'</span><span class="ansi-yellow-fg">edi_std</span><span class="ansi-yellow-fg">'</span>])
+
+<span class="ansi-red-fg">NameError</span>: name 'sec' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=f26646c2">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Total entries across all libraries: 49625
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=13804955">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+A &amp;= 62000.000 \; \;\textrm{(mm2)}
+\\[10pt]
+\mathrm{Iy} &amp;= 10218840000.000 \; \;\textrm{(mm4)}
+\\[10pt]
+\mathrm{Iz} &amp;= 267210000.000 \; \;\textrm{(mm4)}
+\\[10pt]
+d &amp;= 1036.300 \; \;\textrm{(mm)}
+\\[10pt]
+\mathrm{bf} &amp;= 308.500 \; \;\textrm{(mm)}
+\\[10pt]
+\mathrm{tf} &amp;= 54.100 \; \;\textrm{(mm)}
+\\[10pt]
+\mathrm{tw} &amp;= 30.000 \; \;\textrm{(mm)}
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=4542e869">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>ry (mm) = 405.98029508832076
+rz (mm) = 65.64936183754888
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=fd047006">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>library</th>
+<th>label</th>
+<th>type</th>
+<th>designation</th>
+<th>D</th>
+<th>BF</th>
+<th>TF</th>
+<th>TW</th>
+<th>A</th>
+<th>I33</th>
+<th>I22</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X487</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>1036.3</td>
+<td>308.5</td>
+<td>54.1</td>
+<td>30.0</td>
+<td>62000.0</td>
+<td>1.021884e+10</td>
+<td>267210000.0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X437</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>1026.1</td>
+<td>305.4</td>
+<td>49.0</td>
+<td>26.9</td>
+<td>55700.0</td>
+<td>9.103220e+09</td>
+<td>234470000.0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X393</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>1015.9</td>
+<td>303.0</td>
+<td>43.9</td>
+<td>24.4</td>
+<td>50000.0</td>
+<td>8.075030e+09</td>
+<td>204960000.0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X349</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>1008.1</td>
+<td>302.0</td>
+<td>40.0</td>
+<td>21.1</td>
+<td>44500.0</td>
+<td>7.231310e+09</td>
+<td>184600000.0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X314</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>999.9</td>
+<td>300.0</td>
+<td>35.9</td>
+<td>19.1</td>
+<td>40000.0</td>
+<td>6.440630e+09</td>
+<td>162320000.0</td>
+</tr>
+<tr>
+<th>5</th>
+<td>BSShapes2006</td>
+<td>UKB1016XX305X272</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>990.1</td>
+<td>300.0</td>
+<td>31.0</td>
+<td>16.5</td>
+<td>34700.0</td>
+<td>5.539740e+09</td>
+<td>140040000.0</td>
+</tr>
+<tr>
+<th>6</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X249</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>980.1</td>
+<td>300.0</td>
+<td>26.0</td>
+<td>16.5</td>
+<td>31700.0</td>
+<td>4.811920e+09</td>
+<td>117540000.0</td>
+</tr>
+<tr>
+<th>7</th>
+<td>BSShapes2006</td>
+<td>UKB1016X305X222</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>970.3</td>
+<td>300.0</td>
+<td>21.1</td>
+<td>16.0</td>
+<td>28300.0</td>
+<td>4.079610e+09</td>
+<td>95460000.0</td>
+</tr>
+<tr>
+<th>8</th>
+<td>BSShapes2006</td>
+<td>UKB914X419X388</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>921.0</td>
+<td>420.5</td>
+<td>36.6</td>
+<td>21.4</td>
+<td>49400.0</td>
+<td>7.196350e+09</td>
+<td>454380000.0</td>
+</tr>
+<tr>
+<th>9</th>
+<td>BSShapes2006</td>
+<td>UKB914X419X343</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>911.8</td>
+<td>418.5</td>
+<td>32.0</td>
+<td>19.4</td>
+<td>43700.0</td>
+<td>6.257800e+09</td>
+<td>391560000.0</td>
+</tr>
+<tr>
+<th>10</th>
+<td>BSShapes2006</td>
+<td>UKB914X305X289</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>926.6</td>
+<td>307.7</td>
+<td>32.0</td>
+<td>19.5</td>
+<td>36800.0</td>
+<td>5.041870e+09</td>
+<td>155970000.0</td>
+</tr>
+<tr>
+<th>11</th>
+<td>BSShapes2006</td>
+<td>UKB914X305X253</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>918.4</td>
+<td>305.5</td>
+<td>27.9</td>
+<td>17.3</td>
+<td>32300.0</td>
+<td>4.363050e+09</td>
+<td>133010000.0</td>
+</tr>
+<tr>
+<th>12</th>
+<td>BSShapes2006</td>
+<td>UKB914X305X224</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>910.4</td>
+<td>304.1</td>
+<td>23.9</td>
+<td>15.9</td>
+<td>28600.0</td>
+<td>3.764140e+09</td>
+<td>112360000.0</td>
+</tr>
+<tr>
+<th>13</th>
+<td>BSShapes2006</td>
+<td>UKB914X305X201</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>903.0</td>
+<td>303.3</td>
+<td>20.2</td>
+<td>15.1</td>
+<td>25600.0</td>
+<td>3.252540e+09</td>
+<td>94230000.0</td>
+</tr>
+<tr>
+<th>14</th>
+<td>BSShapes2006</td>
+<td>UKB838X292X226</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>850.9</td>
+<td>293.8</td>
+<td>26.8</td>
+<td>16.1</td>
+<td>28900.0</td>
+<td>3.397040e+09</td>
+<td>113600000.0</td>
+</tr>
+<tr>
+<th>15</th>
+<td>BSShapes2006</td>
+<td>UKB838X292X194</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>840.7</td>
+<td>292.4</td>
+<td>21.7</td>
+<td>14.7</td>
+<td>24700.0</td>
+<td>2.791750e+09</td>
+<td>90660000.0</td>
+</tr>
+<tr>
+<th>16</th>
+<td>BSShapes2006</td>
+<td>UKB838X292X176</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>834.9</td>
+<td>291.7</td>
+<td>18.8</td>
+<td>14.0</td>
+<td>22400.0</td>
+<td>2.460210e+09</td>
+<td>77990000.0</td>
+</tr>
+<tr>
+<th>17</th>
+<td>BSShapes2006</td>
+<td>UKB762X267X197</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>769.8</td>
+<td>268.0</td>
+<td>25.4</td>
+<td>15.6</td>
+<td>25100.0</td>
+<td>2.399570e+09</td>
+<td>81750000.0</td>
+</tr>
+<tr>
+<th>18</th>
+<td>BSShapes2006</td>
+<td>UKB762X267X173</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>762.2</td>
+<td>266.7</td>
+<td>21.6</td>
+<td>14.3</td>
+<td>22000.0</td>
+<td>2.052820e+09</td>
+<td>68500000.0</td>
+</tr>
+<tr>
+<th>19</th>
+<td>BSShapes2006</td>
+<td>UKB762X267X147</td>
+<td>STEEL_I_SECTION</td>
+<td>W</td>
+<td>754.0</td>
+<td>265.2</td>
+<td>17.5</td>
+<td>12.8</td>
+<td>18700.0</td>
+<td>1.685020e+09</td>
+<td>54550000.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=5bc93f1e">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=27f7cfee-a22f-4bf2-8ef4-4c9bb4d29ba9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="General-calculation"><strong>General calculation</strong><a class="anchor-link" href="#General-calculation">¶</a></h1><h3 id="Calculation-Report">Calculation Report<a class="anchor-link" href="#Calculation-Report">¶</a></h3><p><strong>Author:</strong> Vance Kang
+<strong>Date:</strong> {{}}<br/>
+<strong>Project No.:</strong></p>
+<hr/>
+<h2 id="Calculations">Calculations<a class="anchor-link" href="#Calculations">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f6e54b16">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Simply-supported-beam-with-UDL">Simply supported beam with UDL<a class="anchor-link" href="#Simply-supported-beam-with-UDL">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=77a3e59a-8955-4753-b78b-0d2a287b764d">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+L &amp;= 13 \; \;\textrm{(Span length, $m$)}
+ &amp;w &amp;= 0.209 \; \;\textrm{(UDL, $kN/m$)}
+ &amp;E &amp;= 200000000.000 \; \;\textrm{(Young's modulus, $kN/m^2$ (200 GPa = $200e6 \; kN/m^2$))}
+\\[10pt]
+ I &amp;= 0.000 \; \;\textrm{(Second moment of area, $m^4$)}
+ &amp;x &amp;= 6.500 \; \;\textrm{(Position along beam, $m$)}
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=0d098941">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0fea075b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="My Image" src="img/simplebeam.png"/></p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=76a2d97c">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+R &amp;= w \cdot \frac{ L }{ 2 }  = 0.209 \cdot \frac{ 13 }{ 2 } &amp;= 1.359  
+\\[10pt]
+M_{max} &amp;= w \cdot \frac{ \left( L \right) ^{ 2 } }{ 8 }  = 0.209 \cdot \frac{ \left( 13 \right) ^{ 2 } }{ 8 } &amp;= 4.415  
+\\[10pt]
+\delta_{max} &amp;= 5 \cdot w \cdot \frac{ \left( L \right) ^{ 4 } }{ 384 \cdot E \cdot I }  = 5 \cdot 0.209 \cdot \frac{ \left( 13 \right) ^{ 4 } }{ 384 \cdot 200000000.000 \cdot 0.000 } &amp;= 0.055  
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=35d7ffec">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="-------------------------------------------------------">-------------------------------------------------------<a class="anchor-link" href="#-------------------------------------------------------">¶</a></h1><h3 id="simply-supported-with-1-concentrated-loads">simply supported with 1 concentrated loads<a class="anchor-link" href="#simply-supported-with-1-concentrated-loads">¶</a></h3><h1 id="-------------------------------------------------------">-------------------------------------------------------<a class="anchor-link" href="#-------------------------------------------------------">¶</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=708b2087">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+L &amp;= 6.600 \; \;\textrm{(span length, ℓ (m))}
+ &amp;P &amp;= 40 \; \;\textrm{(each point load (kN))}
+ &amp;P_{ult} &amp;= 72.000 \; \;\textrm{(factored load (kN))}
+\\[10pt]
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=3abeb7a6">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+R &amp;= \frac{ P_{ult} }{ 2 }  = \frac{ 72.000 }{ 2 } &amp;= 36.000  
+\\[10pt]
+M_{max} &amp;= P_{ult} \cdot \frac{ L }{ 4 }  = 72.000 \cdot \frac{ 6.600 }{ 4 } &amp;= 118.800  
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=81474e5e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="-------------------------------------------------------">-------------------------------------------------------<a class="anchor-link" href="#-------------------------------------------------------">¶</a></h1><h3 id="simply-supported-with-2-concentrated-loads">simply supported with 2 concentrated loads<a class="anchor-link" href="#simply-supported-with-2-concentrated-loads">¶</a></h3><h1 id="-------------------------------------------------------">-------------------------------------------------------<a class="anchor-link" href="#-------------------------------------------------------">¶</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=3c4e981e">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=e97ec0b4">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+L &amp;= 8.300 \; \;\textrm{(span length, ℓ (m))}
+ &amp;P &amp;= 0.900 \; \;\textrm{(each point load (kN))}
+ &amp;a &amp;= 3.500 \; \;\textrm{(distance of each load from the support (m))}
+\\[10pt]
+ E &amp;= 200000000.000 \; \;\textrm{(Young's modulus (kN/m²)  200 GPa = 200e6 kN/m²)}
+ &amp;I &amp;= 0.000 \; \;\textrm{(second moment of area (m⁴))}
+ &amp;x_{left} &amp;= 3.500 \; \;\textrm{(a point with x &lt; a   (m))}
+\\[10pt]
+ x_{mid} &amp;= 4.150 \; \;\textrm{(a point with a &lt; x &lt; (L - a)   (m))}
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3b9eb6bc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="My Image" src="img/simplebeam2concentratedloads.png"/></p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=923a6fe2">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=fa146262">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+R &amp;= 0.900 \; \;\textrm{(R = V = P)}
+\\[10pt]
+M_{max} &amp;= P \cdot a  = 0.900 \cdot 3.500 &amp;= 3.150 \; \;\textrm{(Maximum moment between loads)}
+\\[10pt]
+\delta_{max} &amp;= \frac{ P \cdot a }{ 24 \cdot E \cdot I } \cdot \left( 3 \cdot \left( L \right) ^{ 2 } - 4 \cdot \left( a \right) ^{ 2 } \right) \\&amp;= \frac{ 0.900 \cdot 3.500 }{ 24 \cdot 200000000.000 \cdot 0.000 } \cdot \left( 3 \cdot \left( 8.300 \right) ^{ 2 } - 4 \cdot \left( 3.500 \right) ^{ 2 } \right) \\&amp;= 0.001 \; \;\textrm{(Maximum deflection at center)}\\[10pt]
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=10bfe5c6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Grating-Loading-Calculation">Grating Loading Calculation<a class="anchor-link" href="#Grating-Loading-Calculation">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=8309820b">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+\rho &amp;= 80 \; \;\textrm{(steel grating area load assumed (kg/m2))}
+\\[10pt]
+w_{DL} &amp;= \rho \cdot 10 \cdot \left( 10 \right) ^{ -3 }  = 80 \cdot 10 \cdot \left( 10 \right) ^{ -3 } &amp;= 0.800  
+\\[10pt]
+\mathrm{LL} &amp;= 2.500 \; \;\textrm{(assumed live load)}
+\\[10pt]
+\mathrm{LW} &amp;= 1 \; \;\textrm{(load width(m))}
+\\[10pt]
+q &amp;= \left( 1.35 \cdot w_{DL} + 1.5 \cdot \mathrm{LL} \right) \cdot \mathrm{LW}  = \left( 1.35 \cdot 0.800 + 1.5 \cdot 2.500 \right) \cdot 1 &amp;= 4.830 \; \;\textrm{(kN/m)}
+\\[10pt]
+\mathrm{load}\ per\ anchor &amp;= \frac{ q }{ \frac{ 1000 }{ 300 } }  = \frac{ 4.830 }{ \frac{ 1000 }{ 300 } } &amp;= 1.449 \; \;\textrm{((KN) spaced every 300mm)}
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6d4afe81">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Portal-frame-Moment">Portal frame Moment<a class="anchor-link" href="#Portal-frame-Moment">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=abb18664">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="My Image" src="img/PortalFrameMoment.png"/></p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=6b425dc1">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+w &amp;= 10.000 \; \;\textrm{(projected loading kN/m)}
+ &amp;L &amp;= 10.000 \; \;\textrm{(Total span m)}
+ &amp;I_{R} &amp;= 1.000 \; \;\textrm{(reference moment of inertia)}
+\\[10pt]
+ I_{C} &amp;= 1.500 \; \;\textrm{(preliminary assumption from the note)}
+ &amp;h &amp;= 3.000 \; \;\textrm{(height up to lowest rafter m)}
+ &amp;f &amp;= 2 \; \;\textrm{(rise of rafter m)}
+\\[10pt]
+ s &amp;= 5.385 \; \;\textrm{(length of rafter m)}
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=4e388e00">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+s &amp;= \sqrt { \left( \frac{ L }{ 2 } \right) ^{ 2 } + \left( f \right) ^{ 2 } }  = \sqrt { \left( \frac{ 10.000 }{ 2 } \right) ^{ 2 } + \left( 2 \right) ^{ 2 } } &amp;= 5.385 \; \;\textrm{(length of rafter m)}
+\\[10pt]
+k &amp;= \frac{ I_{R} \cdot h }{ I_{C} \cdot s }  = \frac{ 1.000 \cdot 3.000 }{ 1.500 \cdot 5.385 } &amp;= 0.371  
+\\[10pt]
+\phi &amp;= \frac{ f }{ h }  = \frac{ 2 }{ 3.000 } &amp;= 0.667  
+\\[10pt]
+m &amp;= 1 + \phi  = 1 + 0.667 &amp;= 1.667  
+\\[10pt]
+B &amp;= 2 \cdot \left( k + 1 \right) + m  = 2 \cdot \left( 0.371 + 1 \right) + 1.667 &amp;= 4.409  
+\\[10pt]
+C &amp;= 1 + 2 \cdot m  = 1 + 2 \cdot 1.667 &amp;= 4.333  
+\\[10pt]
+N &amp;= B + m \cdot C  = 4.409 + 1.667 \cdot 4.333 &amp;= 11.632  
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=5744554f">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+M_{E} &amp;= w \cdot \left( L \right) ^{ 2 } \cdot \frac{ 3 + 5 \cdot m }{ 16 \cdot N }  = 10.000 \cdot \left( 10.000 \right) ^{ 2 } \cdot \frac{ 3 + 5 \cdot 1.667 }{ 16 \cdot 11.632 } &amp;= 60.897  
+\\[10pt]
+M_{A} &amp;= w \cdot \frac{ \left( L \right) ^{ 2 } }{ 8 } + m \cdot M_{E}  = 10.000 \cdot \frac{ \left( 10.000 \right) ^{ 2 } }{ 8 } + 1.667 \cdot 60.897 &amp;= 226.495  
+\end{aligned}
+\]
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=1cc6d3a1">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedLatex jp-OutputArea-output" data-mime-type="text/latex" tabindex="0">
+\[
+\begin{aligned}
+M_{A} &amp;= w \cdot \frac{ \left( L \right) ^{ 2 } }{ 8 }  = 10.000 \cdot \frac{ \left( 10.000 \right) ^{ 2 } }{ 8 } &amp;= 125.000  
+\end{aligned}
+\]
 </div>
 </div>
 </div>
