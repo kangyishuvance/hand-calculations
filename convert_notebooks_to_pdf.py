@@ -10,22 +10,24 @@ from pathlib import Path
 
 def convert_notebooks_to_pdf(root_dir=None):
     """
-    Find all .ipynb files and convert to PDF without input cells.
-    
+    Find all .ipynb files and convert to PDF in the same folder as each notebook.
+
     Args:
         root_dir: Root directory to search. Defaults to current working directory.
+                  Can also be a path to a single .ipynb file.
     """
     if root_dir is None:
         root_dir = Path.cwd()
     else:
         root_dir = Path(root_dir)
-    
-    # Create output directory
-    output_dir = root_dir / "PDF_outputs"
-    output_dir.mkdir(exist_ok=True)
-    
-    # Find all notebook files
-    notebook_files = list(root_dir.rglob("*.ipynb"))
+
+    # If a notebook file was passed directly, use its parent directory
+    if root_dir.is_file() and root_dir.suffix == ".ipynb":
+        notebook_files = [root_dir]
+        root_dir = root_dir.parent
+    else:
+        # Find all notebook files
+        notebook_files = list(root_dir.rglob("*.ipynb"))
     
     if not notebook_files:
         print(f"No Jupyter notebooks found in {root_dir}")
@@ -43,14 +45,10 @@ def convert_notebooks_to_pdf(root_dir=None):
         
         relative_path = notebook.relative_to(root_dir)
         print(f"Converting: {relative_path}")
-        
-        # Create subdirectory structure in output folder
-        output_subdir = output_dir / relative_path.parent
-        output_subdir.mkdir(parents=True, exist_ok=True)
-        
-        # Output file path
-        output_pdf = output_subdir / f"{notebook.stem}.pdf"
-        temp_html = output_subdir / f"{notebook.stem}_temp.html"
+
+        # Output PDF sits next to the notebook
+        output_pdf = notebook.parent / f"{notebook.stem}.pdf"
+        temp_html = notebook.parent / f"{notebook.stem}_temp.html"
         
         try:
             # Step 1: Convert notebook to temporary HTML
@@ -132,8 +130,7 @@ def convert_notebooks_to_pdf(root_dir=None):
     print(f"CONVERSION SUMMARY")
     print("="*60)
     print(f"Succeeded: {len(succeeded)}/{len(notebook_files)}")
-    print(f"Failed: {len(failed)}/{len(notebook_files)}")
-    print(f"Output directory: {output_dir}\n")
+    print(f"Failed: {len(failed)}/{len(notebook_files)}\n")
     
     if failed:
         print("Failed conversions:")

@@ -3,36 +3,32 @@ param(
     [string]$Notebook,
 
     [Parameter(Mandatory = $false, Position = 1)]
-    [string]$OutputDir = ".\exports",
+    [string]$OutputDir,
 
     [Parameter(Mandatory = $false, Position = 2)]
     [string]$ReportName,
 
     [Parameter(Mandatory = $false)]
-    [switch]$KeepHtml
+    [switch]$DeleteHtml
 )
 
 $ErrorActionPreference = "Stop"
 
 if (-not (Test-Path -LiteralPath $Notebook)) {
-    throw "Notebook not found: $Notebook"
+    throw "Path not found: $Notebook"
 }
 
-if (-not (Test-Path -LiteralPath $OutputDir)) {
-    New-Item -ItemType Directory -Path $OutputDir | Out-Null
+# Resolve list of notebooks to process
+$IsDirectory = (Get-Item -LiteralPath $Notebook).PSIsContainer
+if ($IsDirectory) {
+    $Notebooks = Get-ChildItem -LiteralPath $Notebook -Filter "*.ipynb" | Select-Object -ExpandProperty FullName
+    if ($Notebooks.Count -eq 0) {
+        throw "No .ipynb files found in: $Notebook"
+    }
+    Write-Host "Found $($Notebooks.Count) notebook(s) in directory."
+} else {
+    $Notebooks = @($Notebook)
 }
-
-if ([string]::IsNullOrWhiteSpace($ReportName)) {
-    $ReportName = [System.IO.Path]::GetFileNameWithoutExtension($Notebook) + "_report"
-}
-
-$OutputDirAbs = (Resolve-Path -LiteralPath $OutputDir).Path
-$HtmlPath = Join-Path $OutputDirAbs ($ReportName + ".html")
-$PdfPath = Join-Path $OutputDirAbs ($ReportName + ".pdf")
-$CssPath = Join-Path $OutputDirAbs "_nbconvert_print_fix.css"
-
-Write-Host "Exporting HTML (no code inputs)..."
-jupyter nbconvert --to html $Notebook --no-input --output $ReportName --output-dir $OutputDirAbs
 
 $PrintFixCss = @'
 /* Make wide notebook outputs printable without horizontal scrollbars. */
@@ -64,58 +60,66 @@ canvas {
 }
 '@
 
+# Default output: PDF_outputs folder inside the source directory
+if ([string]::IsNullOrWhiteSpace($OutputDir)) {
+    $SourceDir = if ($IsDirectory) { $Notebook } else { Split-Path $Notebook -Parent }
+    $OutputDir = Join-Path $SourceDir "PDF_outputs"
+}
+
+if (-not (Test-Path -LiteralPath $OutputDir)) {
+    New-Item -ItemType Directory -Path $OutputDir | Out-Null
+    Write-Host "Created output folder: $OutputDir"
+}
+
+$OutputDirAbs = (Resolve-Path -LiteralPath $OutputDir).Path
+$CssPath = Join-Path $OutputDirAbs "_nbconvert_print_fix.css"
 Set-Content -LiteralPath $CssPath -Value $PrintFixCss -Encoding UTF8
 
-$CssLinkTag = '<link rel="stylesheet" href="./_nbconvert_print_fix.css"/>'
-$HtmlContent = Get-Content -LiteralPath $HtmlPath -Raw
-if ($HtmlContent -notmatch [Regex]::Escape("_nbconvert_print_fix.css")) {
-    if ($HtmlContent -match "(?i)</head>") {
-        $HtmlContent = $HtmlContent -replace "(?i)</head>", "$CssLinkTag`n</head>"
+foreach ($nb in $Notebooks) {
+    $name = if ($IsDirectory -or [string]::IsNullOrWhiteSpace($ReportName)) {
+        [System.IO.Path]::GetFileNameWithoutExtension($nb) + "_report"
     } else {
-        $HtmlContent += "`n$CssLinkTag`n"
+        $ReportName
     }
-    Set-Content -LiteralPath $HtmlPath -Value $HtmlContent -Encoding UTF8
-}
 
-$BrowserCandidates = @(
-    "$env:ProgramFiles\Google\Chrome\Application\chrome.exe",
-    "$env:ProgramFiles(x86)\Google\Chrome\Application\chrome.exe",
-    "$env:LocalAppData\Google\Chrome\Application\chrome.exe",
-    "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe",
-    "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-)
+    $HtmlPath = Join-Path $OutputDirAbs ($name + ".html")
+    $PdfPath  = Join-Path $OutputDirAbs ($name + ".pdf")
 
-$BrowserPath = $null
-foreach ($Candidate in $BrowserCandidates) {
-    if (Test-Path -LiteralPath $Candidate) {
-        $BrowserPath = $Candidate
-        break
+    Write-Host "`nExporting: $nb"
+
+    # Generate HTML (kept for reference)
+    jupyter nbconvert --to html $nb --no-input --output $name --output-dir $OutputDirAbs
+
+    # Inject print CSS into HTML
+    $CssUri = (New-Object System.Uri((Resolve-Path -LiteralPath $CssPath).Path)).AbsoluteUri
+    $CssLinkTag = "<link rel=`"stylesheet`" href=`"$CssUri`"/>"
+    $HtmlContent = Get-Content -LiteralPath $HtmlPath -Raw
+    if ($HtmlContent -notmatch [Regex]::Escape("_nbconvert_print_fix.css")) {
+        if ($HtmlContent -match "(?i)</head>") {
+            $HtmlContent = $HtmlContent -replace "(?i)</head>", "$CssLinkTag`n</head>"
+        } else {
+            $HtmlContent += "`n$CssLinkTag`n"
+        }
+        Set-Content -LiteralPath $HtmlPath -Value $HtmlContent -Encoding UTF8
+    }
+
+    # Generate PDF via webpdf (uses Playwright — waits for MathJax before printing)
+    Write-Host "Printing PDF (webpdf)..."
+    jupyter nbconvert --to webpdf $nb --no-input --output $name --output-dir $OutputDirAbs --allow-chromium-download
+
+    if (-not (Test-Path -LiteralPath $PdfPath)) {
+        throw "PDF was not created for: $nb"
+    }
+
+    Write-Host "PDF: $PdfPath"
+
+    if ($DeleteHtml) {
+        Remove-Item -LiteralPath $HtmlPath -ErrorAction SilentlyContinue
     }
 }
 
-if (-not $BrowserPath) {
-    throw "No Chrome/Edge executable found. HTML created at: $HtmlPath"
-}
-
-$HtmlUri = (New-Object System.Uri((Resolve-Path -LiteralPath $HtmlPath).Path)).AbsoluteUri
-
-Write-Host "Printing PDF with: $BrowserPath"
-& $BrowserPath `
-    --headless=new `
-    --disable-gpu `
-    --allow-file-access-from-files `
-    --print-to-pdf-no-header `
-    --virtual-time-budget=15000 `
-    --run-all-compositor-stages-before-draw `
-    "--print-to-pdf=$PdfPath" `
-    $HtmlUri
-
-Write-Host "Done."
-Write-Host "HTML: $HtmlPath"
-Write-Host "PDF:  $PdfPath"
-
-if (-not $KeepHtml) {
-    Remove-Item -LiteralPath $HtmlPath -ErrorAction SilentlyContinue
+if ($DeleteHtml) {
     Remove-Item -LiteralPath $CssPath -ErrorAction SilentlyContinue
-    Write-Host "Removed intermediate HTML/CSS."
 }
+
+Write-Host "`nDone. Output dir: $OutputDirAbs"
