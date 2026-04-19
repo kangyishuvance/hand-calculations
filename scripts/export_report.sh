@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -lt 1 || $# -gt 4 ]]; then
-  echo "Usage: $0 <notebook.ipynb> [output_dir] [report_name_without_ext] [--keep-html]"
+if [[ $# -lt 1 || $# -gt 5 ]]; then
+  echo "Usage: $0 <notebook.ipynb> [output_dir] [report_name_without_ext] [--keep-html] [--landscape]"
   exit 1
 fi
 
 NOTEBOOK="$1"
 OUTPUT_DIR="${2:-./exports}"
 KEEP_HTML=0
+ORIENTATION="portrait"
 
 if [[ ! -f "$NOTEBOOK" ]]; then
   echo "Notebook not found: $NOTEBOOK"
@@ -23,15 +24,20 @@ else
   REPORT_BASE="$(basename "${NOTEBOOK%.*}")_report"
 fi
 
-if [[ $# -eq 4 ]]; then
-  if [[ "$4" == "--keep-html" ]]; then
+# Parse optional flags
+for arg in "${@:4}"; do
+  if [[ "$arg" == "--keep-html" ]]; then
     KEEP_HTML=1
+  elif [[ "$arg" == "--landscape" ]]; then
+    ORIENTATION="landscape"
+  elif [[ "$arg" == "--portrait" ]]; then
+    ORIENTATION="portrait"
   else
-    echo "Unknown option: $4"
-    echo "Usage: $0 <notebook.ipynb> [output_dir] [report_name_without_ext] [--keep-html]"
+    echo "Unknown option: $arg"
+    echo "Usage: $0 <notebook.ipynb> [output_dir] [report_name_without_ext] [--keep-html] [--landscape|--portrait]"
     exit 1
   fi
-fi
+done
 
 HTML_PATH="$OUTPUT_DIR/$REPORT_BASE.html"
 PDF_PATH="$OUTPUT_DIR/$REPORT_BASE.pdf"
@@ -40,7 +46,7 @@ CSS_PATH="$OUTPUT_DIR/_nbconvert_print_fix.css"
 echo "Exporting HTML (no code inputs)..."
 jupyter nbconvert --to html "$NOTEBOOK" --no-input --output "$REPORT_BASE" --output-dir "$OUTPUT_DIR"
 
-cat > "$CSS_PATH" <<'CSS'
+cat > "$CSS_PATH" <<CSS
 /* Make wide notebook outputs printable without horizontal scrollbars. */
 .jp-OutputArea,
 .jp-OutputArea-child,
@@ -65,7 +71,7 @@ canvas {
 }
 
 @page {
-  size: A4 portrait;
+  size: A4 $ORIENTATION;
   margin: 12mm;
 }
 CSS

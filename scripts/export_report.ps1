@@ -9,7 +9,10 @@ param(
     [string]$ReportName,
 
     [Parameter(Mandatory = $false)]
-    [switch]$DeleteHtml
+    [switch]$DeleteHtml,
+
+    [Parameter(Mandatory = $false)]
+    [string]$Orientation = "portrait"
 )
 
 $ErrorActionPreference = "Stop"
@@ -30,7 +33,7 @@ if ($IsDirectory) {
     $Notebooks = @($Notebook)
 }
 
-$PrintFixCss = @'
+$PrintFixCss = @"
 /* Make wide notebook outputs printable without horizontal scrollbars. */
 .jp-OutputArea,
 .jp-OutputArea-child,
@@ -55,10 +58,10 @@ canvas {
 }
 
 @page {
-    size: A4 portrait;
+    size: A4 $Orientation;
     margin: 12mm;
 }
-'@
+"@
 
 # Default output: PDF_outputs folder inside the source directory
 if ([string]::IsNullOrWhiteSpace($OutputDir)) {
@@ -71,7 +74,7 @@ if (-not (Test-Path -LiteralPath $OutputDir)) {
     Write-Host "Created output folder: $OutputDir"
 }
 
-$OutputDirAbs = (Resolve-Path -LiteralPath $OutputDir).Path
+$OutputDirAbs = (Resolve-Path -LiteralPath $OutputDir).ProviderPath
 $CssPath = Join-Path $OutputDirAbs "_nbconvert_print_fix.css"
 Set-Content -LiteralPath $CssPath -Value $PrintFixCss -Encoding UTF8
 
@@ -90,22 +93,30 @@ foreach ($nb in $Notebooks) {
     # Generate HTML (kept for reference)
     jupyter nbconvert --to html $nb --no-input --output $name --output-dir $OutputDirAbs
 
-    # Inject print CSS into HTML
-    $CssUri = (New-Object System.Uri((Resolve-Path -LiteralPath $CssPath).Path)).AbsoluteUri
-    $CssLinkTag = "<link rel=`"stylesheet`" href=`"$CssUri`"/>"
+    # Inject print CSS into HTML (inline to avoid file:// URI issues with network paths)
+    $CssStyle = "<style type=`"text/css`">`n$PrintFixCss`n</style>"
     $HtmlContent = Get-Content -LiteralPath $HtmlPath -Raw
-    if ($HtmlContent -notmatch [Regex]::Escape("_nbconvert_print_fix.css")) {
+    if ($HtmlContent -notmatch "nbconvert_print_fix") {
         if ($HtmlContent -match "(?i)</head>") {
-            $HtmlContent = $HtmlContent -replace "(?i)</head>", "$CssLinkTag`n</head>"
+            $HtmlContent = $HtmlContent -replace "(?i)</head>", "$CssStyle`n</head>"
         } else {
-            $HtmlContent += "`n$CssLinkTag`n"
+            $HtmlContent += "`n$CssStyle`n"
         }
         Set-Content -LiteralPath $HtmlPath -Value $HtmlContent -Encoding UTF8
     }
 
     # Generate PDF via webpdf (uses Playwright — waits for MathJax before printing)
     Write-Host "Printing PDF (webpdf)..."
-    jupyter nbconvert --to webpdf $nb --no-input --output $name --output-dir $OutputDirAbs --allow-chromium-download
+    $ScriptDir = Split-Path $PSCommandPath -Parent
+    $PythonExe = (Get-Command python -ErrorAction SilentlyContinue).Source
+    if (-not $PythonExe -or $PythonExe -like "*WindowsApps*") {
+        $PythonExe = "C:\Users\vance\.conda\envs\jupyter_sandbox\python.exe"
+    }
+    if ($Orientation -eq "landscape") {
+        & $PythonExe "$ScriptDir\webpdf_landscape.py" $nb $name $OutputDirAbs
+    } else {
+        jupyter nbconvert --to webpdf $nb --no-input --output $name --output-dir $OutputDirAbs --allow-chromium-download
+    }
 
     if (-not (Test-Path -LiteralPath $PdfPath)) {
         throw "PDF was not created for: $nb"

@@ -16,6 +16,12 @@ To use a different design code in one notebook, call after the import:
     set_design_code('en_1992_1_1_2023')
 """
 
+# ── Path setup ─────────────────────────────────────────────────────────────────
+import sys, os
+_CALC_DIR = os.path.dirname(os.path.abspath(__file__))
+if _CALC_DIR not in sys.path:
+    sys.path.insert(0, _CALC_DIR)
+
 # ── Imports ────────────────────────────────────────────────────────────────────
 import handcalcs.render          # registers the %%render / %%render params magic
 from handcalcs import render
@@ -29,7 +35,7 @@ from structuralcodes.materials.concrete import create_concrete
 
 from math import pi, sqrt, tan, radians, exp
 
-from sections_db import SectionDB, default_db_path
+from sections_db import SectionDB
 
 # ── 1. Units ───────────────────────────────────────────────────────────────────
 # top_level=True injects unit names (mm, kN, MPa …) into this module's
@@ -50,7 +56,8 @@ handcalcs.set_option("custom_symbols", {
 })
 
 # ── 4. Section database ────────────────────────────────────────────────────────
-db = SectionDB(default_db_path()).load()
+_DB_JSON = r"C:\Users\vance\Documents\Scripts\Hand_calculations\Property Libraries\json_out\_all_libraries_combined.json"
+db = SectionDB(_DB_JSON).load()
 prefer = ["BSShapes2006", "ArcelorMittal_British", "ArcelorMittal_Europe"]
 
 print("Calc environment ready.")
